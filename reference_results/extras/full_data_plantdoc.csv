@@ -1,0 +1,71 @@
+model,training_pool,n_train,C,test_version,accuracy
+CLIP ViT-B/16,all training photos,2313,10.0,original,64.83
+CLIP ViT-B/16,all training photos,2313,10.0,corrected,64.38
+CLIP ViT-B/16,all training photos,2313,10.0,strict,65.35
+CLIP ViT-B/16,audited errors removed,2210,100.0,original,64.83
+CLIP ViT-B/16,audited errors removed,2210,100.0,corrected,66.95
+CLIP ViT-B/16,audited errors removed,2210,100.0,strict,67.54
+CLIP ViT-B/16,K=16 per class (reference),448,,original,53.81
+BioCLIP,all training photos,2313,10.0,original,72.88
+BioCLIP,all training photos,2313,10.0,corrected,73.82
+BioCLIP,all training photos,2313,10.0,strict,74.12
+BioCLIP,audited errors removed,2210,10.0,original,71.61
+BioCLIP,audited errors removed,2210,10.0,corrected,74.25
+BioCLIP,audited errors removed,2210,10.0,strict,74.56
+BioCLIP,K=16 per class (reference),448,,original,64.49
+BioCLIP 2,all training photos,2313,10.0,original,75.0
+BioCLIP 2,all training photos,2313,10.0,corrected,77.25
+BioCLIP 2,all training photos,2313,10.0,strict,78.07
+BioCLIP 2,audited errors removed,2210,10.0,original,76.69
+BioCLIP 2,audited errors removed,2210,10.0,corrected,78.97
+BioCLIP 2,audited errors removed,2210,10.0,strict,79.82
+BioCLIP 2,K=16 per class (reference),448,,original,70.34
+CLIP ViT-L/14 (LAION-2B),all training photos,2313,100.0,original,72.03
+CLIP ViT-L/14 (LAION-2B),all training photos,2313,100.0,corrected,70.82
+CLIP ViT-L/14 (LAION-2B),all training photos,2313,100.0,strict,71.49
+CLIP ViT-L/14 (LAION-2B),audited errors removed,2210,100.0,original,70.34
+CLIP ViT-L/14 (LAION-2B),audited errors removed,2210,100.0,corrected,70.39
+CLIP ViT-L/14 (LAION-2B),audited errors removed,2210,100.0,strict,71.05
+CLIP ViT-L/14 (LAION-2B),K=16 per class (reference),448,,original,57.71
+SigLIP ViT-B/16,all training photos,2313,10.0,original,72.46
+SigLIP ViT-B/16,all training photos,2313,10.0,corrected,73.39
+SigLIP ViT-B/16,all training photos,2313,10.0,strict,74.56
+SigLIP ViT-B/16,audited errors removed,2210,10.0,original,71.19
+SigLIP ViT-B/16,audited errors removed,2210,10.0,corrected,73.82
+SigLIP ViT-B/16,audited errors removed,2210,10.0,strict,75.0
+SigLIP ViT-B/16,K=16 per class (reference),448,,original,60.85
+DINOv2 ViT-B/14,all training photos,2313,10.0,original,76.69
+DINOv2 ViT-B/14,all training photos,2313,10.0,corrected,77.68
+DINOv2 ViT-B/14,all training photos,2313,10.0,strict,78.51
+DINOv2 ViT-B/14,audited errors removed,2210,100.0,original,76.27
+DINOv2 ViT-B/14,audited errors removed,2210,100.0,corrected,78.54
+DINOv2 ViT-B/14,audited errors removed,2210,100.0,strict,78.51
+DINOv2 ViT-B/14,K=16 per class (reference),448,,original,68.9
+DINOv2 ViT-L/14,all training photos,2313,10.0,original,75.0
+DINOv2 ViT-L/14,all training photos,2313,10.0,corrected,75.54
+DINOv2 ViT-L/14,all training photos,2313,10.0,strict,76.32
+DINOv2 ViT-L/14,audited errors removed,2210,10.0,original,74.15
+DINOv2 ViT-L/14,audited errors removed,2210,10.0,corrected,76.82
+DINOv2 ViT-L/14,audited errors removed,2210,10.0,strict,77.63
+DINOv2 ViT-L/14,K=16 per class (reference),448,,original,67.2
+ResNet-50 (ImageNet),all training photos,2313,10.0,original,53.81
+ResNet-50 (ImageNet),all training photos,2313,10.0,corrected,54.51
+ResNet-50 (ImageNet),all training photos,2313,10.0,strict,54.39
+ResNet-50 (ImageNet),audited errors removed,2210,10.0,original,50.85
+ResNet-50 (ImageNet),audited errors removed,2210,10.0,corrected,52.79
+ResNet-50 (ImageNet),audited errors removed,2210,10.0,strict,53.07
+ResNet-50 (ImageNet),K=16 per class (reference),448,,original,41.27
+EfficientNet-B0 (ImageNet),all training photos,2313,10.0,original,60.59
+EfficientNet-B0 (ImageNet),all training photos,2313,10.0,corrected,60.94
+EfficientNet-B0 (ImageNet),all training photos,2313,10.0,strict,62.28
+EfficientNet-B0 (ImageNet),audited errors removed,2210,10.0,original,60.17
+EfficientNet-B0 (ImageNet),audited errors removed,2210,10.0,corrected,60.94
+EfficientNet-B0 (ImageNet),audited errors removed,2210,10.0,strict,62.28
+EfficientNet-B0 (ImageNet),K=16 per class (reference),448,,original,45.51
+MobileNetV3-L (ImageNet),all training photos,2313,10.0,original,58.47
+MobileNetV3-L (ImageNet),all training photos,2313,10.0,corrected,59.23
+MobileNetV3-L (ImageNet),all training photos,2313,10.0,strict,60.09
+MobileNetV3-L (ImageNet),audited errors removed,2210,10.0,original,57.63
+MobileNetV3-L (ImageNet),audited errors removed,2210,10.0,corrected,59.23
+MobileNetV3-L (ImageNet),audited errors removed,2210,10.0,strict,60.09
+MobileNetV3-L (ImageNet),K=16 per class (reference),448,,original,47.54

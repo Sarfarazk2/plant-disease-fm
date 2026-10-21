@@ -1,0 +1,5 @@
+model,data,setting,accuracy,balanced_accuracy,macro_f1
+effnet_b0,PlantVillage lab (sub),28-way,98.69,98.75,98.73
+effnet_b0,PlantDoc field,28-way,28.81,29.99,24.94
+effnet_b0,Plant Pathology field,28-way,15.32,15.73,26.11
+effnet_b0,Plant Pathology field,3-way,61.20,62.34,60.16

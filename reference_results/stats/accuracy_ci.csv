@@ -1,0 +1,477 @@
+table,dataset,task,K,method,model,n_test,accuracy,ci95_low,ci95_high,std_over_repeats
+zero-shot,PlantDoc,28-way,0.0,zero-shot text,CLIP ViT-B/16,236,38.9831,32.6271,45.339,0.0
+zero-shot (other prompt),PlantDoc,28-way,0.0,zero-shot text (other prompt),CLIP ViT-B/16,236,35.1695,29.2373,41.1017,0.0
+lab-trained,PlantDoc,28-way,,frozen + linear,CLIP ViT-B/16,236,34.322,28.3898,40.678,0.0
+zero-shot,Plant Pathology,28-way,0.0,zero-shot text,CLIP ViT-B/16,1580,38.2911,35.8861,40.6978,0.0
+zero-shot (other prompt),Plant Pathology,28-way,0.0,zero-shot text (other prompt),CLIP ViT-B/16,1580,36.0127,33.6709,38.3544,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,CLIP ViT-B/16,1580,28.9873,26.8354,31.2025,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,CLIP ViT-B/16,236,24.2373,21.1864,27.3729,2.3857
+few-shot,PlantDoc,28-way,1.0,image only,CLIP ViT-B/16,236,24.0678,20.8475,27.2881,3.2464
+few-shot,PlantDoc,28-way,1.0,text only,CLIP ViT-B/16,236,38.9831,32.6271,45.339,0.0
+few-shot,PlantDoc,28-way,1.0,equal fusion,CLIP ViT-B/16,236,34.661,30.5932,38.8983,2.7198
+few-shot,PlantDoc,28-way,1.0,"reliability (v2, ours)",CLIP ViT-B/16,236,34.7458,30.678,38.9831,2.4156
+few-shot,PlantDoc,28-way,5.0,prototype,CLIP ViT-B/16,236,35.9322,31.7775,39.9153,1.2134
+few-shot,PlantDoc,28-way,5.0,image only,CLIP ViT-B/16,236,43.7288,39.4915,47.9661,3.4864
+few-shot,PlantDoc,28-way,5.0,text only,CLIP ViT-B/16,236,38.9831,32.6271,45.339,0.0
+few-shot,PlantDoc,28-way,5.0,equal fusion,CLIP ViT-B/16,236,45.5085,40.8475,50.1695,1.257
+few-shot,PlantDoc,28-way,5.0,"reliability (v2, ours)",CLIP ViT-B/16,236,46.7797,42.1165,51.4428,1.7107
+few-shot,PlantDoc,28-way,10.0,prototype,CLIP ViT-B/16,236,38.3898,33.8983,42.714,2.4082
+few-shot,PlantDoc,28-way,10.0,image only,CLIP ViT-B/16,236,48.0508,43.5593,52.5445,3.9591
+few-shot,PlantDoc,28-way,10.0,text only,CLIP ViT-B/16,236,38.9831,32.6271,45.339,0.0
+few-shot,PlantDoc,28-way,10.0,equal fusion,CLIP ViT-B/16,236,50.5085,45.678,55.7627,3.723
+few-shot,PlantDoc,28-way,10.0,"reliability (v2, ours)",CLIP ViT-B/16,236,49.7458,45.1674,54.5784,3.2767
+few-shot,PlantDoc,28-way,16.0,prototype,CLIP ViT-B/16,236,40.8475,35.8475,45.8475,4.599
+few-shot,PlantDoc,28-way,16.0,image only,CLIP ViT-B/16,236,53.8136,49.1525,58.5593,1.6949
+few-shot,PlantDoc,28-way,16.0,text only,CLIP ViT-B/16,236,38.9831,32.6271,45.339,0.0
+few-shot,PlantDoc,28-way,16.0,equal fusion,CLIP ViT-B/16,236,52.9661,47.6271,58.3919,0.8989
+few-shot,PlantDoc,28-way,16.0,"reliability (v2, ours)",CLIP ViT-B/16,236,53.7288,48.7288,58.8136,0.6285
+few-shot,Plant Pathology,3-way,1.0,prototype,CLIP ViT-B/16,1580,73.0127,71.6073,74.4054,6.1868
+few-shot,Plant Pathology,3-way,1.0,image only,CLIP ViT-B/16,1580,73.6709,72.3035,75.0256,7.6243
+few-shot,Plant Pathology,3-way,1.0,text only,CLIP ViT-B/16,1580,67.7848,65.4415,70.1266,0.0
+few-shot,Plant Pathology,3-way,1.0,equal fusion,CLIP ViT-B/16,1580,76.5696,74.8731,78.2278,6.656
+few-shot,Plant Pathology,3-way,1.0,"reliability (v2, ours)",CLIP ViT-B/16,1580,76.5443,74.9111,78.1772,6.7722
+few-shot,Plant Pathology,3-way,5.0,prototype,CLIP ViT-B/16,1580,84.1013,82.8098,85.3544,3.959
+few-shot,Plant Pathology,3-way,5.0,image only,CLIP ViT-B/16,1580,84.9747,83.7215,86.0636,2.5311
+few-shot,Plant Pathology,3-way,5.0,text only,CLIP ViT-B/16,1580,67.7848,65.4415,70.1266,0.0
+few-shot,Plant Pathology,3-way,5.0,equal fusion,CLIP ViT-B/16,1580,82.8101,81.1899,84.3418,2.2442
+few-shot,Plant Pathology,3-way,5.0,"reliability (v2, ours)",CLIP ViT-B/16,1580,84.9241,83.5696,86.2661,3.3052
+few-shot,Plant Pathology,3-way,10.0,prototype,CLIP ViT-B/16,1580,87.7722,86.4174,89.1013,2.3269
+few-shot,Plant Pathology,3-way,10.0,image only,CLIP ViT-B/16,1580,90.3924,89.2655,91.4937,0.8353
+few-shot,Plant Pathology,3-way,10.0,text only,CLIP ViT-B/16,1580,67.7848,65.4415,70.1266,0.0
+few-shot,Plant Pathology,3-way,10.0,equal fusion,CLIP ViT-B/16,1580,84.1139,82.506,85.7218,1.2971
+few-shot,Plant Pathology,3-way,10.0,"reliability (v2, ours)",CLIP ViT-B/16,1580,89.8354,88.6829,91.0506,1.1598
+few-shot,Plant Pathology,3-way,16.0,prototype,CLIP ViT-B/16,1580,88.8101,87.4301,90.1519,1.0101
+few-shot,Plant Pathology,3-way,16.0,image only,CLIP ViT-B/16,1580,92.7342,91.6709,93.7468,0.3647
+few-shot,Plant Pathology,3-way,16.0,text only,CLIP ViT-B/16,1580,67.7848,65.4415,70.1266,0.0
+few-shot,Plant Pathology,3-way,16.0,equal fusion,CLIP ViT-B/16,1580,86.2532,84.7339,87.8228,0.4184
+few-shot,Plant Pathology,3-way,16.0,"reliability (v2, ours)",CLIP ViT-B/16,1580,92.2278,91.1139,93.3797,0.6852
+zero-shot,JIC wheat,5-way,0.0,zero-shot text,CLIP ViT-B/16,849,39.8115,36.5135,42.9918,0.0
+zero-shot (other prompt),JIC wheat,5-way,0.0,zero-shot text (other prompt),CLIP ViT-B/16,849,25.5595,22.6148,28.5071,0.0
+few-shot,JIC wheat,5-way,1.0,prototype,CLIP ViT-B/16,849,35.5241,33.9688,37.1731,7.1348
+few-shot,JIC wheat,5-way,1.0,image only,CLIP ViT-B/16,849,35.5713,33.8987,37.2909,5.5516
+few-shot,JIC wheat,5-way,1.0,text only,CLIP ViT-B/16,849,39.8115,36.5135,42.9918,0.0
+few-shot,JIC wheat,5-way,1.0,equal fusion,CLIP ViT-B/16,849,43.3451,41.3192,45.4181,6.6905
+few-shot,JIC wheat,5-way,1.0,"reliability (v2, ours)",CLIP ViT-B/16,849,44.735,42.6148,46.9499,5.8936
+few-shot,JIC wheat,5-way,5.0,prototype,CLIP ViT-B/16,849,56.8905,54.3457,59.6001,4.6305
+few-shot,JIC wheat,5-way,5.0,image only,CLIP ViT-B/16,849,61.225,59.0336,63.487,5.8659
+few-shot,JIC wheat,5-way,5.0,text only,CLIP ViT-B/16,849,39.8115,36.5135,42.9918,0.0
+few-shot,JIC wheat,5-way,5.0,equal fusion,CLIP ViT-B/16,849,56.1131,53.5218,58.8457,3.9512
+few-shot,JIC wheat,5-way,5.0,"reliability (v2, ours)",CLIP ViT-B/16,849,59.0813,56.8905,61.3669,7.321
+few-shot,JIC wheat,5-way,10.0,prototype,CLIP ViT-B/16,849,59.4346,56.5135,62.3557,1.6248
+few-shot,JIC wheat,5-way,10.0,image only,CLIP ViT-B/16,849,66.3369,63.934,68.7868,3.3319
+few-shot,JIC wheat,5-way,10.0,text only,CLIP ViT-B/16,849,39.8115,36.5135,42.9918,0.0
+few-shot,JIC wheat,5-way,10.0,equal fusion,CLIP ViT-B/16,849,62.0495,59.2226,64.9947,1.6116
+few-shot,JIC wheat,5-way,10.0,"reliability (v2, ours)",CLIP ViT-B/16,849,68.7633,66.4305,71.2132,3.4676
+few-shot,JIC wheat,5-way,16.0,prototype,CLIP ViT-B/16,849,60.3298,57.4087,63.2515,0.6029
+few-shot,JIC wheat,5-way,16.0,image only,CLIP ViT-B/16,849,71.4252,69.0224,73.7344,1.432
+few-shot,JIC wheat,5-way,16.0,text only,CLIP ViT-B/16,849,39.8115,36.5135,42.9918,0.0
+few-shot,JIC wheat,5-way,16.0,equal fusion,CLIP ViT-B/16,849,63.5336,60.7061,66.4552,2.4405
+few-shot,JIC wheat,5-way,16.0,"reliability (v2, ours)",CLIP ViT-B/16,849,73.6396,71.3074,76.0188,1.8102
+zero-shot,PlantDoc,28-way,0.0,zero-shot text,BioCLIP,236,41.5254,35.5932,47.4576,0.0
+zero-shot (other prompt),PlantDoc,28-way,0.0,zero-shot text (other prompt),BioCLIP,236,33.0508,27.1186,38.9831,0.0
+lab-trained,PlantDoc,28-way,,frozen + linear,BioCLIP,236,36.4407,30.4979,42.7966,0.0
+zero-shot,Plant Pathology,28-way,0.0,zero-shot text,BioCLIP,1580,58.1013,55.6962,60.5063,0.0
+zero-shot (other prompt),Plant Pathology,28-way,0.0,zero-shot text (other prompt),BioCLIP,1580,53.6709,51.1392,56.0759,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,BioCLIP,1580,51.0759,48.6076,53.6076,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,BioCLIP,236,39.322,35.678,43.2203,4.1775
+few-shot,PlantDoc,28-way,1.0,image only,BioCLIP,236,40.4237,36.7775,44.3242,2.9142
+few-shot,PlantDoc,28-way,1.0,text only,BioCLIP,236,41.5254,35.5932,47.4576,0.0
+few-shot,PlantDoc,28-way,1.0,equal fusion,BioCLIP,236,48.1356,43.6441,52.7119,1.3265
+few-shot,PlantDoc,28-way,1.0,"reliability (v2, ours)",BioCLIP,236,48.1356,43.6419,52.7119,1.2922
+few-shot,PlantDoc,28-way,5.0,prototype,BioCLIP,236,58.1356,53.8983,62.714,2.6698
+few-shot,PlantDoc,28-way,5.0,image only,BioCLIP,236,58.4746,54.1504,63.2203,2.1813
+few-shot,PlantDoc,28-way,5.0,text only,BioCLIP,236,41.5254,35.5932,47.4576,0.0
+few-shot,PlantDoc,28-way,5.0,equal fusion,BioCLIP,236,61.6102,56.6928,66.5254,1.2208
+few-shot,PlantDoc,28-way,5.0,"reliability (v2, ours)",BioCLIP,236,61.5254,56.9492,66.3559,2.567
+few-shot,PlantDoc,28-way,10.0,prototype,BioCLIP,236,62.7966,57.8814,67.7966,4.7695
+few-shot,PlantDoc,28-way,10.0,image only,BioCLIP,236,60.8475,56.0169,65.5932,4.54
+few-shot,PlantDoc,28-way,10.0,text only,BioCLIP,236,41.5254,35.5932,47.4576,0.0
+few-shot,PlantDoc,28-way,10.0,equal fusion,BioCLIP,236,64.7458,59.661,69.9174,3.1907
+few-shot,PlantDoc,28-way,10.0,"reliability (v2, ours)",BioCLIP,236,62.7119,57.9661,67.5424,4.7469
+few-shot,PlantDoc,28-way,16.0,prototype,BioCLIP,236,64.5763,59.661,69.7458,2.0233
+few-shot,PlantDoc,28-way,16.0,image only,BioCLIP,236,64.4915,59.661,69.6631,1.6246
+few-shot,PlantDoc,28-way,16.0,text only,BioCLIP,236,41.5254,35.5932,47.4576,0.0
+few-shot,PlantDoc,28-way,16.0,equal fusion,BioCLIP,236,65.9322,60.8453,71.1886,1.0205
+few-shot,PlantDoc,28-way,16.0,"reliability (v2, ours)",BioCLIP,236,65.5085,60.8475,70.5932,1.4861
+few-shot,Plant Pathology,3-way,1.0,prototype,BioCLIP,1580,79.0886,77.8478,80.3418,6.1978
+few-shot,Plant Pathology,3-way,1.0,image only,BioCLIP,1580,79.2025,77.9494,80.418,6.2959
+few-shot,Plant Pathology,3-way,1.0,text only,BioCLIP,1580,62.9747,60.6962,65.3165,0.0
+few-shot,Plant Pathology,3-way,1.0,equal fusion,BioCLIP,1580,75.0506,73.4177,76.6709,4.1431
+few-shot,Plant Pathology,3-way,1.0,"reliability (v2, ours)",BioCLIP,1580,74.6709,73.0123,76.3418,4.0162
+few-shot,Plant Pathology,3-way,5.0,prototype,BioCLIP,1580,88.5696,87.4301,89.6835,1.3144
+few-shot,Plant Pathology,3-way,5.0,image only,BioCLIP,1580,88.6962,87.519,89.7472,0.9719
+few-shot,Plant Pathology,3-way,5.0,text only,BioCLIP,1580,62.9747,60.6962,65.3165,0.0
+few-shot,Plant Pathology,3-way,5.0,equal fusion,BioCLIP,1580,80.3038,78.6835,81.9494,1.9121
+few-shot,Plant Pathology,3-way,5.0,"reliability (v2, ours)",BioCLIP,1580,87.3544,86.1392,88.5193,2.3835
+few-shot,Plant Pathology,3-way,10.0,prototype,BioCLIP,1580,90.9241,89.8351,92.0256,1.1309
+few-shot,Plant Pathology,3-way,10.0,image only,BioCLIP,1580,91.2658,90.1642,92.3041,0.8724
+few-shot,Plant Pathology,3-way,10.0,text only,BioCLIP,1580,62.9747,60.6962,65.3165,0.0
+few-shot,Plant Pathology,3-way,10.0,equal fusion,BioCLIP,1580,79.9494,78.2275,81.7092,1.6415
+few-shot,Plant Pathology,3-way,10.0,"reliability (v2, ours)",BioCLIP,1580,90.6709,89.5316,91.7598,1.4861
+few-shot,Plant Pathology,3-way,16.0,prototype,BioCLIP,1580,91.7089,90.5696,92.7722,1.637
+few-shot,Plant Pathology,3-way,16.0,image only,BioCLIP,1580,92.6835,91.6582,93.7089,1.6239
+few-shot,Plant Pathology,3-way,16.0,text only,BioCLIP,1580,62.9747,60.6962,65.3165,0.0
+few-shot,Plant Pathology,3-way,16.0,equal fusion,BioCLIP,1580,80.9747,79.2278,82.7092,0.9872
+few-shot,Plant Pathology,3-way,16.0,"reliability (v2, ours)",BioCLIP,1580,91.9494,90.8478,93.0253,1.1562
+zero-shot,JIC wheat,5-way,0.0,zero-shot text,BioCLIP,849,21.6726,18.9635,24.5024,0.0
+zero-shot (other prompt),JIC wheat,5-way,0.0,zero-shot text (other prompt),BioCLIP,849,24.735,21.9081,27.5618,0.0
+few-shot,JIC wheat,5-way,1.0,prototype,BioCLIP,849,33.8045,32.4382,35.1949,6.0817
+few-shot,JIC wheat,5-way,1.0,image only,BioCLIP,849,32.9329,31.4723,34.4411,5.6036
+few-shot,JIC wheat,5-way,1.0,text only,BioCLIP,849,21.6726,18.9635,24.5024,0.0
+few-shot,JIC wheat,5-way,1.0,equal fusion,BioCLIP,849,28.2686,26.0771,30.3893,3.2289
+few-shot,JIC wheat,5-way,1.0,"reliability (v2, ours)",BioCLIP,849,29.1637,27.0671,31.1896,3.5056
+few-shot,JIC wheat,5-way,5.0,prototype,BioCLIP,849,54.4405,52.0135,56.914,5.4286
+few-shot,JIC wheat,5-way,5.0,image only,BioCLIP,849,58.5159,56.3015,60.636,6.3037
+few-shot,JIC wheat,5-way,5.0,text only,BioCLIP,849,21.6726,18.9635,24.5024,0.0
+few-shot,JIC wheat,5-way,5.0,equal fusion,BioCLIP,849,40.9187,38.2332,43.6519,3.5848
+few-shot,JIC wheat,5-way,5.0,"reliability (v2, ours)",BioCLIP,849,52.1084,49.7762,54.5353,6.9116
+few-shot,JIC wheat,5-way,10.0,prototype,BioCLIP,849,58.7044,56.0183,61.3675,3.6548
+few-shot,JIC wheat,5-way,10.0,image only,BioCLIP,849,67.1849,64.8051,69.5177,4.1723
+few-shot,JIC wheat,5-way,10.0,text only,BioCLIP,849,21.6726,18.9635,24.5024,0.0
+few-shot,JIC wheat,5-way,10.0,equal fusion,BioCLIP,849,42.7562,39.9764,45.5836,3.8565
+few-shot,JIC wheat,5-way,10.0,"reliability (v2, ours)",BioCLIP,849,63.2038,60.8004,65.6066,5.4562
+few-shot,JIC wheat,5-way,16.0,prototype,BioCLIP,849,59.5524,56.5601,62.3799,2.3683
+few-shot,JIC wheat,5-way,16.0,image only,BioCLIP,849,73.404,71.0012,75.7362,3.7186
+few-shot,JIC wheat,5-way,16.0,text only,BioCLIP,849,21.6726,18.9635,24.5024,0.0
+few-shot,JIC wheat,5-way,16.0,equal fusion,BioCLIP,849,46.5724,43.5094,49.5406,2.2773
+few-shot,JIC wheat,5-way,16.0,"reliability (v2, ours)",BioCLIP,849,68.6926,66.1955,71.0253,8.8462
+zero-shot,PlantDoc,28-way,0.0,zero-shot text,BioCLIP 2,236,53.8136,47.0339,60.5932,0.0
+zero-shot (other prompt),PlantDoc,28-way,0.0,zero-shot text (other prompt),BioCLIP 2,236,45.339,39.4068,51.2712,0.0
+lab-trained,PlantDoc,28-way,,frozen + linear,BioCLIP 2,236,57.6271,51.6949,63.9831,0.0
+zero-shot,Plant Pathology,28-way,0.0,zero-shot text,BioCLIP 2,1580,78.2911,76.2025,80.5063,0.0
+zero-shot (other prompt),Plant Pathology,28-way,0.0,zero-shot text (other prompt),BioCLIP 2,1580,66.1392,63.7975,68.6076,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,BioCLIP 2,1580,65.9494,63.6076,68.2927,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,BioCLIP 2,236,46.4407,42.3729,50.9322,4.1256
+few-shot,PlantDoc,28-way,1.0,image only,BioCLIP 2,236,46.6949,42.2881,51.1864,3.6377
+few-shot,PlantDoc,28-way,1.0,text only,BioCLIP 2,236,53.8136,47.0339,60.5932,0.0
+few-shot,PlantDoc,28-way,1.0,equal fusion,BioCLIP 2,236,57.4576,52.7119,62.4576,2.8361
+few-shot,PlantDoc,28-way,1.0,"reliability (v2, ours)",BioCLIP 2,236,58.0508,53.3898,62.9661,3.0993
+few-shot,PlantDoc,28-way,5.0,prototype,BioCLIP 2,236,63.0508,58.3898,67.7119,2.3857
+few-shot,PlantDoc,28-way,5.0,image only,BioCLIP 2,236,65.0847,60.6758,69.7458,3.0644
+few-shot,PlantDoc,28-way,5.0,text only,BioCLIP 2,236,53.8136,47.0339,60.5932,0.0
+few-shot,PlantDoc,28-way,5.0,equal fusion,BioCLIP 2,236,68.0508,63.2182,73.0508,1.9091
+few-shot,PlantDoc,28-way,5.0,"reliability (v2, ours)",BioCLIP 2,236,68.7288,64.0657,73.6441,1.6246
+few-shot,PlantDoc,28-way,10.0,prototype,BioCLIP 2,236,67.1186,62.1165,71.9492,1.9556
+few-shot,PlantDoc,28-way,10.0,image only,BioCLIP 2,236,68.7288,64.2373,73.3051,2.4598
+few-shot,PlantDoc,28-way,10.0,text only,BioCLIP 2,236,53.8136,47.0339,60.5932,0.0
+few-shot,PlantDoc,28-way,10.0,equal fusion,BioCLIP 2,236,70.7627,65.8475,75.7627,2.2221
+few-shot,PlantDoc,28-way,10.0,"reliability (v2, ours)",BioCLIP 2,236,70.339,65.678,75.0847,2.6799
+few-shot,PlantDoc,28-way,16.0,prototype,BioCLIP 2,236,67.9661,62.8814,73.1356,1.9556
+few-shot,PlantDoc,28-way,16.0,image only,BioCLIP 2,236,70.339,65.5932,74.9153,1.4981
+few-shot,PlantDoc,28-way,16.0,text only,BioCLIP 2,236,53.8136,47.0339,60.5932,0.0
+few-shot,PlantDoc,28-way,16.0,equal fusion,BioCLIP 2,236,72.0339,67.0318,77.2034,1.7726
+few-shot,PlantDoc,28-way,16.0,"reliability (v2, ours)",BioCLIP 2,236,72.7119,67.9661,77.7119,1.1834
+few-shot,Plant Pathology,3-way,1.0,prototype,BioCLIP 2,1580,65.1266,64.0506,66.1646,4.8534
+few-shot,Plant Pathology,3-way,1.0,image only,BioCLIP 2,1580,66.4177,65.3038,67.4687,4.5681
+few-shot,Plant Pathology,3-way,1.0,text only,BioCLIP 2,1580,78.9873,76.8987,81.0759,0.0
+few-shot,Plant Pathology,3-way,1.0,equal fusion,BioCLIP 2,1580,73.0,71.7215,74.2278,2.7463
+few-shot,Plant Pathology,3-way,1.0,"reliability (v2, ours)",BioCLIP 2,1580,73.4684,72.1769,74.7725,2.9822
+few-shot,Plant Pathology,3-way,5.0,prototype,BioCLIP 2,1580,84.1392,82.9237,85.3291,4.2937
+few-shot,Plant Pathology,3-way,5.0,image only,BioCLIP 2,1580,83.6835,82.5187,84.8481,5.0029
+few-shot,Plant Pathology,3-way,5.0,text only,BioCLIP 2,1580,78.9873,76.8987,81.0759,0.0
+few-shot,Plant Pathology,3-way,5.0,equal fusion,BioCLIP 2,1580,86.6076,85.2658,87.8861,2.8704
+few-shot,Plant Pathology,3-way,5.0,"reliability (v2, ours)",BioCLIP 2,1580,84.8861,83.5696,86.1775,3.3605
+few-shot,Plant Pathology,3-way,10.0,prototype,BioCLIP 2,1580,86.3418,85.0633,87.5193,4.1924
+few-shot,Plant Pathology,3-way,10.0,image only,BioCLIP 2,1580,87.9367,86.7089,89.038,3.4462
+few-shot,Plant Pathology,3-way,10.0,text only,BioCLIP 2,1580,78.9873,76.8987,81.0759,0.0
+few-shot,Plant Pathology,3-way,10.0,equal fusion,BioCLIP 2,1580,88.7975,87.5063,90.0886,0.8562
+few-shot,Plant Pathology,3-way,10.0,"reliability (v2, ours)",BioCLIP 2,1580,89.2911,88.1009,90.4684,1.0258
+few-shot,Plant Pathology,3-way,16.0,prototype,BioCLIP 2,1580,89.9367,88.6203,91.1772,1.3633
+few-shot,Plant Pathology,3-way,16.0,image only,BioCLIP 2,1580,90.7468,89.6579,91.8354,2.071
+few-shot,Plant Pathology,3-way,16.0,text only,BioCLIP 2,1580,78.9873,76.8987,81.0759,0.0
+few-shot,Plant Pathology,3-way,16.0,equal fusion,BioCLIP 2,1580,89.1392,87.7722,90.443,1.6617
+few-shot,Plant Pathology,3-way,16.0,"reliability (v2, ours)",BioCLIP 2,1580,90.4937,89.3291,91.6206,1.3934
+zero-shot,JIC wheat,5-way,0.0,zero-shot text,BioCLIP 2,849,27.6796,24.735,30.742,0.0
+zero-shot (other prompt),JIC wheat,5-way,0.0,zero-shot text (other prompt),BioCLIP 2,849,34.7468,31.6814,38.0448,0.0
+few-shot,JIC wheat,5-way,1.0,prototype,BioCLIP 2,849,36.8905,35.1472,38.7756,7.2896
+few-shot,JIC wheat,5-way,1.0,image only,BioCLIP 2,849,36.8905,35.0053,38.7992,6.0933
+few-shot,JIC wheat,5-way,1.0,text only,BioCLIP 2,849,27.6796,24.735,30.742,0.0
+few-shot,JIC wheat,5-way,1.0,equal fusion,BioCLIP 2,849,40.2591,37.9505,42.5913,7.6026
+few-shot,JIC wheat,5-way,1.0,"reliability (v2, ours)",BioCLIP 2,849,40.4711,38.2097,42.8033,7.4161
+few-shot,JIC wheat,5-way,5.0,prototype,BioCLIP 2,849,55.477,53.3098,57.7155,4.3461
+few-shot,JIC wheat,5-way,5.0,image only,BioCLIP 2,849,60.9423,58.8687,63.1095,4.3792
+few-shot,JIC wheat,5-way,5.0,text only,BioCLIP 2,849,27.6796,24.735,30.742,0.0
+few-shot,JIC wheat,5-way,5.0,equal fusion,BioCLIP 2,849,53.616,51.0483,56.2073,5.9807
+few-shot,JIC wheat,5-way,5.0,"reliability (v2, ours)",BioCLIP 2,849,55.2886,52.98,57.6207,9.109
+few-shot,JIC wheat,5-way,10.0,prototype,BioCLIP 2,849,59.5053,56.9841,62.2379,2.1565
+few-shot,JIC wheat,5-way,10.0,image only,BioCLIP 2,849,70.9305,68.6449,73.1926,3.2974
+few-shot,JIC wheat,5-way,10.0,text only,BioCLIP 2,849,27.6796,24.735,30.742,0.0
+few-shot,JIC wheat,5-way,10.0,equal fusion,BioCLIP 2,849,61.9317,59.2927,64.5236,4.1572
+few-shot,JIC wheat,5-way,10.0,"reliability (v2, ours)",BioCLIP 2,849,67.3027,64.8999,69.7291,5.6944
+few-shot,JIC wheat,5-way,16.0,prototype,BioCLIP 2,849,61.3899,58.6808,64.2409,3.2143
+few-shot,JIC wheat,5-way,16.0,image only,BioCLIP 2,849,75.1472,72.7208,77.5972,2.441
+few-shot,JIC wheat,5-way,16.0,text only,BioCLIP 2,849,27.6796,24.735,30.742,0.0
+few-shot,JIC wheat,5-way,16.0,equal fusion,BioCLIP 2,849,63.8634,60.8946,66.5966,2.1581
+few-shot,JIC wheat,5-way,16.0,"reliability (v2, ours)",BioCLIP 2,849,73.2155,70.7173,75.5954,3.8696
+zero-shot,PlantDoc,28-way,0.0,zero-shot text,CLIP ViT-L/14 (LAION-2B),236,43.2203,37.2881,49.5763,0.0
+zero-shot (other prompt),PlantDoc,28-way,0.0,zero-shot text (other prompt),CLIP ViT-L/14 (LAION-2B),236,41.1017,35.1695,47.4576,0.0
+lab-trained,PlantDoc,28-way,,frozen + linear,CLIP ViT-L/14 (LAION-2B),236,36.8644,30.9322,43.2203,0.0
+zero-shot,Plant Pathology,28-way,0.0,zero-shot text,CLIP ViT-L/14 (LAION-2B),1580,46.0127,43.481,48.6076,0.0
+zero-shot (other prompt),Plant Pathology,28-way,0.0,zero-shot text (other prompt),CLIP ViT-L/14 (LAION-2B),1580,16.4557,14.6203,18.356,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,CLIP ViT-L/14 (LAION-2B),1580,38.2278,35.8228,40.6962,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,CLIP ViT-L/14 (LAION-2B),236,26.5254,23.0508,29.8305,1.9556
+few-shot,PlantDoc,28-way,1.0,image only,CLIP ViT-L/14 (LAION-2B),236,27.7966,24.322,31.2712,1.5453
+few-shot,PlantDoc,28-way,1.0,text only,CLIP ViT-L/14 (LAION-2B),236,43.2203,37.2881,49.5763,0.0
+few-shot,PlantDoc,28-way,1.0,equal fusion,CLIP ViT-L/14 (LAION-2B),236,41.5254,36.9492,46.1017,2.9509
+few-shot,PlantDoc,28-way,1.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),236,41.6102,37.1165,46.3559,2.833
+few-shot,PlantDoc,28-way,5.0,prototype,CLIP ViT-L/14 (LAION-2B),236,42.2034,37.9661,46.6102,1.8855
+few-shot,PlantDoc,28-way,5.0,image only,CLIP ViT-L/14 (LAION-2B),236,48.4746,44.0678,53.0508,2.3516
+few-shot,PlantDoc,28-way,5.0,text only,CLIP ViT-L/14 (LAION-2B),236,43.2203,37.2881,49.5763,0.0
+few-shot,PlantDoc,28-way,5.0,equal fusion,CLIP ViT-L/14 (LAION-2B),236,54.9153,49.8305,59.8305,1.7624
+few-shot,PlantDoc,28-way,5.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),236,54.9153,49.7458,60.2542,1.3599
+few-shot,PlantDoc,28-way,10.0,prototype,CLIP ViT-L/14 (LAION-2B),236,46.6102,41.9492,51.4407,1.4053
+few-shot,PlantDoc,28-way,10.0,image only,CLIP ViT-L/14 (LAION-2B),236,56.3559,51.7797,60.9322,3.7303
+few-shot,PlantDoc,28-way,10.0,text only,CLIP ViT-L/14 (LAION-2B),236,43.2203,37.2881,49.5763,0.0
+few-shot,PlantDoc,28-way,10.0,equal fusion,CLIP ViT-L/14 (LAION-2B),236,58.0508,53.1356,63.053,3.0702
+few-shot,PlantDoc,28-way,10.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),236,58.3051,53.3877,63.3898,3.1367
+few-shot,PlantDoc,28-way,16.0,prototype,CLIP ViT-L/14 (LAION-2B),236,47.4576,42.4576,52.2034,3.0408
+few-shot,PlantDoc,28-way,16.0,image only,CLIP ViT-L/14 (LAION-2B),236,57.7119,52.8792,62.3729,2.1059
+few-shot,PlantDoc,28-way,16.0,text only,CLIP ViT-L/14 (LAION-2B),236,43.2203,37.2881,49.5763,0.0
+few-shot,PlantDoc,28-way,16.0,equal fusion,CLIP ViT-L/14 (LAION-2B),236,59.4915,54.322,64.4915,0.4831
+few-shot,PlantDoc,28-way,16.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),236,59.5763,54.661,64.2373,0.2321
+few-shot,Plant Pathology,3-way,1.0,prototype,CLIP ViT-L/14 (LAION-2B),1580,79.8987,78.6582,81.0886,5.5115
+few-shot,Plant Pathology,3-way,1.0,image only,CLIP ViT-L/14 (LAION-2B),1580,79.2658,78.038,80.443,5.5589
+few-shot,Plant Pathology,3-way,1.0,text only,CLIP ViT-L/14 (LAION-2B),1580,66.7089,64.4921,68.8623,0.0
+few-shot,Plant Pathology,3-way,1.0,equal fusion,CLIP ViT-L/14 (LAION-2B),1580,79.2405,77.7462,80.7215,3.6657
+few-shot,Plant Pathology,3-way,1.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),1580,79.1899,77.6576,80.6456,3.8883
+few-shot,Plant Pathology,3-way,5.0,prototype,CLIP ViT-L/14 (LAION-2B),1580,90.9494,89.8604,91.9877,1.3808
+few-shot,Plant Pathology,3-way,5.0,image only,CLIP ViT-L/14 (LAION-2B),1580,89.4557,88.3797,90.481,2.8992
+few-shot,Plant Pathology,3-way,5.0,text only,CLIP ViT-L/14 (LAION-2B),1580,66.7089,64.4921,68.8623,0.0
+few-shot,Plant Pathology,3-way,5.0,equal fusion,CLIP ViT-L/14 (LAION-2B),1580,84.7722,83.3165,86.3168,1.6472
+few-shot,Plant Pathology,3-way,5.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),1580,88.7468,87.6709,89.8861,1.8154
+few-shot,Plant Pathology,3-way,10.0,prototype,CLIP ViT-L/14 (LAION-2B),1580,92.3291,91.1392,93.4813,0.2165
+few-shot,Plant Pathology,3-way,10.0,image only,CLIP ViT-L/14 (LAION-2B),1580,92.6076,91.6329,93.5826,1.315
+few-shot,Plant Pathology,3-way,10.0,text only,CLIP ViT-L/14 (LAION-2B),1580,66.7089,64.4921,68.8623,0.0
+few-shot,Plant Pathology,3-way,10.0,equal fusion,CLIP ViT-L/14 (LAION-2B),1580,85.962,84.4557,87.4434,0.9971
+few-shot,Plant Pathology,3-way,10.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),1580,90.9241,89.9114,91.9367,3.2339
+few-shot,Plant Pathology,3-way,16.0,prototype,CLIP ViT-L/14 (LAION-2B),1580,92.7722,91.5693,93.9117,0.3619
+few-shot,Plant Pathology,3-way,16.0,image only,CLIP ViT-L/14 (LAION-2B),1580,93.2152,92.2532,94.1646,0.5396
+few-shot,Plant Pathology,3-way,16.0,text only,CLIP ViT-L/14 (LAION-2B),1580,66.7089,64.4921,68.8623,0.0
+few-shot,Plant Pathology,3-way,16.0,equal fusion,CLIP ViT-L/14 (LAION-2B),1580,86.6076,85.1386,88.1269,1.1607
+few-shot,Plant Pathology,3-way,16.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),1580,93.2532,92.2911,94.1775,1.2014
+zero-shot,JIC wheat,5-way,0.0,zero-shot text,CLIP ViT-L/14 (LAION-2B),849,40.8716,37.6914,44.0518,0.0
+zero-shot (other prompt),JIC wheat,5-way,0.0,zero-shot text (other prompt),CLIP ViT-L/14 (LAION-2B),849,43.6985,40.4005,46.9965,0.0
+few-shot,JIC wheat,5-way,1.0,prototype,CLIP ViT-L/14 (LAION-2B),849,37.5736,35.9711,39.2703,4.5603
+few-shot,JIC wheat,5-way,1.0,image only,CLIP ViT-L/14 (LAION-2B),849,37.8092,36.1837,39.5289,4.6819
+few-shot,JIC wheat,5-way,1.0,text only,CLIP ViT-L/14 (LAION-2B),849,40.8716,37.6914,44.0518,0.0
+few-shot,JIC wheat,5-way,1.0,equal fusion,CLIP ViT-L/14 (LAION-2B),849,41.1307,39.4099,42.8746,3.2465
+few-shot,JIC wheat,5-way,1.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),849,41.4605,39.7644,43.1567,2.8971
+few-shot,JIC wheat,5-way,5.0,prototype,CLIP ViT-L/14 (LAION-2B),849,60.1178,57.4087,62.7326,1.4936
+few-shot,JIC wheat,5-way,5.0,image only,CLIP ViT-L/14 (LAION-2B),849,64.8528,62.52,67.0907,4.7266
+few-shot,JIC wheat,5-way,5.0,text only,CLIP ViT-L/14 (LAION-2B),849,40.8716,37.6914,44.0518,0.0
+few-shot,JIC wheat,5-way,5.0,equal fusion,CLIP ViT-L/14 (LAION-2B),849,63.7691,61.3893,66.0542,4.6764
+few-shot,JIC wheat,5-way,5.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),849,65.7008,63.4629,67.8922,5.0328
+few-shot,JIC wheat,5-way,10.0,prototype,CLIP ViT-L/14 (LAION-2B),849,63.5336,60.7768,66.3604,1.2757
+few-shot,JIC wheat,5-way,10.0,image only,CLIP ViT-L/14 (LAION-2B),849,71.543,69.2803,74.04,3.5983
+few-shot,JIC wheat,5-way,10.0,text only,CLIP ViT-L/14 (LAION-2B),849,40.8716,37.6914,44.0518,0.0
+few-shot,JIC wheat,5-way,10.0,equal fusion,CLIP ViT-L/14 (LAION-2B),849,69.6349,67.1849,72.1095,2.1306
+few-shot,JIC wheat,5-way,10.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),849,72.4146,70.2238,74.6531,1.2887
+few-shot,JIC wheat,5-way,16.0,prototype,CLIP ViT-L/14 (LAION-2B),849,63.9105,60.8245,66.9028,0.5806
+few-shot,JIC wheat,5-way,16.0,image only,CLIP ViT-L/14 (LAION-2B),849,78.0448,75.6655,80.3534,1.4536
+few-shot,JIC wheat,5-way,16.0,text only,CLIP ViT-L/14 (LAION-2B),849,40.8716,37.6914,44.0518,0.0
+few-shot,JIC wheat,5-way,16.0,equal fusion,CLIP ViT-L/14 (LAION-2B),849,73.9694,71.4252,76.49,1.2325
+few-shot,JIC wheat,5-way,16.0,"reliability (v2, ours)",CLIP ViT-L/14 (LAION-2B),849,79.2462,77.0542,81.4134,1.6893
+zero-shot,PlantDoc,28-way,0.0,zero-shot text,SigLIP ViT-B/16,236,61.8644,55.5085,67.7966,0.0
+zero-shot (other prompt),PlantDoc,28-way,0.0,zero-shot text (other prompt),SigLIP ViT-B/16,236,58.4746,52.1186,64.4068,0.0
+lab-trained,PlantDoc,28-way,,frozen + linear,SigLIP ViT-B/16,236,47.8814,41.9492,54.2479,0.0
+zero-shot,Plant Pathology,28-way,0.0,zero-shot text,SigLIP ViT-B/16,1580,64.8734,62.3418,67.1519,0.0
+zero-shot (other prompt),Plant Pathology,28-way,0.0,zero-shot text (other prompt),SigLIP ViT-B/16,1580,73.6709,71.3924,75.8861,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,SigLIP ViT-B/16,1580,36.2025,33.7342,38.5443,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,SigLIP ViT-B/16,236,30.0847,26.7797,33.4746,5.5491
+few-shot,PlantDoc,28-way,1.0,image only,SigLIP ViT-B/16,236,32.4576,29.0678,36.0169,4.7526
+few-shot,PlantDoc,28-way,1.0,text only,SigLIP ViT-B/16,236,61.8644,55.5085,67.7966,0.0
+few-shot,PlantDoc,28-way,1.0,equal fusion,SigLIP ViT-B/16,236,51.1017,46.6949,55.5932,5.2464
+few-shot,PlantDoc,28-way,1.0,"reliability (v2, ours)",SigLIP ViT-B/16,236,50.9322,46.5254,55.3411,5.2958
+few-shot,PlantDoc,28-way,5.0,prototype,SigLIP ViT-B/16,236,48.9831,44.5763,53.3898,1.6574
+few-shot,PlantDoc,28-way,5.0,image only,SigLIP ViT-B/16,236,54.322,49.9153,58.8136,2.3092
+few-shot,PlantDoc,28-way,5.0,text only,SigLIP ViT-B/16,236,61.8644,55.5085,67.7966,0.0
+few-shot,PlantDoc,28-way,5.0,equal fusion,SigLIP ViT-B/16,236,62.8814,58.2203,67.7966,2.0672
+few-shot,PlantDoc,28-way,5.0,"reliability (v2, ours)",SigLIP ViT-B/16,236,64.9153,59.8284,69.8305,4.4783
+few-shot,PlantDoc,28-way,10.0,prototype,SigLIP ViT-B/16,236,52.2881,47.3729,57.2055,1.8615
+few-shot,PlantDoc,28-way,10.0,image only,SigLIP ViT-B/16,236,58.7288,54.0678,63.5593,2.8203
+few-shot,PlantDoc,28-way,10.0,text only,SigLIP ViT-B/16,236,61.8644,55.5085,67.7966,0.0
+few-shot,PlantDoc,28-way,10.0,equal fusion,SigLIP ViT-B/16,236,66.1864,61.1017,71.1864,1.652
+few-shot,PlantDoc,28-way,10.0,"reliability (v2, ours)",SigLIP ViT-B/16,236,66.9492,61.6102,72.1186,1.4053
+few-shot,PlantDoc,28-way,16.0,prototype,SigLIP ViT-B/16,236,51.6949,46.1864,56.9492,1.9875
+few-shot,PlantDoc,28-way,16.0,image only,SigLIP ViT-B/16,236,60.8475,56.1017,65.5953,1.8855
+few-shot,PlantDoc,28-way,16.0,text only,SigLIP ViT-B/16,236,61.8644,55.5085,67.7966,0.0
+few-shot,PlantDoc,28-way,16.0,equal fusion,SigLIP ViT-B/16,236,65.0,59.7458,69.8305,2.1313
+few-shot,PlantDoc,28-way,16.0,"reliability (v2, ours)",SigLIP ViT-B/16,236,64.322,59.2373,69.1525,2.3857
+few-shot,Plant Pathology,3-way,1.0,prototype,SigLIP ViT-B/16,1580,71.557,70.3797,72.7598,5.7044
+few-shot,Plant Pathology,3-way,1.0,image only,SigLIP ViT-B/16,1580,71.6329,70.4427,72.8231,5.3501
+few-shot,Plant Pathology,3-way,1.0,text only,SigLIP ViT-B/16,1580,71.2658,68.9873,73.4177,0.0
+few-shot,Plant Pathology,3-way,1.0,equal fusion,SigLIP ViT-B/16,1580,73.519,71.5313,75.418,3.2256
+few-shot,Plant Pathology,3-way,1.0,"reliability (v2, ours)",SigLIP ViT-B/16,1580,74.9494,73.0633,76.7975,3.8792
+few-shot,Plant Pathology,3-way,5.0,prototype,SigLIP ViT-B/16,1580,85.9747,84.6959,87.1902,2.0251
+few-shot,Plant Pathology,3-way,5.0,image only,SigLIP ViT-B/16,1580,86.4557,85.1896,87.6585,1.5262
+few-shot,Plant Pathology,3-way,5.0,text only,SigLIP ViT-B/16,1580,71.2658,68.9873,73.4177,0.0
+few-shot,Plant Pathology,3-way,5.0,equal fusion,SigLIP ViT-B/16,1580,77.2278,75.2782,79.1013,0.6011
+few-shot,Plant Pathology,3-way,5.0,"reliability (v2, ours)",SigLIP ViT-B/16,1580,86.9241,85.6706,88.1139,2.1909
+few-shot,Plant Pathology,3-way,10.0,prototype,SigLIP ViT-B/16,1580,87.9873,86.6453,89.3165,1.0791
+few-shot,Plant Pathology,3-way,10.0,image only,SigLIP ViT-B/16,1580,89.2278,87.987,90.519,0.6304
+few-shot,Plant Pathology,3-way,10.0,text only,SigLIP ViT-B/16,1580,71.2658,68.9873,73.4177,0.0
+few-shot,Plant Pathology,3-way,10.0,equal fusion,SigLIP ViT-B/16,1580,78.4177,76.4047,80.3041,1.1687
+few-shot,Plant Pathology,3-way,10.0,"reliability (v2, ours)",SigLIP ViT-B/16,1580,89.7722,88.5063,90.9873,0.8427
+few-shot,Plant Pathology,3-way,16.0,prototype,SigLIP ViT-B/16,1580,89.8101,88.468,91.1396,0.6904
+few-shot,Plant Pathology,3-way,16.0,image only,SigLIP ViT-B/16,1580,90.8861,89.6962,92.038,1.0917
+few-shot,Plant Pathology,3-way,16.0,text only,SigLIP ViT-B/16,1580,71.2658,68.9873,73.4177,0.0
+few-shot,Plant Pathology,3-way,16.0,equal fusion,SigLIP ViT-B/16,1580,79.6582,77.6703,81.5063,0.7155
+few-shot,Plant Pathology,3-way,16.0,"reliability (v2, ours)",SigLIP ViT-B/16,1580,90.6835,89.4051,91.8358,1.4703
+zero-shot,JIC wheat,5-way,0.0,zero-shot text,SigLIP ViT-B/16,849,42.0495,38.7515,45.3504,0.0
+zero-shot (other prompt),JIC wheat,5-way,0.0,zero-shot text (other prompt),SigLIP ViT-B/16,849,35.9246,32.7444,39.2226,0.0
+few-shot,JIC wheat,5-way,1.0,prototype,SigLIP ViT-B/16,849,35.2415,33.404,37.1496,4.3136
+few-shot,JIC wheat,5-way,1.0,image only,SigLIP ViT-B/16,849,35.7597,33.8987,37.6914,4.5448
+few-shot,JIC wheat,5-way,1.0,text only,SigLIP ViT-B/16,849,42.0495,38.7515,45.3504,0.0
+few-shot,JIC wheat,5-way,1.0,equal fusion,SigLIP ViT-B/16,849,41.9788,39.6225,44.2403,1.5947
+few-shot,JIC wheat,5-way,1.0,"reliability (v2, ours)",SigLIP ViT-B/16,849,41.8846,39.576,44.0754,1.3211
+few-shot,JIC wheat,5-way,5.0,prototype,SigLIP ViT-B/16,849,52.0612,49.6349,54.5347,5.0194
+few-shot,JIC wheat,5-way,5.0,image only,SigLIP ViT-B/16,849,59.0342,56.7962,61.2956,5.8041
+few-shot,JIC wheat,5-way,5.0,text only,SigLIP ViT-B/16,849,42.0495,38.7515,45.3504,0.0
+few-shot,JIC wheat,5-way,5.0,equal fusion,SigLIP ViT-B/16,849,56.1131,53.6867,58.6578,5.1122
+few-shot,JIC wheat,5-way,5.0,"reliability (v2, ours)",SigLIP ViT-B/16,849,52.6973,50.1767,55.4776,3.883
+few-shot,JIC wheat,5-way,10.0,prototype,SigLIP ViT-B/16,849,56.066,53.4276,58.8698,0.9162
+few-shot,JIC wheat,5-way,10.0,image only,SigLIP ViT-B/16,849,67.4441,65.2297,69.8004,3.5214
+few-shot,JIC wheat,5-way,10.0,text only,SigLIP ViT-B/16,849,42.0495,38.7515,45.3504,0.0
+few-shot,JIC wheat,5-way,10.0,equal fusion,SigLIP ViT-B/16,849,63.0624,60.4947,65.725,1.7894
+few-shot,JIC wheat,5-way,10.0,"reliability (v2, ours)",SigLIP ViT-B/16,849,64.2403,61.861,66.7138,6.0523
+few-shot,JIC wheat,5-way,16.0,prototype,SigLIP ViT-B/16,849,56.5842,53.6631,59.5053,1.9525
+few-shot,JIC wheat,5-way,16.0,image only,SigLIP ViT-B/16,849,72.4853,70.1767,74.9352,1.1855
+few-shot,JIC wheat,5-way,16.0,text only,SigLIP ViT-B/16,849,42.0495,38.7515,45.3504,0.0
+few-shot,JIC wheat,5-way,16.0,equal fusion,SigLIP ViT-B/16,849,66.2191,63.5336,69.0224,0.9024
+few-shot,JIC wheat,5-way,16.0,"reliability (v2, ours)",SigLIP ViT-B/16,849,71.0012,68.7155,73.4753,2.9791
+lab-trained,PlantDoc,28-way,,frozen + linear,DINOv2 ViT-B/14,236,46.6102,40.2542,53.3898,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,DINOv2 ViT-B/14,1580,38.1013,35.6962,40.6329,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,DINOv2 ViT-B/14,236,37.2881,33.3898,41.1864,3.8835
+few-shot,PlantDoc,28-way,1.0,image only,DINOv2 ViT-B/14,236,37.8814,33.8136,41.8644,2.5705
+few-shot,PlantDoc,28-way,5.0,prototype,DINOv2 ViT-B/14,236,53.2203,48.8983,57.7966,3.2354
+few-shot,PlantDoc,28-way,5.0,image only,DINOv2 ViT-B/14,236,59.8305,55.8453,63.9831,2.7198
+few-shot,PlantDoc,28-way,10.0,prototype,DINOv2 ViT-B/14,236,57.2881,52.4576,62.0339,3.6377
+few-shot,PlantDoc,28-way,10.0,image only,DINOv2 ViT-B/14,236,63.2203,58.8114,67.4576,4.2415
+few-shot,PlantDoc,28-way,16.0,prototype,DINOv2 ViT-B/14,236,60.7627,55.5911,65.5932,5.4313
+few-shot,PlantDoc,28-way,16.0,image only,DINOv2 ViT-B/14,236,68.8983,64.4894,73.3898,3.5274
+few-shot,Plant Pathology,3-way,1.0,prototype,DINOv2 ViT-B/14,1580,49.2405,48.0253,50.443,5.9966
+few-shot,Plant Pathology,3-way,1.0,image only,DINOv2 ViT-B/14,1580,49.443,48.2275,50.6582,5.2121
+few-shot,Plant Pathology,3-way,5.0,prototype,DINOv2 ViT-B/14,1580,65.0759,63.7468,66.3038,2.7228
+few-shot,Plant Pathology,3-way,5.0,image only,DINOv2 ViT-B/14,1580,65.9241,64.6203,67.1899,3.708
+few-shot,Plant Pathology,3-way,10.0,prototype,DINOv2 ViT-B/14,1580,71.9241,70.3665,73.481,2.1937
+few-shot,Plant Pathology,3-way,10.0,image only,DINOv2 ViT-B/14,1580,76.3418,74.9367,77.7089,2.5804
+few-shot,Plant Pathology,3-way,16.0,prototype,DINOv2 ViT-B/14,1580,76.5316,74.9111,78.1772,1.4296
+few-shot,Plant Pathology,3-way,16.0,image only,DINOv2 ViT-B/14,1580,82.2278,80.7975,83.5953,2.6869
+few-shot,JIC wheat,5-way,1.0,prototype,DINOv2 ViT-B/14,849,29.1873,27.5854,30.7892,5.0465
+few-shot,JIC wheat,5-way,1.0,image only,DINOv2 ViT-B/14,849,28.881,27.2792,30.5306,4.744
+few-shot,JIC wheat,5-way,5.0,prototype,DINOv2 ViT-B/14,849,40.0707,37.9971,42.1201,5.108
+few-shot,JIC wheat,5-way,5.0,image only,DINOv2 ViT-B/14,849,57.1025,55.0059,58.987,6.1635
+few-shot,JIC wheat,5-way,10.0,prototype,DINOv2 ViT-B/14,849,42.285,39.5053,44.9005,3.8932
+few-shot,JIC wheat,5-way,10.0,image only,DINOv2 ViT-B/14,849,67.6325,65.2297,69.9653,3.173
+few-shot,JIC wheat,5-way,16.0,prototype,DINOv2 ViT-B/14,849,45.2297,42.4016,47.9629,1.796
+few-shot,JIC wheat,5-way,16.0,image only,DINOv2 ViT-B/14,849,74.2285,71.8963,76.6313,1.9593
+lab-trained,PlantDoc,28-way,,frozen + linear,DINOv2 ViT-L/14,236,47.0339,40.678,53.3898,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,DINOv2 ViT-L/14,1580,39.3038,36.962,41.7737,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,DINOv2 ViT-L/14,236,38.2203,34.0678,42.3729,1.3197
+few-shot,PlantDoc,28-way,1.0,image only,DINOv2 ViT-L/14,236,38.4746,34.4047,42.6271,2.1059
+few-shot,PlantDoc,28-way,5.0,prototype,DINOv2 ViT-L/14,236,54.5763,50.0847,59.4068,2.567
+few-shot,PlantDoc,28-way,5.0,image only,DINOv2 ViT-L/14,236,60.4237,55.8475,65.2542,1.7107
+few-shot,PlantDoc,28-way,10.0,prototype,DINOv2 ViT-L/14,236,59.4915,54.2373,64.8305,3.7254
+few-shot,PlantDoc,28-way,10.0,image only,DINOv2 ViT-L/14,236,63.9831,59.4915,68.4746,3.5198
+few-shot,PlantDoc,28-way,16.0,prototype,DINOv2 ViT-L/14,236,60.7627,55.5932,65.9322,2.4452
+few-shot,PlantDoc,28-way,16.0,image only,DINOv2 ViT-L/14,236,67.2034,62.5403,72.0339,1.6023
+few-shot,Plant Pathology,3-way,1.0,prototype,DINOv2 ViT-L/14,1580,48.4937,47.3418,49.6329,3.2794
+few-shot,Plant Pathology,3-way,1.0,image only,DINOv2 ViT-L/14,1580,49.0,47.8734,50.1139,3.4834
+few-shot,Plant Pathology,3-way,5.0,prototype,DINOv2 ViT-L/14,1580,61.7722,60.4934,63.0386,2.2912
+few-shot,Plant Pathology,3-way,5.0,image only,DINOv2 ViT-L/14,1580,63.9494,62.6456,65.2408,1.5075
+few-shot,Plant Pathology,3-way,10.0,prototype,DINOv2 ViT-L/14,1580,69.8101,68.1896,71.4054,3.6432
+few-shot,Plant Pathology,3-way,10.0,image only,DINOv2 ViT-L/14,1580,73.3291,71.8228,74.8231,2.995
+few-shot,Plant Pathology,3-way,16.0,prototype,DINOv2 ViT-L/14,1580,73.9494,72.3038,75.5193,4.1634
+few-shot,Plant Pathology,3-way,16.0,image only,DINOv2 ViT-L/14,1580,79.8987,78.4937,81.3165,4.0023
+few-shot,JIC wheat,5-way,1.0,prototype,DINOv2 ViT-L/14,849,30.2238,28.4806,31.9435,5.4044
+few-shot,JIC wheat,5-way,1.0,image only,DINOv2 ViT-L/14,849,30.0118,28.3157,31.7314,5.5805
+few-shot,JIC wheat,5-way,5.0,prototype,DINOv2 ViT-L/14,849,38.2568,36.513,40.0236,8.2595
+few-shot,JIC wheat,5-way,5.0,image only,DINOv2 ViT-L/14,849,51.8728,49.7762,53.8757,8.3953
+few-shot,JIC wheat,5-way,10.0,prototype,DINOv2 ViT-L/14,849,41.3192,38.6337,44.0766,4.1871
+few-shot,JIC wheat,5-way,10.0,image only,DINOv2 ViT-L/14,849,64.0283,61.7191,66.384,2.8227
+few-shot,JIC wheat,5-way,16.0,prototype,DINOv2 ViT-L/14,849,41.5312,38.5159,44.4293,1.9401
+few-shot,JIC wheat,5-way,16.0,image only,DINOv2 ViT-L/14,849,70.742,68.1502,73.192,1.8334
+lab-trained,PlantDoc,28-way,,frozen + linear,ResNet-50 (ImageNet),236,24.5763,19.0678,30.0847,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,ResNet-50 (ImageNet),1580,19.4304,17.4051,21.394,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,ResNet-50 (ImageNet),236,17.5424,15.0,20.1695,2.7721
+few-shot,PlantDoc,28-way,1.0,image only,ResNet-50 (ImageNet),236,18.2203,15.5085,20.9343,2.5247
+few-shot,PlantDoc,28-way,5.0,prototype,ResNet-50 (ImageNet),236,25.9322,22.4576,29.4915,2.9418
+few-shot,PlantDoc,28-way,5.0,image only,ResNet-50 (ImageNet),236,31.6102,28.0508,35.5085,3.2215
+few-shot,PlantDoc,28-way,10.0,prototype,ResNet-50 (ImageNet),236,29.1525,25.0847,33.0508,1.137
+few-shot,PlantDoc,28-way,10.0,image only,ResNet-50 (ImageNet),236,35.7627,31.4407,39.8305,2.7395
+few-shot,PlantDoc,28-way,16.0,prototype,ResNet-50 (ImageNet),236,33.3051,28.6441,37.8814,2.5879
+few-shot,PlantDoc,28-way,16.0,image only,ResNet-50 (ImageNet),236,41.2712,36.4407,45.9322,2.7883
+few-shot,Plant Pathology,3-way,1.0,prototype,ResNet-50 (ImageNet),1580,52.5823,51.3038,53.8481,7.2475
+few-shot,Plant Pathology,3-way,1.0,image only,ResNet-50 (ImageNet),1580,54.5823,53.1389,55.9873,7.0972
+few-shot,Plant Pathology,3-way,5.0,prototype,ResNet-50 (ImageNet),1580,64.038,62.6203,65.519,5.4433
+few-shot,Plant Pathology,3-way,5.0,image only,ResNet-50 (ImageNet),1580,64.7722,63.3035,66.2152,5.095
+few-shot,Plant Pathology,3-way,10.0,prototype,ResNet-50 (ImageNet),1580,70.5443,68.8481,72.2028,1.5442
+few-shot,Plant Pathology,3-way,10.0,image only,ResNet-50 (ImageNet),1580,73.557,71.9241,75.1522,1.5736
+few-shot,Plant Pathology,3-way,16.0,prototype,ResNet-50 (ImageNet),1580,71.7468,70.063,73.557,2.1605
+few-shot,Plant Pathology,3-way,16.0,image only,ResNet-50 (ImageNet),1580,76.962,75.3921,78.4937,1.6474
+few-shot,JIC wheat,5-way,1.0,prototype,ResNet-50 (ImageNet),849,29.3051,27.7974,30.7656,4.8517
+few-shot,JIC wheat,5-way,1.0,image only,ResNet-50 (ImageNet),849,28.9753,27.5141,30.4829,4.9351
+few-shot,JIC wheat,5-way,5.0,prototype,ResNet-50 (ImageNet),849,41.2485,39.0342,43.4635,5.3378
+few-shot,JIC wheat,5-way,5.0,image only,ResNet-50 (ImageNet),849,45.2061,42.9682,47.3734,6.1915
+few-shot,JIC wheat,5-way,10.0,prototype,ResNet-50 (ImageNet),849,46.4311,43.8863,48.9287,2.8286
+few-shot,JIC wheat,5-way,10.0,image only,ResNet-50 (ImageNet),849,51.9435,49.6349,54.394,3.3883
+few-shot,JIC wheat,5-way,16.0,prototype,ResNet-50 (ImageNet),849,50.1531,47.5383,52.8392,2.2167
+few-shot,JIC wheat,5-way,16.0,image only,ResNet-50 (ImageNet),849,58.3981,55.9011,60.8251,3.129
+lab-trained,PlantDoc,28-way,,frozen + linear,EfficientNet-B0 (ImageNet),236,29.661,23.7288,36.0169,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,EfficientNet-B0 (ImageNet),1580,36.6456,34.2405,39.1139,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,EfficientNet-B0 (ImageNet),236,20.0847,17.0339,23.2203,2.4816
+few-shot,PlantDoc,28-way,1.0,image only,EfficientNet-B0 (ImageNet),236,21.2712,17.9661,24.4915,3.1195
+few-shot,PlantDoc,28-way,5.0,prototype,EfficientNet-B0 (ImageNet),236,30.2542,26.3559,34.1525,2.6732
+few-shot,PlantDoc,28-way,5.0,image only,EfficientNet-B0 (ImageNet),236,34.9153,30.8475,39.0678,2.8361
+few-shot,PlantDoc,28-way,10.0,prototype,EfficientNet-B0 (ImageNet),236,35.678,31.0169,40.2564,1.8807
+few-shot,PlantDoc,28-way,10.0,image only,EfficientNet-B0 (ImageNet),236,42.3729,37.7119,46.8665,3.3766
+few-shot,PlantDoc,28-way,16.0,prototype,EfficientNet-B0 (ImageNet),236,39.4068,34.661,44.2373,3.0993
+few-shot,PlantDoc,28-way,16.0,image only,EfficientNet-B0 (ImageNet),236,45.5085,40.678,50.5085,1.516
+few-shot,Plant Pathology,3-way,1.0,prototype,EfficientNet-B0 (ImageNet),1580,65.2405,63.8858,66.5696,5.4672
+few-shot,Plant Pathology,3-way,1.0,image only,EfficientNet-B0 (ImageNet),1580,67.0127,65.6199,68.443,4.2545
+few-shot,Plant Pathology,3-way,5.0,prototype,EfficientNet-B0 (ImageNet),1580,76.9873,75.6076,78.3418,3.2339
+few-shot,Plant Pathology,3-way,5.0,image only,EfficientNet-B0 (ImageNet),1580,78.4304,77.038,79.7978,2.3027
+few-shot,Plant Pathology,3-way,10.0,prototype,EfficientNet-B0 (ImageNet),1580,82.2152,80.8354,83.6582,1.2994
+few-shot,Plant Pathology,3-way,10.0,image only,EfficientNet-B0 (ImageNet),1580,84.5443,83.3038,85.8358,1.8368
+few-shot,Plant Pathology,3-way,16.0,prototype,EfficientNet-B0 (ImageNet),1580,83.5949,82.1392,85.0509,1.6555
+few-shot,Plant Pathology,3-way,16.0,image only,EfficientNet-B0 (ImageNet),1580,86.8228,85.5187,88.1139,0.9592
+few-shot,JIC wheat,5-way,1.0,prototype,EfficientNet-B0 (ImageNet),849,26.9258,25.6302,28.3634,8.2818
+few-shot,JIC wheat,5-way,1.0,image only,EfficientNet-B0 (ImageNet),849,29.0695,27.7503,30.6007,7.7905
+few-shot,JIC wheat,5-way,5.0,prototype,EfficientNet-B0 (ImageNet),849,43.086,40.9894,45.3481,7.0225
+few-shot,JIC wheat,5-way,5.0,image only,EfficientNet-B0 (ImageNet),849,47.9152,45.7951,50.1296,4.68
+few-shot,JIC wheat,5-way,10.0,prototype,EfficientNet-B0 (ImageNet),849,49.8704,47.4441,52.321,1.7952
+few-shot,JIC wheat,5-way,10.0,image only,EfficientNet-B0 (ImageNet),849,56.0424,53.5925,58.4694,2.0374
+few-shot,JIC wheat,5-way,16.0,prototype,EfficientNet-B0 (ImageNet),849,55.5713,52.9329,58.2097,2.0254
+few-shot,JIC wheat,5-way,16.0,image only,EfficientNet-B0 (ImageNet),849,62.1201,59.4582,64.7585,1.4416
+lab-trained,PlantDoc,28-way,,frozen + linear,MobileNetV3-L (ImageNet),236,26.6949,21.1864,32.2034,0.0
+lab-trained,Plant Pathology,28-way,,frozen + linear,MobileNetV3-L (ImageNet),1580,23.038,20.9494,25.1899,0.0
+few-shot,PlantDoc,28-way,1.0,prototype,MobileNetV3-L (ImageNet),236,23.4746,20.2521,26.6102,0.6426
+few-shot,PlantDoc,28-way,1.0,image only,MobileNetV3-L (ImageNet),236,23.9831,20.5932,27.3729,1.3265
+few-shot,PlantDoc,28-way,5.0,prototype,MobileNetV3-L (ImageNet),236,32.4576,28.3898,36.5254,1.9325
+few-shot,PlantDoc,28-way,5.0,image only,MobileNetV3-L (ImageNet),236,36.8644,32.8814,41.0169,2.3782
+few-shot,PlantDoc,28-way,10.0,prototype,MobileNetV3-L (ImageNet),236,37.1186,32.4576,41.5254,3.0497
+few-shot,PlantDoc,28-way,10.0,image only,MobileNetV3-L (ImageNet),236,43.7288,39.1525,48.2203,2.1481
+few-shot,PlantDoc,28-way,16.0,prototype,MobileNetV3-L (ImageNet),236,40.7627,35.7627,45.7627,1.7055
+few-shot,PlantDoc,28-way,16.0,image only,MobileNetV3-L (ImageNet),236,47.5424,42.7119,52.2034,2.0188
+few-shot,Plant Pathology,3-way,1.0,prototype,MobileNetV3-L (ImageNet),1580,62.4177,60.9873,63.9494,9.329
+few-shot,Plant Pathology,3-way,1.0,image only,MobileNetV3-L (ImageNet),1580,64.9873,63.5316,66.5323,8.1068
+few-shot,Plant Pathology,3-way,5.0,prototype,MobileNetV3-L (ImageNet),1580,77.7722,76.4807,79.0506,4.2309
+few-shot,Plant Pathology,3-way,5.0,image only,MobileNetV3-L (ImageNet),1580,79.1139,77.8228,80.4684,3.7264
+few-shot,Plant Pathology,3-way,10.0,prototype,MobileNetV3-L (ImageNet),1580,84.1899,82.9114,85.4813,0.9434
+few-shot,Plant Pathology,3-way,10.0,image only,MobileNetV3-L (ImageNet),1580,84.8354,83.5949,86.0759,1.6196
+few-shot,Plant Pathology,3-way,16.0,prototype,MobileNetV3-L (ImageNet),1580,85.6456,84.2022,87.1392,0.7534
+few-shot,Plant Pathology,3-way,16.0,image only,MobileNetV3-L (ImageNet),1580,88.4684,87.2025,89.6965,1.0081
+few-shot,JIC wheat,5-way,1.0,prototype,MobileNetV3-L (ImageNet),849,28.245,26.6431,30.0124,6.3819
+few-shot,JIC wheat,5-way,1.0,image only,MobileNetV3-L (ImageNet),849,28.9046,27.4441,30.53,6.2307
+few-shot,JIC wheat,5-way,5.0,prototype,MobileNetV3-L (ImageNet),849,44.0518,41.8139,46.338,4.6945
+few-shot,JIC wheat,5-way,5.0,image only,MobileNetV3-L (ImageNet),849,46.1249,43.8634,48.4576,3.6784
+few-shot,JIC wheat,5-way,10.0,prototype,MobileNetV3-L (ImageNet),849,49.7527,47.2085,52.4152,2.1358
+few-shot,JIC wheat,5-way,10.0,image only,MobileNetV3-L (ImageNet),849,54.9823,52.5795,57.5035,3.7455
+few-shot,JIC wheat,5-way,16.0,prototype,MobileNetV3-L (ImageNet),849,53.3333,50.6237,56.2309,2.1403
+few-shot,JIC wheat,5-way,16.0,image only,MobileNetV3-L (ImageNet),849,59.6466,57.1019,62.2856,3.0733
+lab-trained,PlantDoc,28-way,,fully fine-tuned,ResNet-50 (ImageNet),236,32.2034,26.2712,38.5699,0.0
+lab-trained,Plant Pathology,28-way,,fully fine-tuned,ResNet-50 (ImageNet),1580,38.481,36.1392,40.8861,0.0
+lab-trained,PlantDoc,28-way,,fully fine-tuned,EfficientNet-B0 (ImageNet),236,28.8136,22.8814,35.1695,0.0
+lab-trained,Plant Pathology,28-way,,fully fine-tuned,EfficientNet-B0 (ImageNet),1580,15.3165,13.481,17.1535,0.0
+lab-trained,PlantDoc,28-way,,fully fine-tuned,MobileNetV3-L (ImageNet),236,28.8136,22.8814,35.1695,0.0
+lab-trained,Plant Pathology,28-way,,fully fine-tuned,MobileNetV3-L (ImageNet),1580,17.4684,15.6329,19.3671,0.0

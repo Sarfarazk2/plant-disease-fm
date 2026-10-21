@@ -1,0 +1,11 @@
+model,image_encoder_params_M,images_per_second_gpu,device
+CLIP ViT-B/16,86.2,19.5,cuda
+BioCLIP,86.2,19.9,cuda
+BioCLIP 2,304.0,4.4,cuda
+CLIP ViT-L/14 (LAION-2B),304.0,4.4,cuda
+SigLIP ViT-B/16,92.9,19.6,cuda
+DINOv2 ViT-B/14,85.7,14.9,cuda
+DINOv2 ViT-L/14,303.2,4.3,cuda
+ResNet-50 (ImageNet),23.5,80.3,cuda
+EfficientNet-B0 (ImageNet),4.0,186.2,cuda
+MobileNetV3-L (ImageNet),4.2,315.1,cuda

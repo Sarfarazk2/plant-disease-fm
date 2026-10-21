@@ -1,0 +1,6 @@
+split,category,images
+test,confirmed error,10
+test,probable error (visual),3
+test,questionable,2
+train,confirmed error,107
+train,questionable,6

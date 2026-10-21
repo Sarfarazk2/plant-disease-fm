@@ -1,0 +1,11 @@
+model,family,text encoder,prompt style,image encoder params (M),images/s (laptop GPU)
+CLIP ViT-B/16,Web vision-language,yes,common,86.2,19.5
+BioCLIP,Biology vision-language,yes,scientific,86.2,19.9
+BioCLIP 2,Biology vision-language,yes,scientific,304.0,4.4
+CLIP ViT-L/14 (LAION-2B),Web vision-language,yes,common,304.0,4.4
+SigLIP ViT-B/16,Web vision-language,yes,common,92.9,19.6
+DINOv2 ViT-B/14,Self-supervised,no,,85.7,14.9
+DINOv2 ViT-L/14,Self-supervised,no,,303.2,4.3
+ResNet-50 (ImageNet),ImageNet CNN,no,,23.5,80.3
+EfficientNet-B0 (ImageNet),ImageNet CNN,no,,4.0,186.2
+MobileNetV3-L (ImageNet),ImageNet CNN,no,,4.2,315.1

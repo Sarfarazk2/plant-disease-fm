@@ -1,0 +1,21 @@
+model,method,applied_to,tuned_on,kappa
+clip_b16,sample-size (SW),plantdoc,pp,1.0
+clip_b16,sample-size (SW),pp,plantdoc,8.0
+clip_b16,CW + SW (v1),plantdoc,pp,1.0
+clip_b16,CW + SW (v1),pp,plantdoc,4.0
+bioclip,sample-size (SW),plantdoc,pp,0.5
+bioclip,sample-size (SW),pp,plantdoc,2.0
+bioclip,CW + SW (v1),plantdoc,pp,0.5
+bioclip,CW + SW (v1),pp,plantdoc,2.0
+bioclip2,sample-size (SW),plantdoc,pp,4.0
+bioclip2,sample-size (SW),pp,plantdoc,4.0
+bioclip2,CW + SW (v1),plantdoc,pp,4.0
+bioclip2,CW + SW (v1),pp,plantdoc,4.0
+clip_l14,sample-size (SW),plantdoc,pp,0.5
+clip_l14,sample-size (SW),pp,plantdoc,4.0
+clip_l14,CW + SW (v1),plantdoc,pp,0.5
+clip_l14,CW + SW (v1),pp,plantdoc,4.0
+siglip_b16,sample-size (SW),plantdoc,pp,0.5
+siglip_b16,sample-size (SW),pp,plantdoc,32.0
+siglip_b16,CW + SW (v1),plantdoc,pp,0.5
+siglip_b16,CW + SW (v1),pp,plantdoc,32.0

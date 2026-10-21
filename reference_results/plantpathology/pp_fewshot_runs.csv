@@ -1,0 +1,526 @@
+model,method,K,seed,accuracy,balanced_accuracy,macro_f1
+clip_b16,zero-shot text,0,0,67.78,68.81,64.46
+clip_b16,zero-shot text,0,1,67.78,68.81,64.46
+clip_b16,zero-shot text,0,2,67.78,68.81,64.46
+clip_b16,zero-shot text,0,3,67.78,68.81,64.46
+clip_b16,zero-shot text,0,4,67.78,68.81,64.46
+clip_b16,prototype,1,0,70.32,71.28,69.40
+clip_b16,linear probe,1,0,70.76,71.68,69.76
+clip_b16,text+prototype,1,0,71.84,72.95,70.28
+clip_b16,prototype,1,1,78.29,77.94,78.65
+clip_b16,linear probe,1,1,82.03,81.69,82.13
+clip_b16,text+prototype,1,1,82.91,83.41,82.91
+clip_b16,prototype,1,2,80.00,80.53,80.11
+clip_b16,linear probe,1,2,81.27,81.79,81.33
+clip_b16,text+prototype,1,2,82.03,82.50,81.68
+clip_b16,prototype,1,3,64.81,65.86,62.68
+clip_b16,linear probe,1,3,64.75,65.72,62.25
+clip_b16,text+prototype,1,3,65.82,67.20,62.60
+clip_b16,prototype,1,4,71.65,72.25,70.89
+clip_b16,linear probe,1,4,69.56,70.28,68.18
+clip_b16,text+prototype,1,4,77.22,78.00,76.00
+clip_b16,prototype,5,0,85.06,85.49,84.99
+clip_b16,linear probe,5,0,85.06,85.23,84.94
+clip_b16,text+prototype,5,0,79.11,79.84,78.42
+clip_b16,prototype,5,1,79.81,80.14,80.09
+clip_b16,linear probe,5,1,84.68,84.91,84.72
+clip_b16,text+prototype,5,1,77.09,78.00,76.32
+clip_b16,prototype,5,2,88.42,88.10,88.28
+clip_b16,linear probe,5,2,80.95,80.00,80.45
+clip_b16,text+prototype,5,2,85.89,85.97,85.92
+clip_b16,prototype,5,3,87.09,87.10,87.11
+clip_b16,linear probe,5,3,87.53,87.50,87.40
+clip_b16,text+prototype,5,3,83.35,83.93,83.16
+clip_b16,prototype,5,4,80.13,80.57,80.14
+clip_b16,linear probe,5,4,86.65,86.63,86.42
+clip_b16,text+prototype,5,4,77.85,78.66,77.35
+clip_b16,prototype,10,0,88.42,88.68,88.48
+clip_b16,linear probe,10,0,90.89,90.73,90.78
+clip_b16,text+prototype,10,0,81.46,82.07,81.09
+clip_b16,prototype,10,1,87.09,87.55,87.06
+clip_b16,linear probe,10,1,90.51,90.75,90.43
+clip_b16,text+prototype,10,1,79.37,80.14,78.72
+clip_b16,prototype,10,2,88.80,89.05,88.81
+clip_b16,linear probe,10,2,90.89,90.93,90.80
+clip_b16,text+prototype,10,2,82.91,83.53,82.56
+clip_b16,prototype,10,3,84.18,84.55,84.35
+clip_b16,linear probe,10,3,88.92,89.21,88.92
+clip_b16,text+prototype,10,3,78.92,79.74,78.29
+clip_b16,prototype,10,4,90.38,90.68,90.33
+clip_b16,linear probe,10,4,90.76,90.83,90.68
+clip_b16,text+prototype,10,4,83.48,84.08,83.10
+clip_b16,prototype,16,0,89.11,89.45,89.10
+clip_b16,linear probe,16,0,93.04,93.08,93.00
+clip_b16,text+prototype,16,0,81.52,82.23,81.10
+clip_b16,prototype,16,1,87.85,88.13,87.77
+clip_b16,linear probe,16,1,92.41,92.24,92.33
+clip_b16,text+prototype,16,1,81.84,82.45,81.39
+clip_b16,prototype,16,2,89.49,89.81,89.46
+clip_b16,linear probe,16,2,92.28,92.34,92.17
+clip_b16,text+prototype,16,2,81.84,82.51,81.42
+clip_b16,prototype,16,3,87.66,88.05,87.65
+clip_b16,linear probe,16,3,92.91,92.92,92.81
+clip_b16,text+prototype,16,3,82.28,82.96,81.87
+clip_b16,prototype,16,4,89.94,90.11,89.86
+clip_b16,linear probe,16,4,93.04,93.03,92.92
+clip_b16,text+prototype,16,4,83.54,84.06,83.23
+bioclip,zero-shot text,0,0,62.97,64.59,61.10
+bioclip,zero-shot text,0,1,62.97,64.59,61.10
+bioclip,zero-shot text,0,2,62.97,64.59,61.10
+bioclip,zero-shot text,0,3,62.97,64.59,61.10
+bioclip,zero-shot text,0,4,62.97,64.59,61.10
+bioclip,prototype,1,0,78.61,79.22,78.12
+bioclip,linear probe,1,0,79.94,80.59,79.68
+bioclip,text+prototype,1,0,70.44,71.67,69.80
+bioclip,prototype,1,1,83.29,82.58,82.79
+bioclip,linear probe,1,1,83.29,82.42,82.58
+bioclip,text+prototype,1,1,79.43,79.92,79.40
+bioclip,prototype,1,2,87.03,87.13,86.95
+bioclip,linear probe,1,2,86.65,86.94,86.61
+bioclip,text+prototype,1,2,79.68,80.52,79.67
+bioclip,prototype,1,3,71.71,70.69,70.96
+bioclip,linear probe,1,3,70.76,69.51,69.65
+bioclip,text+prototype,1,3,73.48,73.91,73.06
+bioclip,prototype,1,4,74.81,73.94,73.64
+bioclip,linear probe,1,4,75.38,74.19,73.93
+bioclip,text+prototype,1,4,71.90,72.63,71.64
+bioclip,prototype,5,0,86.77,86.49,86.53
+bioclip,linear probe,5,0,87.59,87.50,87.42
+bioclip,text+prototype,5,0,78.54,79.29,78.49
+bioclip,prototype,5,1,89.43,89.59,89.32
+bioclip,linear probe,5,1,90.06,90.12,89.94
+bioclip,text+prototype,5,1,78.23,79.24,78.34
+bioclip,prototype,5,2,89.81,89.08,89.32
+bioclip,linear probe,5,2,89.24,88.72,88.87
+bioclip,text+prototype,5,2,84.75,85.03,84.68
+bioclip,prototype,5,3,89.24,89.58,89.20
+bioclip,linear probe,5,3,88.48,88.74,88.42
+bioclip,text+prototype,5,3,76.52,77.60,76.50
+bioclip,prototype,5,4,87.59,87.54,87.42
+bioclip,linear probe,5,4,88.10,87.85,87.88
+bioclip,text+prototype,5,4,78.80,79.57,78.69
+bioclip,prototype,10,0,91.01,91.24,90.96
+bioclip,linear probe,10,0,91.52,91.62,91.43
+bioclip,text+prototype,10,0,79.56,80.44,79.49
+bioclip,prototype,10,1,90.57,90.79,90.44
+bioclip,linear probe,10,1,90.51,90.73,90.31
+bioclip,text+prototype,10,1,76.90,77.90,76.90
+bioclip,prototype,10,2,90.70,90.74,90.53
+bioclip,linear probe,10,2,91.01,90.89,90.80
+bioclip,text+prototype,10,2,80.38,81.21,80.41
+bioclip,prototype,10,3,89.62,89.85,89.55
+bioclip,linear probe,10,3,90.63,90.78,90.52
+bioclip,text+prototype,10,3,76.20,77.28,76.08
+bioclip,prototype,10,4,92.72,92.68,92.54
+bioclip,linear probe,10,4,92.66,92.58,92.45
+bioclip,text+prototype,10,4,80.32,81.16,80.34
+bioclip,prototype,16,0,90.89,91.05,90.83
+bioclip,linear probe,16,0,91.65,91.75,91.55
+bioclip,text+prototype,16,0,79.05,80.00,79.01
+bioclip,prototype,16,1,89.37,89.36,89.23
+bioclip,linear probe,16,1,90.89,90.86,90.75
+bioclip,text+prototype,16,1,78.67,79.54,78.54
+bioclip,prototype,16,2,92.97,92.93,92.81
+bioclip,linear probe,16,2,94.37,94.37,94.25
+bioclip,text+prototype,16,2,81.52,82.31,81.56
+bioclip,prototype,16,3,91.90,92.09,91.79
+bioclip,linear probe,16,3,92.09,92.27,91.99
+bioclip,text+prototype,16,3,78.67,79.64,78.79
+bioclip,prototype,16,4,93.42,93.39,93.28
+bioclip,linear probe,16,4,94.43,94.49,94.31
+bioclip,text+prototype,16,4,81.84,82.62,81.82
+bioclip2,zero-shot text,0,0,78.99,78.79,79.16
+bioclip2,zero-shot text,0,1,78.99,78.79,79.16
+bioclip2,zero-shot text,0,2,78.99,78.79,79.16
+bioclip2,zero-shot text,0,3,78.99,78.79,79.16
+bioclip2,zero-shot text,0,4,78.99,78.79,79.16
+bioclip2,prototype,1,0,68.35,69.30,61.49
+bioclip2,linear probe,1,0,69.81,70.58,64.09
+bioclip2,text+prototype,1,0,74.49,74.95,71.18
+bioclip2,prototype,1,1,57.59,56.24,54.61
+bioclip2,linear probe,1,1,59.56,58.08,56.78
+bioclip2,text+prototype,1,1,67.72,67.13,67.67
+bioclip2,prototype,1,2,66.77,67.84,66.93
+bioclip2,linear probe,1,2,69.11,70.05,69.37
+bioclip2,text+prototype,1,2,71.39,72.22,72.00
+bioclip2,prototype,1,3,69.68,67.22,65.05
+bioclip2,linear probe,1,3,69.75,67.46,65.89
+bioclip2,text+prototype,1,3,75.13,73.23,72.71
+bioclip2,prototype,1,4,63.23,62.39,60.49
+bioclip2,linear probe,1,4,63.86,62.87,61.66
+bioclip2,text+prototype,1,4,69.18,68.65,66.78
+bioclip2,prototype,5,0,84.49,84.62,84.02
+bioclip2,linear probe,5,0,85.95,86.13,85.56
+bioclip2,text+prototype,5,0,87.85,87.75,87.54
+bioclip2,prototype,5,1,88.86,88.29,88.50
+bioclip2,linear probe,5,1,88.10,87.23,87.51
+bioclip2,text+prototype,5,1,88.35,87.87,88.07
+bioclip2,prototype,5,2,79.75,79.33,79.52
+bioclip2,linear probe,5,2,77.41,77.00,77.32
+bioclip2,text+prototype,5,2,81.52,81.18,81.55
+bioclip2,prototype,5,3,79.81,79.50,79.57
+bioclip2,linear probe,5,3,79.24,78.62,78.80
+bioclip2,text+prototype,5,3,87.72,87.46,87.53
+bioclip2,prototype,5,4,87.78,87.58,87.52
+bioclip2,linear probe,5,4,87.72,87.54,87.46
+bioclip2,text+prototype,5,4,87.34,86.96,87.13
+bioclip2,prototype,10,0,85.76,85.95,85.50
+bioclip2,linear probe,10,0,87.09,87.20,86.83
+bioclip2,text+prototype,10,0,87.34,87.28,87.16
+bioclip2,prototype,10,1,90.25,90.09,90.06
+bioclip2,linear probe,10,1,91.71,91.87,91.53
+bioclip2,text+prototype,10,1,87.34,86.98,87.17
+bioclip2,prototype,10,2,89.68,89.23,89.38
+bioclip2,linear probe,10,2,90.38,89.80,90.00
+bioclip2,text+prototype,10,2,88.29,87.85,88.06
+bioclip2,prototype,10,3,79.75,79.27,79.24
+bioclip2,linear probe,10,3,82.78,82.38,82.38
+bioclip2,text+prototype,10,3,87.09,86.96,86.85
+bioclip2,prototype,10,4,86.27,85.90,85.81
+bioclip2,linear probe,10,4,87.72,87.28,87.24
+bioclip2,text+prototype,10,4,88.54,88.13,88.14
+bioclip2,prototype,16,0,90.57,90.27,90.44
+bioclip2,linear probe,16,0,90.32,89.77,90.07
+bioclip2,text+prototype,16,0,87.91,87.58,87.81
+bioclip2,prototype,16,1,88.16,87.69,87.93
+bioclip2,linear probe,16,1,88.54,87.98,88.18
+bioclip2,text+prototype,16,1,88.23,87.80,88.04
+bioclip2,prototype,16,2,89.56,89.18,89.32
+bioclip2,linear probe,16,2,90.89,90.83,90.72
+bioclip2,text+prototype,16,2,87.34,86.92,87.19
+bioclip2,prototype,16,3,89.56,89.07,89.25
+bioclip2,linear probe,16,3,89.87,89.65,89.71
+bioclip2,text+prototype,16,3,87.41,86.82,87.11
+bioclip2,prototype,16,4,91.84,91.62,91.69
+bioclip2,linear probe,16,4,94.11,94.03,93.97
+bioclip2,text+prototype,16,4,89.05,88.78,88.93
+clip_l14,zero-shot text,0,0,66.71,67.89,66.01
+clip_l14,zero-shot text,0,1,66.71,67.89,66.01
+clip_l14,zero-shot text,0,2,66.71,67.89,66.01
+clip_l14,zero-shot text,0,3,66.71,67.89,66.01
+clip_l14,zero-shot text,0,4,66.71,67.89,66.01
+clip_l14,prototype,1,0,78.54,79.19,77.06
+clip_l14,linear probe,1,0,77.78,78.47,76.26
+clip_l14,text+prototype,1,0,77.78,78.46,76.23
+clip_l14,prototype,1,1,74.30,72.96,73.23
+clip_l14,linear probe,1,1,75.82,74.61,75.06
+clip_l14,text+prototype,1,1,80.00,80.33,80.28
+clip_l14,prototype,1,2,89.11,88.80,88.93
+clip_l14,linear probe,1,2,89.11,88.88,88.95
+clip_l14,text+prototype,1,2,83.04,83.33,82.87
+clip_l14,prototype,1,3,78.10,78.64,76.51
+clip_l14,linear probe,1,3,77.28,77.85,75.41
+clip_l14,text+prototype,1,3,75.25,75.93,72.83
+clip_l14,prototype,1,4,79.43,79.09,79.12
+clip_l14,linear probe,1,4,76.33,76.32,75.65
+clip_l14,text+prototype,1,4,77.09,77.36,76.21
+clip_l14,prototype,5,0,92.41,92.51,92.30
+clip_l14,linear probe,5,0,91.46,91.60,91.34
+clip_l14,text+prototype,5,0,86.14,86.50,85.88
+clip_l14,prototype,5,1,92.28,92.38,92.26
+clip_l14,linear probe,5,1,92.47,92.55,92.43
+clip_l14,text+prototype,5,1,84.68,85.17,84.47
+clip_l14,prototype,5,2,90.76,90.62,90.62
+clip_l14,linear probe,5,2,85.13,84.55,84.66
+clip_l14,text+prototype,5,2,85.82,86.10,85.70
+clip_l14,prototype,5,3,90.06,89.85,90.01
+clip_l14,linear probe,5,3,90.00,89.62,89.84
+clip_l14,text+prototype,5,3,82.59,83.09,82.41
+clip_l14,prototype,5,4,89.24,89.32,89.13
+clip_l14,linear probe,5,4,88.23,88.09,87.98
+clip_l14,text+prototype,5,4,83.73,84.13,83.50
+clip_l14,prototype,10,0,92.41,92.38,92.35
+clip_l14,linear probe,10,0,93.92,93.79,93.82
+clip_l14,text+prototype,10,0,84.37,84.84,84.30
+clip_l14,prototype,10,1,92.53,92.68,92.45
+clip_l14,linear probe,10,1,93.92,93.78,93.83
+clip_l14,text+prototype,10,1,86.08,86.49,85.83
+clip_l14,prototype,10,2,92.34,92.41,92.24
+clip_l14,linear probe,10,2,91.20,91.08,91.12
+clip_l14,text+prototype,10,2,84.24,84.65,83.98
+clip_l14,prototype,10,3,92.41,92.57,92.34
+clip_l14,linear probe,10,3,92.59,92.74,92.53
+clip_l14,text+prototype,10,3,85.57,86.04,85.32
+clip_l14,prototype,10,4,91.96,92.12,91.89
+clip_l14,linear probe,10,4,91.39,91.42,91.37
+clip_l14,text+prototype,10,4,85.76,86.23,85.47
+clip_l14,prototype,16,0,93.23,93.33,93.17
+clip_l14,linear probe,16,0,93.35,93.38,93.30
+clip_l14,text+prototype,16,0,85.57,85.97,85.37
+clip_l14,prototype,16,1,92.97,93.00,92.87
+clip_l14,linear probe,16,1,92.85,92.69,92.73
+clip_l14,text+prototype,16,1,83.73,84.15,83.46
+clip_l14,prototype,16,2,92.78,92.88,92.72
+clip_l14,linear probe,16,2,94.05,93.95,93.95
+clip_l14,text+prototype,16,2,84.68,85.13,84.51
+clip_l14,prototype,16,3,92.59,92.77,92.51
+clip_l14,linear probe,16,3,93.16,93.26,93.10
+clip_l14,text+prototype,16,3,86.33,86.77,86.05
+clip_l14,prototype,16,4,92.28,92.39,92.22
+clip_l14,linear probe,16,4,92.66,92.68,92.63
+clip_l14,text+prototype,16,4,85.51,85.96,85.30
+siglip_b16,zero-shot text,0,0,71.27,72.20,66.59
+siglip_b16,zero-shot text,0,1,71.27,72.20,66.59
+siglip_b16,zero-shot text,0,2,71.27,72.20,66.59
+siglip_b16,zero-shot text,0,3,71.27,72.20,66.59
+siglip_b16,zero-shot text,0,4,71.27,72.20,66.59
+siglip_b16,prototype,1,0,70.32,71.41,68.09
+siglip_b16,linear probe,1,0,70.25,71.38,67.88
+siglip_b16,text+prototype,1,0,70.89,71.86,66.44
+siglip_b16,prototype,1,1,62.09,59.79,56.52
+siglip_b16,linear probe,1,1,62.85,60.54,57.55
+siglip_b16,text+prototype,1,1,78.29,79.02,76.73
+siglip_b16,prototype,1,2,74.43,75.93,73.84
+siglip_b16,linear probe,1,2,75.76,77.18,75.35
+siglip_b16,text+prototype,1,2,76.52,77.43,75.33
+siglip_b16,prototype,1,3,75.57,76.05,75.36
+siglip_b16,linear probe,1,3,74.94,75.40,74.57
+siglip_b16,text+prototype,1,3,72.53,73.52,69.56
+siglip_b16,prototype,1,4,75.38,75.37,74.67
+siglip_b16,linear probe,1,4,74.37,74.39,73.43
+siglip_b16,text+prototype,1,4,71.39,72.32,67.16
+siglip_b16,prototype,5,0,88.92,89.08,88.89
+siglip_b16,linear probe,5,0,88.86,89.12,88.81
+siglip_b16,text+prototype,5,0,78.16,78.86,76.34
+siglip_b16,prototype,5,1,85.25,85.41,85.36
+siglip_b16,linear probe,5,1,86.08,86.05,86.01
+siglip_b16,text+prototype,5,1,76.20,77.03,73.97
+siglip_b16,prototype,5,2,85.82,86.25,85.85
+siglip_b16,linear probe,5,2,86.39,86.31,86.23
+siglip_b16,text+prototype,5,2,79.43,79.97,78.09
+siglip_b16,prototype,5,3,86.52,86.72,86.56
+siglip_b16,linear probe,5,3,86.33,86.38,86.32
+siglip_b16,text+prototype,5,3,75.82,76.68,73.72
+siglip_b16,prototype,5,4,83.35,83.55,83.20
+siglip_b16,linear probe,5,4,84.62,84.41,84.47
+siglip_b16,text+prototype,5,4,75.44,76.22,72.90
+siglip_b16,prototype,10,0,89.05,89.22,89.06
+siglip_b16,linear probe,10,0,89.62,89.65,89.60
+siglip_b16,text+prototype,10,0,79.43,80.09,77.94
+siglip_b16,prototype,10,1,87.91,88.31,87.79
+siglip_b16,linear probe,10,1,89.11,89.48,89.03
+siglip_b16,text+prototype,10,1,77.72,78.45,75.78
+siglip_b16,prototype,10,2,87.97,88.28,87.92
+siglip_b16,linear probe,10,2,88.23,88.36,88.15
+siglip_b16,text+prototype,10,2,77.28,78.06,75.24
+siglip_b16,prototype,10,3,86.27,86.45,86.30
+siglip_b16,linear probe,10,3,89.87,90.00,89.83
+siglip_b16,text+prototype,10,3,76.14,76.95,73.73
+siglip_b16,prototype,10,4,88.73,89.04,88.69
+siglip_b16,linear probe,10,4,89.30,89.46,89.29
+siglip_b16,text+prototype,10,4,77.47,78.22,75.43
+siglip_b16,prototype,16,0,90.00,90.07,89.97
+siglip_b16,linear probe,16,0,90.06,89.96,90.01
+siglip_b16,text+prototype,16,0,78.10,78.83,76.35
+siglip_b16,prototype,16,1,89.11,89.21,89.09
+siglip_b16,linear probe,16,1,89.56,89.46,89.50
+siglip_b16,text+prototype,16,1,77.72,78.44,75.74
+siglip_b16,prototype,16,2,90.51,90.71,90.45
+siglip_b16,linear probe,16,2,90.89,90.95,90.79
+siglip_b16,text+prototype,16,2,78.16,78.89,76.35
+siglip_b16,prototype,16,3,89.05,89.42,88.98
+siglip_b16,linear probe,16,3,92.03,92.27,91.97
+siglip_b16,text+prototype,16,3,76.84,77.63,74.69
+siglip_b16,prototype,16,4,90.38,90.57,90.31
+siglip_b16,linear probe,16,4,91.90,91.95,91.84
+siglip_b16,text+prototype,16,4,78.61,79.28,76.88
+dinov2_b14,prototype,1,0,44.37,44.15,44.20
+dinov2_b14,linear probe,1,0,44.81,44.62,45.00
+dinov2_b14,prototype,1,1,54.62,56.01,54.03
+dinov2_b14,linear probe,1,1,54.05,55.53,53.57
+dinov2_b14,prototype,1,2,51.46,51.51,49.06
+dinov2_b14,linear probe,1,2,51.46,51.28,48.80
+dinov2_b14,prototype,1,3,54.30,52.83,52.65
+dinov2_b14,linear probe,1,3,53.92,52.50,52.41
+dinov2_b14,prototype,1,4,41.46,41.92,40.49
+dinov2_b14,linear probe,1,4,42.97,43.15,41.98
+dinov2_b14,prototype,5,0,62.53,62.45,62.71
+dinov2_b14,linear probe,5,0,62.22,62.47,62.25
+dinov2_b14,prototype,5,1,68.35,66.91,66.62
+dinov2_b14,linear probe,5,1,70.76,69.40,69.15
+dinov2_b14,prototype,5,2,62.47,61.84,62.37
+dinov2_b14,linear probe,5,2,62.47,61.95,62.12
+dinov2_b14,prototype,5,3,67.41,67.53,67.24
+dinov2_b14,linear probe,5,3,68.35,68.50,68.32
+dinov2_b14,prototype,5,4,64.62,64.77,63.90
+dinov2_b14,linear probe,5,4,65.82,66.50,65.51
+dinov2_b14,prototype,10,0,69.94,70.35,70.02
+dinov2_b14,linear probe,10,0,73.54,73.76,73.52
+dinov2_b14,prototype,10,1,69.62,68.44,68.88
+dinov2_b14,linear probe,10,1,76.90,75.98,76.27
+dinov2_b14,prototype,10,2,74.94,74.67,74.77
+dinov2_b14,linear probe,10,2,80.25,79.72,79.97
+dinov2_b14,prototype,10,3,72.78,72.17,72.44
+dinov2_b14,linear probe,10,3,74.56,74.16,74.35
+dinov2_b14,prototype,10,4,72.34,72.26,72.24
+dinov2_b14,linear probe,10,4,76.46,76.13,76.14
+dinov2_b14,prototype,16,0,78.42,77.91,78.16
+dinov2_b14,linear probe,16,0,79.24,78.86,79.02
+dinov2_b14,prototype,16,1,74.49,74.56,74.46
+dinov2_b14,linear probe,16,1,80.70,80.33,80.42
+dinov2_b14,prototype,16,2,76.65,76.42,76.47
+dinov2_b14,linear probe,16,2,82.72,82.44,82.48
+dinov2_b14,prototype,16,3,76.08,75.99,75.99
+dinov2_b14,linear probe,16,3,82.09,82.10,82.08
+dinov2_b14,prototype,16,4,77.03,76.25,76.65
+dinov2_b14,linear probe,16,4,86.39,86.25,86.31
+dinov2_l14,prototype,1,0,47.28,46.91,42.47
+dinov2_l14,linear probe,1,0,48.48,48.22,45.31
+dinov2_l14,prototype,1,1,52.41,52.88,49.80
+dinov2_l14,linear probe,1,1,53.42,54.11,51.51
+dinov2_l14,prototype,1,2,48.67,48.82,45.11
+dinov2_l14,linear probe,1,2,48.16,48.44,45.49
+dinov2_l14,prototype,1,3,50.38,48.72,47.53
+dinov2_l14,linear probe,1,3,50.89,49.32,48.51
+dinov2_l14,prototype,1,4,43.73,43.63,42.20
+dinov2_l14,linear probe,1,4,44.05,43.84,42.58
+dinov2_l14,prototype,5,0,58.86,58.28,59.04
+dinov2_l14,linear probe,5,0,61.90,62.08,62.01
+dinov2_l14,prototype,5,1,63.61,61.93,60.96
+dinov2_l14,linear probe,5,1,63.73,62.22,61.26
+dinov2_l14,prototype,5,2,62.97,62.46,62.81
+dinov2_l14,linear probe,5,2,63.35,62.62,62.76
+dinov2_l14,prototype,5,3,63.67,64.16,63.55
+dinov2_l14,linear probe,5,3,65.82,66.27,65.91
+dinov2_l14,prototype,5,4,59.75,59.89,59.10
+dinov2_l14,linear probe,5,4,64.94,65.42,64.93
+dinov2_l14,prototype,10,0,65.13,65.15,65.32
+dinov2_l14,linear probe,10,0,68.86,68.93,68.92
+dinov2_l14,prototype,10,1,69.30,68.29,68.93
+dinov2_l14,linear probe,10,1,75.06,74.31,74.69
+dinov2_l14,prototype,10,2,73.29,72.77,72.94
+dinov2_l14,linear probe,10,2,74.87,74.30,74.33
+dinov2_l14,prototype,10,3,73.61,72.83,73.04
+dinov2_l14,linear probe,10,3,76.14,75.50,75.75
+dinov2_l14,prototype,10,4,67.72,67.50,67.65
+dinov2_l14,linear probe,10,4,71.71,71.23,71.33
+dinov2_l14,prototype,16,0,74.24,74.27,74.35
+dinov2_l14,linear probe,16,0,77.72,77.64,77.73
+dinov2_l14,prototype,16,1,67.47,67.49,67.50
+dinov2_l14,linear probe,16,1,76.46,76.25,76.25
+dinov2_l14,prototype,16,2,75.95,75.50,75.53
+dinov2_l14,linear probe,16,2,79.75,79.17,79.24
+dinov2_l14,prototype,16,3,73.35,73.11,73.13
+dinov2_l14,linear probe,16,3,78.86,78.67,78.90
+dinov2_l14,prototype,16,4,78.73,77.76,78.19
+dinov2_l14,linear probe,16,4,86.71,86.28,86.44
+resnet50,prototype,1,0,44.81,44.97,45.47
+resnet50,linear probe,1,0,47.03,47.59,47.02
+resnet50,prototype,1,1,48.61,48.07,43.36
+resnet50,linear probe,1,1,51.65,51.31,48.45
+resnet50,prototype,1,2,62.85,61.52,61.73
+resnet50,linear probe,1,2,59.68,60.15,58.53
+resnet50,prototype,1,3,49.62,49.69,49.44
+resnet50,linear probe,1,3,50.38,50.35,50.31
+resnet50,prototype,1,4,57.03,58.96,56.44
+resnet50,linear probe,1,4,64.18,64.89,64.08
+resnet50,prototype,5,0,66.96,66.44,66.71
+resnet50,linear probe,5,0,69.37,69.39,69.29
+resnet50,prototype,5,1,68.42,68.66,68.40
+resnet50,linear probe,5,1,69.94,70.15,69.88
+resnet50,prototype,5,2,59.18,57.75,57.99
+resnet50,linear probe,5,2,59.05,57.06,56.25
+resnet50,prototype,5,3,68.48,68.59,68.32
+resnet50,linear probe,5,3,65.51,65.70,65.52
+resnet50,prototype,5,4,57.15,56.24,56.50
+resnet50,linear probe,5,4,60.00,58.85,58.65
+resnet50,prototype,10,0,71.39,71.73,71.15
+resnet50,linear probe,10,0,71.14,71.02,70.76
+resnet50,prototype,10,1,69.81,69.73,69.71
+resnet50,linear probe,10,1,74.43,74.73,74.41
+resnet50,prototype,10,2,72.85,73.24,72.82
+resnet50,linear probe,10,2,74.62,74.45,74.57
+resnet50,prototype,10,3,69.49,69.24,69.20
+resnet50,linear probe,10,3,74.81,74.76,74.65
+resnet50,prototype,10,4,69.18,69.35,69.20
+resnet50,linear probe,10,4,72.78,73.10,72.78
+resnet50,prototype,16,0,75.32,75.75,75.32
+resnet50,linear probe,16,0,76.27,76.40,76.23
+resnet50,prototype,16,1,72.22,72.01,72.10
+resnet50,linear probe,16,1,76.84,76.51,76.59
+resnet50,prototype,16,2,70.82,71.07,70.68
+resnet50,linear probe,16,2,79.56,79.79,79.52
+resnet50,prototype,16,3,70.25,70.66,70.34
+resnet50,linear probe,16,3,75.06,75.26,75.06
+resnet50,prototype,16,4,70.13,70.17,70.07
+resnet50,linear probe,16,4,77.09,77.31,77.05
+effnet_b0,prototype,1,0,56.20,56.17,55.00
+effnet_b0,linear probe,1,0,61.96,61.80,61.91
+effnet_b0,prototype,1,1,68.29,68.09,67.90
+effnet_b0,linear probe,1,1,72.34,72.00,72.08
+effnet_b0,prototype,1,2,70.51,70.86,70.50
+effnet_b0,linear probe,1,2,70.38,70.83,70.40
+effnet_b0,prototype,1,3,66.14,66.30,66.33
+effnet_b0,linear probe,1,3,65.70,65.91,65.90
+effnet_b0,prototype,1,4,65.06,65.79,65.44
+effnet_b0,linear probe,1,4,64.68,65.34,65.16
+effnet_b0,prototype,5,0,76.71,75.93,76.04
+effnet_b0,linear probe,5,0,80.76,80.44,80.41
+effnet_b0,prototype,5,1,82.34,81.89,82.09
+effnet_b0,linear probe,5,1,81.08,80.59,80.72
+effnet_b0,prototype,5,2,77.03,76.34,76.67
+effnet_b0,linear probe,5,2,77.22,76.70,76.87
+effnet_b0,prototype,5,3,74.49,73.91,74.08
+effnet_b0,linear probe,5,3,76.20,75.57,75.88
+effnet_b0,prototype,5,4,74.37,73.56,73.54
+effnet_b0,linear probe,5,4,76.90,76.20,76.23
+effnet_b0,prototype,10,0,81.46,81.36,81.50
+effnet_b0,linear probe,10,0,81.65,81.21,81.34
+effnet_b0,prototype,10,1,83.35,83.59,83.27
+effnet_b0,linear probe,10,1,84.24,84.24,84.11
+effnet_b0,prototype,10,2,80.38,80.57,80.37
+effnet_b0,linear probe,10,2,85.70,85.72,85.60
+effnet_b0,prototype,10,3,82.47,82.09,82.21
+effnet_b0,linear probe,10,3,86.46,86.14,86.20
+effnet_b0,prototype,10,4,83.42,83.45,83.16
+effnet_b0,linear probe,10,4,84.68,84.62,84.41
+effnet_b0,prototype,16,0,84.75,84.72,84.66
+effnet_b0,linear probe,16,0,86.65,86.48,86.52
+effnet_b0,prototype,16,1,82.47,82.60,82.34
+effnet_b0,linear probe,16,1,86.52,86.43,86.32
+effnet_b0,prototype,16,2,81.27,81.28,81.13
+effnet_b0,linear probe,16,2,85.82,85.74,85.64
+effnet_b0,prototype,16,3,85.13,85.21,84.96
+effnet_b0,linear probe,16,3,88.42,88.32,88.21
+effnet_b0,prototype,16,4,84.37,84.52,84.29
+effnet_b0,linear probe,16,4,86.71,86.93,86.61
+mobilenet_v3,prototype,1,0,51.77,53.31,51.10
+mobilenet_v3,linear probe,1,0,55.76,56.97,55.59
+mobilenet_v3,prototype,1,1,69.30,69.34,69.04
+mobilenet_v3,linear probe,1,1,71.27,71.18,71.17
+mobilenet_v3,prototype,1,2,73.80,74.45,74.11
+mobilenet_v3,linear probe,1,2,74.24,74.87,74.54
+mobilenet_v3,prototype,1,3,62.41,62.60,62.02
+mobilenet_v3,linear probe,1,3,65.89,65.93,65.86
+mobilenet_v3,prototype,1,4,54.81,56.89,54.74
+mobilenet_v3,linear probe,1,4,57.78,59.56,57.99
+mobilenet_v3,prototype,5,0,82.28,82.26,82.11
+mobilenet_v3,linear probe,5,0,82.47,82.61,82.40
+mobilenet_v3,prototype,5,1,80.44,80.09,80.20
+mobilenet_v3,linear probe,5,1,82.15,81.65,81.80
+mobilenet_v3,prototype,5,2,71.14,69.24,68.86
+mobilenet_v3,linear probe,5,2,73.54,72.03,71.88
+mobilenet_v3,prototype,5,3,77.41,76.79,76.71
+mobilenet_v3,linear probe,5,3,77.34,76.58,76.50
+mobilenet_v3,prototype,5,4,77.59,77.27,76.95
+mobilenet_v3,linear probe,5,4,80.06,79.69,79.66
+mobilenet_v3,prototype,10,0,84.68,84.18,84.26
+mobilenet_v3,linear probe,10,0,84.30,83.82,83.85
+mobilenet_v3,prototype,10,1,84.30,84.55,84.23
+mobilenet_v3,linear probe,10,1,85.76,85.62,85.50
+mobilenet_v3,prototype,10,2,82.53,82.81,82.50
+mobilenet_v3,linear probe,10,2,82.47,82.30,82.27
+mobilenet_v3,prototype,10,3,84.75,84.52,84.49
+mobilenet_v3,linear probe,10,3,86.77,86.74,86.62
+mobilenet_v3,prototype,10,4,84.68,84.95,84.48
+mobilenet_v3,linear probe,10,4,84.87,84.81,84.62
+mobilenet_v3,prototype,16,0,86.84,86.84,86.69
+mobilenet_v3,linear probe,16,0,88.67,88.51,88.47
+mobilenet_v3,prototype,16,1,85.82,86.08,85.77
+mobilenet_v3,linear probe,16,1,88.35,88.22,88.15
+mobilenet_v3,prototype,16,2,84.87,85.21,84.92
+mobilenet_v3,linear probe,16,2,87.78,87.92,87.69
+mobilenet_v3,prototype,16,3,85.51,85.72,85.44
+mobilenet_v3,linear probe,16,3,90.06,90.11,89.93
+mobilenet_v3,prototype,16,4,85.19,85.58,85.19
+mobilenet_v3,linear probe,16,4,87.47,87.74,87.42

@@ -1,0 +1,31 @@
+model,model_name,method,N_way,K,episodes,accuracy_mean,ci95
+clip_b16,CLIP ViT-B/16,prototype,5,1,600,54.08,1.11
+clip_b16,CLIP ViT-B/16,text+prototype,5,1,600,68.55,0.97
+clip_b16,CLIP ViT-B/16,prototype,5,5,600,70.16,0.99
+clip_b16,CLIP ViT-B/16,text+prototype,5,5,600,75.27,0.92
+bioclip,BioCLIP,prototype,5,1,600,71.50,1.02
+bioclip,BioCLIP,text+prototype,5,1,600,80.12,0.93
+bioclip,BioCLIP,prototype,5,5,600,85.00,0.88
+bioclip,BioCLIP,text+prototype,5,5,600,86.70,0.81
+bioclip2,BioCLIP 2,prototype,5,1,600,77.04,1.04
+bioclip2,BioCLIP 2,text+prototype,5,1,600,83.76,0.96
+bioclip2,BioCLIP 2,prototype,5,5,600,88.09,0.77
+bioclip2,BioCLIP 2,text+prototype,5,5,600,88.29,0.80
+clip_l14,CLIP ViT-L/14 (LAION-2B),prototype,5,1,600,58.81,1.14
+clip_l14,CLIP ViT-L/14 (LAION-2B),text+prototype,5,1,600,72.70,0.99
+clip_l14,CLIP ViT-L/14 (LAION-2B),prototype,5,5,600,76.31,0.96
+clip_l14,CLIP ViT-L/14 (LAION-2B),text+prototype,5,5,600,79.73,0.88
+siglip_b16,SigLIP ViT-B/16,prototype,5,1,600,62.81,1.10
+siglip_b16,SigLIP ViT-B/16,text+prototype,5,1,600,80.23,0.91
+siglip_b16,SigLIP ViT-B/16,prototype,5,5,600,80.40,0.91
+siglip_b16,SigLIP ViT-B/16,text+prototype,5,5,600,87.84,0.72
+dinov2_b14,DINOv2 ViT-B/14,prototype,5,1,600,73.20,1.12
+dinov2_b14,DINOv2 ViT-B/14,prototype,5,5,600,84.62,0.90
+dinov2_l14,DINOv2 ViT-L/14,prototype,5,1,600,77.65,1.10
+dinov2_l14,DINOv2 ViT-L/14,prototype,5,5,600,85.01,0.96
+resnet50,ResNet-50 (ImageNet),prototype,5,1,600,44.62,0.95
+resnet50,ResNet-50 (ImageNet),prototype,5,5,600,60.56,1.01
+effnet_b0,EfficientNet-B0 (ImageNet),prototype,5,1,600,46.29,1.00
+effnet_b0,EfficientNet-B0 (ImageNet),prototype,5,5,600,62.52,0.99
+mobilenet_v3,MobileNetV3-L (ImageNet),prototype,5,1,600,47.82,1.02
+mobilenet_v3,MobileNetV3-L (ImageNet),prototype,5,5,600,65.60,0.97

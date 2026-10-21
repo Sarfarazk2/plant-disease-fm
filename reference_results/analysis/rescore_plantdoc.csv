@@ -1,0 +1,145 @@
+model,method,test_version,n_test,accuracy
+CLIP ViT-B/16,lab-trained (frozen + linear),original,236,34.32
+CLIP ViT-B/16,lab-trained (frozen + linear),corrected,233,36.91
+CLIP ViT-B/16,lab-trained (frozen + linear),strict,228,37.72
+CLIP ViT-B/16,zero-shot text,original,236,38.98
+CLIP ViT-B/16,zero-shot text,corrected,233,38.63
+CLIP ViT-B/16,zero-shot text,strict,228,38.6
+CLIP ViT-B/16,K=16 linear probe,original,236,53.81
+CLIP ViT-B/16,K=16 linear probe,corrected,233,55.02
+CLIP ViT-B/16,K=16 linear probe,strict,228,55.96
+CLIP ViT-B/16,K=16 v2 fusion,original,236,53.73
+CLIP ViT-B/16,K=16 v2 fusion,corrected,233,55.28
+CLIP ViT-B/16,K=16 v2 fusion,strict,228,56.23
+CLIP ViT-B/16,K=16 linear probe clean supports,original,236,51.86
+CLIP ViT-B/16,K=16 linear probe clean supports,corrected,233,53.56
+CLIP ViT-B/16,K=16 linear probe clean supports,strict,228,54.56
+CLIP ViT-B/16,K=16 v2 fusion clean supports,original,236,52.37
+CLIP ViT-B/16,K=16 v2 fusion clean supports,corrected,233,54.42
+CLIP ViT-B/16,K=16 v2 fusion clean supports,strict,228,55.35
+BioCLIP,lab-trained (frozen + linear),original,236,36.44
+BioCLIP,lab-trained (frozen + linear),corrected,233,38.63
+BioCLIP,lab-trained (frozen + linear),strict,228,39.04
+BioCLIP,zero-shot text,original,236,41.53
+BioCLIP,zero-shot text,corrected,233,41.2
+BioCLIP,zero-shot text,strict,228,42.11
+BioCLIP,K=16 linear probe,original,236,64.49
+BioCLIP,K=16 linear probe,corrected,233,66.52
+BioCLIP,K=16 linear probe,strict,228,67.46
+BioCLIP,K=16 v2 fusion,original,236,65.51
+BioCLIP,K=16 v2 fusion,corrected,233,66.87
+BioCLIP,K=16 v2 fusion,strict,228,67.89
+BioCLIP,K=16 linear probe clean supports,original,236,63.98
+BioCLIP,K=16 linear probe clean supports,corrected,233,66.09
+BioCLIP,K=16 linear probe clean supports,strict,228,67.02
+BioCLIP,K=16 v2 fusion clean supports,original,236,64.49
+BioCLIP,K=16 v2 fusion clean supports,corrected,233,66.35
+BioCLIP,K=16 v2 fusion clean supports,strict,228,67.46
+BioCLIP 2,lab-trained (frozen + linear),original,236,57.63
+BioCLIP 2,lab-trained (frozen + linear),corrected,233,60.94
+BioCLIP 2,lab-trained (frozen + linear),strict,228,61.4
+BioCLIP 2,zero-shot text,original,236,53.81
+BioCLIP 2,zero-shot text,corrected,233,53.65
+BioCLIP 2,zero-shot text,strict,228,53.95
+BioCLIP 2,K=16 linear probe,original,236,70.34
+BioCLIP 2,K=16 linear probe,corrected,233,72.62
+BioCLIP 2,K=16 linear probe,strict,228,73.42
+BioCLIP 2,K=16 v2 fusion,original,236,72.71
+BioCLIP 2,K=16 v2 fusion,corrected,233,75.02
+BioCLIP 2,K=16 v2 fusion,strict,228,75.7
+BioCLIP 2,K=16 linear probe clean supports,original,236,70.17
+BioCLIP 2,K=16 linear probe clean supports,corrected,233,73.05
+BioCLIP 2,K=16 linear probe clean supports,strict,228,73.95
+BioCLIP 2,K=16 v2 fusion clean supports,original,236,71.86
+BioCLIP 2,K=16 v2 fusion clean supports,corrected,233,74.51
+BioCLIP 2,K=16 v2 fusion clean supports,strict,228,75.35
+CLIP ViT-L/14 (LAION-2B),lab-trained (frozen + linear),original,236,36.86
+CLIP ViT-L/14 (LAION-2B),lab-trained (frozen + linear),corrected,233,39.06
+CLIP ViT-L/14 (LAION-2B),lab-trained (frozen + linear),strict,228,39.91
+CLIP ViT-L/14 (LAION-2B),zero-shot text,original,236,43.22
+CLIP ViT-L/14 (LAION-2B),zero-shot text,corrected,233,43.35
+CLIP ViT-L/14 (LAION-2B),zero-shot text,strict,228,43.86
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe,original,236,57.71
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe,corrected,233,59.14
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe,strict,228,60.26
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion,original,236,59.58
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion,corrected,233,61.12
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion,strict,228,62.28
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe clean supports,original,236,56.19
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe clean supports,corrected,233,57.6
+CLIP ViT-L/14 (LAION-2B),K=16 linear probe clean supports,strict,228,58.77
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion clean supports,original,236,58.98
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion clean supports,corrected,233,60.69
+CLIP ViT-L/14 (LAION-2B),K=16 v2 fusion clean supports,strict,228,61.75
+SigLIP ViT-B/16,lab-trained (frozen + linear),original,236,47.88
+SigLIP ViT-B/16,lab-trained (frozen + linear),corrected,233,49.79
+SigLIP ViT-B/16,lab-trained (frozen + linear),strict,228,50.88
+SigLIP ViT-B/16,zero-shot text,original,236,61.86
+SigLIP ViT-B/16,zero-shot text,corrected,233,63.09
+SigLIP ViT-B/16,zero-shot text,strict,228,63.6
+SigLIP ViT-B/16,K=16 linear probe,original,236,60.85
+SigLIP ViT-B/16,K=16 linear probe,corrected,233,63.18
+SigLIP ViT-B/16,K=16 linear probe,strict,228,64.21
+SigLIP ViT-B/16,K=16 v2 fusion,original,236,64.32
+SigLIP ViT-B/16,K=16 v2 fusion,corrected,233,66.7
+SigLIP ViT-B/16,K=16 v2 fusion,strict,228,67.72
+SigLIP ViT-B/16,K=16 linear probe clean supports,original,236,59.92
+SigLIP ViT-B/16,K=16 linear probe clean supports,corrected,233,62.32
+SigLIP ViT-B/16,K=16 linear probe clean supports,strict,228,63.16
+SigLIP ViT-B/16,K=16 v2 fusion clean supports,original,236,66.02
+SigLIP ViT-B/16,K=16 v2 fusion clean supports,corrected,233,68.5
+SigLIP ViT-B/16,K=16 v2 fusion clean supports,strict,228,69.56
+DINOv2 ViT-B/14,lab-trained (frozen + linear),original,236,46.61
+DINOv2 ViT-B/14,lab-trained (frozen + linear),corrected,233,48.5
+DINOv2 ViT-B/14,lab-trained (frozen + linear),strict,228,49.12
+DINOv2 ViT-B/14,K=16 linear probe,original,236,68.9
+DINOv2 ViT-B/14,K=16 linear probe,corrected,233,70.47
+DINOv2 ViT-B/14,K=16 linear probe,strict,228,71.4
+DINOv2 ViT-B/14,K=16 linear probe clean supports,original,236,68.81
+DINOv2 ViT-B/14,K=16 linear probe clean supports,corrected,233,70.82
+DINOv2 ViT-B/14,K=16 linear probe clean supports,strict,228,71.49
+DINOv2 ViT-L/14,lab-trained (frozen + linear),original,236,47.03
+DINOv2 ViT-L/14,lab-trained (frozen + linear),corrected,233,49.79
+DINOv2 ViT-L/14,lab-trained (frozen + linear),strict,228,50.0
+DINOv2 ViT-L/14,K=16 linear probe,original,236,67.2
+DINOv2 ViT-L/14,K=16 linear probe,corrected,233,69.36
+DINOv2 ViT-L/14,K=16 linear probe,strict,228,69.82
+DINOv2 ViT-L/14,K=16 linear probe clean supports,original,236,66.36
+DINOv2 ViT-L/14,K=16 linear probe clean supports,corrected,233,68.67
+DINOv2 ViT-L/14,K=16 linear probe clean supports,strict,228,69.12
+ResNet-50 (ImageNet),lab-trained (frozen + linear),original,236,24.58
+ResNet-50 (ImageNet),lab-trained (frozen + linear),corrected,233,25.75
+ResNet-50 (ImageNet),lab-trained (frozen + linear),strict,228,26.32
+ResNet-50 (ImageNet),K=16 linear probe,original,236,41.27
+ResNet-50 (ImageNet),K=16 linear probe,corrected,233,42.75
+ResNet-50 (ImageNet),K=16 linear probe,strict,228,43.51
+ResNet-50 (ImageNet),K=16 linear probe clean supports,original,236,40.93
+ResNet-50 (ImageNet),K=16 linear probe clean supports,corrected,233,42.75
+ResNet-50 (ImageNet),K=16 linear probe clean supports,strict,228,43.42
+EfficientNet-B0 (ImageNet),lab-trained (frozen + linear),original,236,29.66
+EfficientNet-B0 (ImageNet),lab-trained (frozen + linear),corrected,233,32.62
+EfficientNet-B0 (ImageNet),lab-trained (frozen + linear),strict,228,32.89
+EfficientNet-B0 (ImageNet),K=16 linear probe,original,236,45.51
+EfficientNet-B0 (ImageNet),K=16 linear probe,corrected,233,46.78
+EfficientNet-B0 (ImageNet),K=16 linear probe,strict,228,47.63
+EfficientNet-B0 (ImageNet),K=16 linear probe clean supports,original,236,45.68
+EfficientNet-B0 (ImageNet),K=16 linear probe clean supports,corrected,233,47.21
+EfficientNet-B0 (ImageNet),K=16 linear probe clean supports,strict,228,48.16
+MobileNetV3-L (ImageNet),lab-trained (frozen + linear),original,236,26.69
+MobileNetV3-L (ImageNet),lab-trained (frozen + linear),corrected,233,27.9
+MobileNetV3-L (ImageNet),lab-trained (frozen + linear),strict,228,27.63
+MobileNetV3-L (ImageNet),K=16 linear probe,original,236,47.54
+MobileNetV3-L (ImageNet),K=16 linear probe,corrected,233,48.33
+MobileNetV3-L (ImageNet),K=16 linear probe,strict,228,48.86
+MobileNetV3-L (ImageNet),K=16 linear probe clean supports,original,236,47.71
+MobileNetV3-L (ImageNet),K=16 linear probe clean supports,corrected,233,48.58
+MobileNetV3-L (ImageNet),K=16 linear probe clean supports,strict,228,48.95
+ResNet-50 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),original,236,32.2
+ResNet-50 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),corrected,233,34.76
+ResNet-50 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),strict,228,35.09
+EfficientNet-B0 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),original,236,28.81
+EfficientNet-B0 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),corrected,233,30.47
+EfficientNet-B0 (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),strict,228,30.7
+MobileNetV3-L (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),original,236,28.81
+MobileNetV3-L (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),corrected,233,30.04
+MobileNetV3-L (ImageNet) (fine-tuned),lab-trained (fully fine-tuned),strict,228,30.7

@@ -1,0 +1,5 @@
+dataset,role,photo type,classes,train / pool,test
+PlantVillage,lab training source,"lab, plain background",28,5600,2669
+PlantDoc,field test 1 + few-shot pool,web field photos,28,2313,236
+Plant Pathology 2020,field test 2 (non-web),apple orchard,3,148,1580
+JIC wheat,new-crop test + unknown-crop set,wheat field,5,150,849

@@ -1,0 +1,5 @@
+model,data,setting,accuracy,balanced_accuracy,macro_f1
+resnet50,PlantVillage lab (sub),28-way,97.98,98.05,98.01
+resnet50,PlantDoc field,28-way,32.20,32.55,28.71
+resnet50,Plant Pathology field,28-way,38.48,38.10,51.60
+resnet50,Plant Pathology field,3-way,68.80,67.98,68.17

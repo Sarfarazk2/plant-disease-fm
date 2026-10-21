@@ -1,0 +1,6 @@
+method,n_cells,mean_accuracy,mean_loss,worst_loss,v2_minus_method,v2_wins,v2_losses,wilcoxon_p
+text only,60,50.6142,17.0507,51.7314,17.0409,55.0,5.0,0.0
+image only,60,65.9012,1.7637,29.4068,1.7539,36.0,24.0,0.0178
+Tip-Adapter (default),60,56.8878,10.7771,49.2815,10.7673,53.0,7.0,0.0
+Tip-Adapter (support),60,59.5552,8.1098,34.9823,8.1,52.0,8.0,0.0
+"reliability (v2, ours)",60,67.6551,0.0098,10.9322,,,,

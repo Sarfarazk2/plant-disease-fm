@@ -1,0 +1,193 @@
+table,dataset,task,K,best,other,best_acc,other_acc,diff,diff_ci95_low,diff_ci95_high,p,p_holm,sig
+zero-shot,PlantDoc,28-way,0.0,SigLIP ViT-B/16 (zero-shot text),BioCLIP 2 (zero-shot text),61.8644,53.8136,8.0508,1.2712,15.2542,0.0315,0.0315,*
+zero-shot,PlantDoc,28-way,0.0,SigLIP ViT-B/16 (zero-shot text),CLIP ViT-L/14 (LAION-2B) (zero-shot text),61.8644,43.2203,18.6441,11.8644,25.0,0.0001,0.0004,***
+zero-shot,PlantDoc,28-way,0.0,SigLIP ViT-B/16 (zero-shot text),BioCLIP (zero-shot text),61.8644,41.5254,20.339,13.1356,27.1292,0.0001,0.0004,***
+zero-shot,PlantDoc,28-way,0.0,SigLIP ViT-B/16 (zero-shot text),CLIP ViT-B/16 (zero-shot text),61.8644,38.9831,22.8814,16.1017,29.661,0.0001,0.0004,***
+zero-shot,Plant Pathology,28-way,0.0,BioCLIP 2 (zero-shot text),SigLIP ViT-B/16 (zero-shot text),78.2911,64.8734,13.4177,10.2532,16.519,0.0001,0.0004,***
+zero-shot,Plant Pathology,28-way,0.0,BioCLIP 2 (zero-shot text),BioCLIP (zero-shot text),78.2911,58.1013,20.1899,17.1519,23.1013,0.0001,0.0004,***
+zero-shot,Plant Pathology,28-way,0.0,BioCLIP 2 (zero-shot text),CLIP ViT-L/14 (LAION-2B) (zero-shot text),78.2911,46.0127,32.2785,29.0506,35.318,0.0001,0.0004,***
+zero-shot,Plant Pathology,28-way,0.0,BioCLIP 2 (zero-shot text),CLIP ViT-B/16 (zero-shot text),78.2911,38.2911,40.0,36.8987,43.1028,0.0001,0.0004,***
+zero-shot,JIC wheat,5-way,0.0,SigLIP ViT-B/16 (zero-shot text),CLIP ViT-L/14 (LAION-2B) (zero-shot text),42.0495,40.8716,1.1779,-3.1802,5.5359,0.6273,0.8127,n.s.
+zero-shot,JIC wheat,5-way,0.0,SigLIP ViT-B/16 (zero-shot text),CLIP ViT-B/16 (zero-shot text),42.0495,39.8115,2.2379,-2.8269,7.3027,0.4064,0.8127,n.s.
+zero-shot,JIC wheat,5-way,0.0,SigLIP ViT-B/16 (zero-shot text),BioCLIP 2 (zero-shot text),42.0495,27.6796,14.3698,10.3651,18.8457,0.0001,0.0004,***
+zero-shot,JIC wheat,5-way,0.0,SigLIP ViT-B/16 (zero-shot text),BioCLIP (zero-shot text),42.0495,21.6726,20.3769,16.2544,24.6172,0.0001,0.0004,***
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),SigLIP ViT-B/16 (frozen + linear),57.6271,47.8814,9.7458,3.3898,16.1017,0.0043,0.0064,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),DINOv2 ViT-L/14 (frozen + linear),57.6271,47.0339,10.5932,4.661,16.9492,0.0009,0.0027,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),DINOv2 ViT-B/14 (frozen + linear),57.6271,46.6102,11.0169,4.2373,18.2203,0.0032,0.0064,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),CLIP ViT-L/14 (LAION-2B) (frozen + linear),57.6271,36.8644,20.7627,13.9831,27.5424,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),BioCLIP (frozen + linear),57.6271,36.4407,21.1864,14.4068,27.9661,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),CLIP ViT-B/16 (frozen + linear),57.6271,34.322,23.3051,16.9492,29.661,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),ResNet-50 (ImageNet) (fully fine-tuned),57.6271,32.2034,25.4237,18.6441,32.2034,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),EfficientNet-B0 (ImageNet) (frozen + linear),57.6271,29.661,27.9661,21.1864,34.7458,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),MobileNetV3-L (ImageNet) (fully fine-tuned),57.6271,28.8136,28.8136,22.0339,36.4407,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),EfficientNet-B0 (ImageNet) (fully fine-tuned),57.6271,28.8136,28.8136,21.5996,36.4407,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),MobileNetV3-L (ImageNet) (frozen + linear),57.6271,26.6949,30.9322,24.1525,38.5593,0.0001,0.0012,**
+lab-trained,PlantDoc,28-way,,BioCLIP 2 (frozen + linear),ResNet-50 (ImageNet) (frozen + linear),57.6271,24.5763,33.0508,26.2712,39.8305,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),BioCLIP (frozen + linear),65.9494,51.0759,14.8734,11.6456,18.038,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),DINOv2 ViT-L/14 (frozen + linear),65.9494,39.3038,26.6456,23.4177,29.6203,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),ResNet-50 (ImageNet) (fully fine-tuned),65.9494,38.481,27.4684,24.1772,30.5696,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),CLIP ViT-L/14 (LAION-2B) (frozen + linear),65.9494,38.2278,27.7215,24.6187,30.8861,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),DINOv2 ViT-B/14 (frozen + linear),65.9494,38.1013,27.8481,24.6835,30.8228,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),EfficientNet-B0 (ImageNet) (frozen + linear),65.9494,36.6456,29.3038,26.3275,32.2152,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),SigLIP ViT-B/16 (frozen + linear),65.9494,36.2025,29.7468,26.5807,32.7215,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),CLIP ViT-B/16 (frozen + linear),65.9494,28.9873,36.962,34.1139,39.6851,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),MobileNetV3-L (ImageNet) (frozen + linear),65.9494,23.038,42.9114,39.8718,45.8228,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),ResNet-50 (ImageNet) (frozen + linear),65.9494,19.4304,46.519,43.7326,49.3054,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),MobileNetV3-L (ImageNet) (fully fine-tuned),65.9494,17.4684,48.481,45.5063,51.4557,0.0001,0.0012,**
+lab-trained,Plant Pathology,28-way,,BioCLIP 2 (frozen + linear),EfficientNet-B0 (ImageNet) (fully fine-tuned),65.9494,15.3165,50.6329,47.7848,53.4177,0.0001,0.0012,**
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),BioCLIP (image only),46.6949,40.4237,6.2712,2.9661,9.5763,0.0005,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),DINOv2 ViT-L/14 (image only),46.6949,38.4746,8.2203,4.4894,12.1186,0.0003,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),DINOv2 ViT-B/14 (image only),46.6949,37.8814,8.8136,5.0847,12.7119,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),SigLIP ViT-B/16 (image only),46.6949,32.4576,14.2373,10.678,17.8814,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),CLIP ViT-L/14 (LAION-2B) (image only),46.6949,27.7966,18.8983,15.3369,22.7966,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),CLIP ViT-B/16 (image only),46.6949,24.0678,22.6271,19.1504,26.4407,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),MobileNetV3-L (ImageNet) (image only),46.6949,23.9831,22.7119,18.7288,26.8644,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),EfficientNet-B0 (ImageNet) (image only),46.6949,21.2712,25.4237,21.3559,29.661,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,BioCLIP 2 (image only),ResNet-50 (ImageNet) (image only),46.6949,18.2203,28.4746,24.4894,32.5445,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),DINOv2 ViT-L/14 (image only),65.0847,60.4237,4.661,1.1864,8.3051,0.0126,0.0126,*
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),DINOv2 ViT-B/14 (image only),65.0847,59.8305,5.2542,1.7797,8.8983,0.0039,0.0078,**
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),BioCLIP (image only),65.0847,58.4746,6.6102,3.2203,10.0847,0.0004,0.0012,**
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),SigLIP ViT-B/16 (image only),65.0847,54.322,10.7627,7.2881,14.4915,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),CLIP ViT-L/14 (LAION-2B) (image only),65.0847,48.4746,16.6102,12.9661,20.5953,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),CLIP ViT-B/16 (image only),65.0847,43.7288,21.3559,17.2881,25.5932,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),MobileNetV3-L (ImageNet) (image only),65.0847,36.8644,28.2203,23.8962,32.7119,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),EfficientNet-B0 (ImageNet) (image only),65.0847,34.9153,30.1695,25.4237,34.7479,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,5.0,BioCLIP 2 (image only),ResNet-50 (ImageNet) (image only),65.0847,31.6102,33.4746,29.1525,37.9682,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),DINOv2 ViT-L/14 (image only),68.7288,63.9831,4.7458,1.0169,8.7288,0.0182,0.0182,*
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),DINOv2 ViT-B/14 (image only),68.7288,63.2203,5.5085,2.1186,9.322,0.0045,0.009,**
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),BioCLIP (image only),68.7288,60.8475,7.8814,4.322,11.3559,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),SigLIP ViT-B/16 (image only),68.7288,58.7288,10.0,6.6081,13.8136,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),CLIP ViT-L/14 (LAION-2B) (image only),68.7288,56.3559,12.3729,8.2203,16.697,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),CLIP ViT-B/16 (image only),68.7288,48.0508,20.678,16.4407,25.0,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),MobileNetV3-L (ImageNet) (image only),68.7288,43.7288,25.0,20.5932,29.4068,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),EfficientNet-B0 (ImageNet) (image only),68.7288,42.3729,26.3559,21.9492,31.1864,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,10.0,BioCLIP 2 (image only),ResNet-50 (ImageNet) (image only),68.7288,35.7627,32.9661,28.3898,37.6271,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),DINOv2 ViT-B/14 (image only),70.339,68.8983,1.4407,-2.2034,5.1695,0.4871,0.4871,n.s.
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),DINOv2 ViT-L/14 (image only),70.339,67.2034,3.1356,-0.6801,7.2881,0.1383,0.2766,n.s.
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),BioCLIP (image only),70.339,64.4915,5.8475,2.286,9.3242,0.002,0.006,**
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),SigLIP ViT-B/16 (image only),70.339,60.8475,9.4915,6.0169,13.0508,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),CLIP ViT-L/14 (LAION-2B) (image only),70.339,57.7119,12.6271,8.7267,16.7797,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),CLIP ViT-B/16 (image only),70.339,53.8136,16.5254,12.625,21.0191,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),MobileNetV3-L (ImageNet) (image only),70.339,47.5424,22.7966,17.9661,27.7966,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),EfficientNet-B0 (ImageNet) (image only),70.339,45.5085,24.8305,19.9979,29.6631,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,16.0,BioCLIP 2 (image only),ResNet-50 (ImageNet) (image only),70.339,41.2712,29.0678,24.3199,33.9004,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),79.2658,79.2025,0.0633,-1.2408,1.3168,0.9388,0.9388,n.s.
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),79.2658,73.6709,5.5949,4.3671,6.8228,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),79.2658,71.6329,7.6329,6.481,8.7468,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),79.2658,67.0127,12.2532,10.6962,13.7725,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),79.2658,66.4177,12.8481,11.6579,14.1519,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),79.2658,64.9873,14.2785,12.607,15.8484,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),79.2658,54.5823,24.6835,22.9873,26.4057,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),79.2658,49.443,29.8228,28.1139,31.418,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),79.2658,49.0,30.2658,28.582,31.8734,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),89.4557,88.6962,0.7595,-0.3421,1.8864,0.1895,0.1895,n.s.
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),89.4557,86.4557,3.0,1.8984,4.1019,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),89.4557,84.9747,4.481,3.4937,5.4937,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),89.4557,83.6835,5.7722,4.5693,6.8861,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),89.4557,79.1139,10.3418,9.0,11.6582,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),89.4557,78.4304,11.0253,9.6832,12.3294,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),89.4557,65.9241,23.5316,22.1646,24.962,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),89.4557,64.7722,24.6835,23.2528,26.1269,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),89.4557,63.9494,25.5063,24.1639,26.8991,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),92.6076,91.2658,1.3418,0.2402,2.3924,0.0173,0.0173,*
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),92.6076,90.3924,2.2152,1.1899,3.2278,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),92.6076,89.2278,3.3797,2.3544,4.3927,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),92.6076,87.9367,4.6709,3.443,5.962,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),92.6076,84.8354,7.7722,6.5063,8.9241,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),92.6076,84.5443,8.0633,6.8481,9.2915,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),92.6076,76.3418,16.2658,14.8101,17.6962,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),92.6076,73.557,19.0506,17.481,20.6456,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),92.6076,73.3291,19.2785,17.6962,20.8354,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),93.2152,92.7342,0.481,-0.4177,1.3418,0.2987,0.5973,n.s.
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),93.2152,92.6835,0.5316,-0.4937,1.5316,0.3334,0.5973,n.s.
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),93.2152,90.8861,2.3291,1.3165,3.3797,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),93.2152,90.7468,2.4684,1.3797,3.5949,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),93.2152,88.4684,4.7468,3.5949,5.8741,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),93.2152,86.8228,6.3924,5.2278,7.5953,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),93.2152,82.2278,10.9873,9.6203,12.3924,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),93.2152,79.8987,13.3165,11.9114,14.7092,0.0001,0.0009,***
+few-shot,Plant Pathology,3-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),93.2152,76.962,16.2532,14.7468,17.7468,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),37.8092,36.8905,0.9187,-0.6366,2.5206,0.2755,0.2755,n.s.
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),37.8092,35.7597,2.0495,0.7774,3.3693,0.0026,0.0075,**
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),37.8092,35.5713,2.2379,0.8009,3.6985,0.0025,0.0075,**
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),37.8092,32.9329,4.8763,3.4393,6.4788,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),37.8092,30.0118,7.7974,6.1013,9.4941,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),37.8092,29.0695,8.7397,7.1843,10.2951,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),37.8092,28.9753,8.8339,7.1143,10.5065,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),37.8092,28.9046,8.9046,7.2556,10.4835,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,1.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),37.8092,28.881,8.9282,7.4441,10.53,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),64.8528,61.225,3.6278,1.861,5.4653,0.0002,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),64.8528,60.9423,3.9105,1.6249,6.2191,0.0012,0.0012,**
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),64.8528,59.0342,5.8186,4.0283,7.586,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),64.8528,58.5159,6.3369,4.2403,8.6926,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),64.8528,57.1025,7.7503,5.4411,10.0118,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),64.8528,51.8728,12.98,10.6478,15.3598,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),64.8528,47.9152,16.9376,14.6048,19.3168,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),64.8528,46.1249,18.7279,16.3251,21.1078,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,5.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),64.8528,45.2061,19.6466,17.4323,21.9323,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),71.543,70.9305,0.6125,-1.6961,3.0389,0.6295,0.6295,n.s.
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),71.543,67.6325,3.9105,1.3663,6.5018,0.0031,0.0062,**
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),71.543,67.4441,4.0989,2.1431,6.0783,0.0004,0.0016,**
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),71.543,67.1849,4.3581,2.0724,6.808,0.0004,0.0016,**
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),71.543,66.3369,5.2061,3.086,7.3498,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),71.543,64.0283,7.5147,4.8528,10.2244,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),71.543,56.0424,15.5006,12.9564,18.2568,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),71.543,54.9823,16.5607,14.0872,19.0342,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,10.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),71.543,51.9435,19.5995,17.2674,22.0736,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP 2 (image only),78.0448,75.1472,2.8975,0.5183,5.3245,0.0158,0.0158,*
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-B/14 (image only),78.0448,74.2285,3.8163,1.4594,6.3375,0.003,0.006,**
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),BioCLIP (image only),78.0448,73.404,4.6408,2.2144,7.0907,0.0005,0.0015,**
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),SigLIP ViT-B/16 (image only),78.0448,72.4853,5.5595,3.533,7.7038,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),CLIP ViT-B/16 (image only),78.0448,71.4252,6.6196,4.1696,9.0465,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),DINOv2 ViT-L/14 (image only),78.0448,70.742,7.3027,4.8292,10.0118,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),EfficientNet-B0 (ImageNet) (image only),78.0448,62.1201,15.9246,13.0736,18.8463,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),MobileNetV3-L (ImageNet) (image only),78.0448,59.6466,18.3981,15.5236,21.2721,0.0001,0.0009,***
+few-shot,JIC wheat,5-way,16.0,CLIP ViT-L/14 (LAION-2B) (image only),ResNet-50 (ImageNet) (image only),78.0448,58.3981,19.6466,17.1025,22.4034,0.0001,0.0009,***
+few-shot,PlantDoc,28-way,1.0,"BioCLIP 2 (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",58.0508,50.9322,7.1186,2.9661,11.6102,0.0022,0.0022,**
+few-shot,PlantDoc,28-way,1.0,"BioCLIP 2 (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",58.0508,48.1356,9.9153,5.4237,14.9153,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,1.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))",58.0508,41.6102,16.4407,11.6102,21.5254,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,1.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",58.0508,34.7458,23.3051,18.5593,28.1356,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,5.0,"BioCLIP 2 (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",68.7288,64.9153,3.8136,-0.4237,8.0508,0.0825,0.0825,n.s.
+few-shot,PlantDoc,28-way,5.0,"BioCLIP 2 (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",68.7288,61.5254,7.2034,3.0508,11.3559,0.0008,0.0016,**
+few-shot,PlantDoc,28-way,5.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))",68.7288,54.9153,13.8136,8.8136,19.0678,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,5.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",68.7288,46.7797,21.9492,16.6928,27.4576,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,10.0,"BioCLIP 2 (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",70.339,66.9492,3.3898,-0.5953,7.7119,0.1158,0.1158,n.s.
+few-shot,PlantDoc,28-way,10.0,"BioCLIP 2 (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",70.339,62.7119,7.6271,3.7288,11.6102,0.0002,0.0006,***
+few-shot,PlantDoc,28-way,10.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))",70.339,58.3051,12.0339,6.6949,17.714,0.0002,0.0006,***
+few-shot,PlantDoc,28-way,10.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",70.339,49.7458,20.5932,16.0148,25.339,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,16.0,"BioCLIP 2 (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",72.7119,65.5085,7.2034,3.4746,10.9322,0.0003,0.0006,***
+few-shot,PlantDoc,28-way,16.0,"BioCLIP 2 (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",72.7119,64.322,8.3898,4.7458,12.5424,0.0003,0.0006,***
+few-shot,PlantDoc,28-way,16.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))",72.7119,59.5763,13.1356,9.1504,17.5445,0.0001,0.0004,***
+few-shot,PlantDoc,28-way,16.0,"BioCLIP 2 (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",72.7119,53.7288,18.9831,14.2373,23.8983,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,1.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",79.1899,76.5443,2.6456,1.1899,4.0889,0.0003,0.0004,***
+few-shot,Plant Pathology,3-way,1.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",79.1899,74.9494,4.2405,2.6832,5.7472,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,1.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",79.1899,74.6709,4.519,2.7722,6.2278,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,1.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",79.1899,73.4684,5.7215,3.9491,7.4307,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",88.7468,87.3544,1.3924,0.1772,2.6456,0.0302,0.0302,*
+few-shot,Plant Pathology,3-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",88.7468,86.9241,1.8228,0.6959,2.962,0.0016,0.0032,**
+few-shot,Plant Pathology,3-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",88.7468,84.9241,3.8228,2.6579,5.0127,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",88.7468,84.8861,3.8608,2.4177,5.3294,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",90.9241,90.6709,0.2532,-0.8861,1.3674,0.6772,0.6772,n.s.
+few-shot,Plant Pathology,3-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",90.9241,89.8354,1.0886,0.038,2.1772,0.0421,0.1242,n.s.
+few-shot,Plant Pathology,3-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",90.9241,89.7722,1.1519,0.1013,2.2532,0.0414,0.1242,n.s.
+few-shot,Plant Pathology,3-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",90.9241,89.2911,1.6329,0.4047,2.8864,0.0099,0.0396,*
+few-shot,Plant Pathology,3-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",93.2532,92.2278,1.0253,0.063,2.0,0.0414,0.0414,*
+few-shot,Plant Pathology,3-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",93.2532,91.9494,1.3038,0.2402,2.3927,0.0171,0.0342,*
+few-shot,Plant Pathology,3-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",93.2532,90.6835,2.5696,1.5823,3.6329,0.0001,0.0004,***
+few-shot,Plant Pathology,3-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",93.2532,90.4937,2.7595,1.6329,3.9117,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,1.0,"CLIP ViT-B/16 (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",44.735,41.8846,2.8504,-0.1649,5.7715,0.0676,0.0676,n.s.
+few-shot,JIC wheat,5-way,1.0,"CLIP ViT-B/16 (reliability (v2, ours))","CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))",44.735,41.4605,3.2744,0.8004,5.725,0.0124,0.0248,*
+few-shot,JIC wheat,5-way,1.0,"CLIP ViT-B/16 (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",44.735,40.4711,4.2638,1.3192,7.2085,0.0052,0.0156,*
+few-shot,JIC wheat,5-way,1.0,"CLIP ViT-B/16 (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",44.735,29.1637,15.5713,12.5318,18.5866,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",65.7008,59.0813,6.6196,4.6166,8.5512,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",65.7008,55.2886,10.4122,7.7739,12.9093,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",65.7008,52.6973,13.0035,10.1767,15.8304,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,5.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",65.7008,52.1084,13.5925,11.0247,16.2073,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",72.4146,68.7633,3.6514,1.0589,6.0542,0.0032,0.0032,**
+few-shot,JIC wheat,5-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",72.4146,67.3027,5.1119,2.4494,7.6802,0.0003,0.0006,***
+few-shot,JIC wheat,5-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",72.4146,64.2403,8.1743,5.8416,10.5536,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,10.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",72.4146,63.2038,9.2108,6.6431,11.7314,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","CLIP ViT-B/16 (reliability (v2, ours))",79.2462,73.6396,5.6066,3.1567,8.1985,0.0002,0.0004,***
+few-shot,JIC wheat,5-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP 2 (reliability (v2, ours))",79.2462,73.2155,6.0306,3.5807,8.6461,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","SigLIP ViT-B/16 (reliability (v2, ours))",79.2462,71.0012,8.245,6.1013,10.4358,0.0001,0.0004,***
+few-shot,JIC wheat,5-way,16.0,"CLIP ViT-L/14 (LAION-2B) (reliability (v2, ours))","BioCLIP (reliability (v2, ours))",79.2462,68.6926,10.5536,8.1508,13.1684,0.0001,0.0004,***

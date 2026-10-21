@@ -1,0 +1,5 @@
+method,n_cells,mean_accuracy,mean_loss_vs_better_single_source,worst_loss,v2_minus_this_mean,v2_wins,v2_losses,wilcoxon_p
+"reliability (v2, ours)",60,67.6551,0.0098,10.9322,,,,
+image only,60,65.9012,1.7637,29.4068,1.7539,36.0,24.0,0.0178
+text only,60,50.6142,17.0507,51.7314,17.0409,55.0,5.0,0.0
+equal fusion,60,64.3267,3.3382,26.8316,3.3284,45.0,13.0,0.0

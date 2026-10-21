@@ -1,0 +1,41 @@
+model,model_name,setting,method,accuracy,balanced_accuracy,macro_f1
+clip_b16,CLIP ViT-B/16,28-way,zero-shot common (pre-specified),38.29,37.87,46.94
+clip_b16,CLIP ViT-B/16,3-way,zero-shot common (pre-specified),67.78,68.81,64.46
+clip_b16,CLIP ViT-B/16,28-way,zero-shot scientific,36.01,35.66,49.81
+clip_b16,CLIP ViT-B/16,3-way,zero-shot scientific,80.82,81.67,80.91
+clip_b16,CLIP ViT-B/16,28-way,lab-trained classifier,28.99,31.05,39.59
+clip_b16,CLIP ViT-B/16,3-way,lab-trained classifier,67.34,69.47,64.42
+bioclip,BioCLIP,28-way,zero-shot common,53.67,50.98,47.27
+bioclip,BioCLIP,3-way,zero-shot common,59.75,56.92,49.98
+bioclip,BioCLIP,28-way,zero-shot scientific (pre-specified),58.10,59.64,58.46
+bioclip,BioCLIP,3-way,zero-shot scientific (pre-specified),62.97,64.59,61.10
+bioclip,BioCLIP,28-way,lab-trained classifier,51.08,49.49,52.78
+bioclip,BioCLIP,3-way,lab-trained classifier,66.33,64.27,62.25
+bioclip2,BioCLIP 2,28-way,zero-shot common,66.14,63.15,58.96
+bioclip2,BioCLIP 2,3-way,zero-shot common,67.72,64.85,60.42
+bioclip2,BioCLIP 2,28-way,zero-shot scientific (pre-specified),78.29,78.05,78.77
+bioclip2,BioCLIP 2,3-way,zero-shot scientific (pre-specified),78.99,78.79,79.16
+bioclip2,BioCLIP 2,28-way,lab-trained classifier,65.95,67.29,69.48
+bioclip2,BioCLIP 2,3-way,lab-trained classifier,74.37,75.50,74.34
+clip_l14,CLIP ViT-L/14 (LAION-2B),28-way,zero-shot common (pre-specified),46.01,47.09,56.14
+clip_l14,CLIP ViT-L/14 (LAION-2B),3-way,zero-shot common (pre-specified),66.71,67.89,66.01
+clip_l14,CLIP ViT-L/14 (LAION-2B),28-way,zero-shot scientific,16.46,16.99,26.80
+clip_l14,CLIP ViT-L/14 (LAION-2B),3-way,zero-shot scientific,70.51,72.01,70.54
+clip_l14,CLIP ViT-L/14 (LAION-2B),28-way,lab-trained classifier,38.23,38.32,43.76
+clip_l14,CLIP ViT-L/14 (LAION-2B),3-way,lab-trained classifier,59.87,60.22,58.46
+siglip_b16,SigLIP ViT-B/16,28-way,zero-shot common (pre-specified),64.87,65.12,63.63
+siglip_b16,SigLIP ViT-B/16,3-way,zero-shot common (pre-specified),71.27,72.20,66.59
+siglip_b16,SigLIP ViT-B/16,28-way,zero-shot scientific,73.67,73.73,77.44
+siglip_b16,SigLIP ViT-B/16,3-way,zero-shot scientific,82.09,82.87,82.09
+siglip_b16,SigLIP ViT-B/16,28-way,lab-trained classifier,36.20,35.87,28.93
+siglip_b16,SigLIP ViT-B/16,3-way,lab-trained classifier,42.72,42.69,33.35
+dinov2_b14,DINOv2 ViT-B/14,28-way,lab-trained classifier,38.10,38.33,32.89
+dinov2_b14,DINOv2 ViT-B/14,3-way,lab-trained classifier,43.73,44.00,35.00
+dinov2_l14,DINOv2 ViT-L/14,28-way,lab-trained classifier,39.30,39.21,28.98
+dinov2_l14,DINOv2 ViT-L/14,3-way,lab-trained classifier,40.06,40.01,29.49
+resnet50,ResNet-50 (ImageNet),28-way,lab-trained classifier,19.43,20.94,25.51
+resnet50,ResNet-50 (ImageNet),3-way,lab-trained classifier,48.99,51.93,40.03
+effnet_b0,EfficientNet-B0 (ImageNet),28-way,lab-trained classifier,36.65,37.71,41.49
+effnet_b0,EfficientNet-B0 (ImageNet),3-way,lab-trained classifier,51.33,52.66,46.32
+mobilenet_v3,MobileNetV3-L (ImageNet),28-way,lab-trained classifier,23.04,22.51,22.00
+mobilenet_v3,MobileNetV3-L (ImageNet),3-way,lab-trained classifier,44.37,43.16,35.36

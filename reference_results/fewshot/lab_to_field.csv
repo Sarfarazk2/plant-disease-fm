@@ -1,0 +1,11 @@
+model,model_name,lab_data,C,n_lab_train,n_lab_test,lab_accuracy,field_accuracy,field_macro_f1,drop_points
+clip_b16,CLIP ViT-B/16,sub,1000,5600,2669,96.63,34.32,31.89,62.31
+bioclip,BioCLIP,sub,100,5600,2669,97.75,36.44,35.06,61.31
+bioclip2,BioCLIP 2,sub,100,5600,2669,97.38,57.63,54.19,39.75
+clip_l14,CLIP ViT-L/14 (LAION-2B),sub,1000,5600,2669,97.04,36.86,34.84,60.18
+siglip_b16,SigLIP ViT-B/16,sub,100,5600,2669,97.00,47.88,45.38,49.12
+dinov2_b14,DINOv2 ViT-B/14,sub,100,5600,2669,98.46,46.61,46.37,51.85
+dinov2_l14,DINOv2 ViT-L/14,sub,100,5600,2669,98.39,47.03,44.12,51.36
+resnet50,ResNet-50 (ImageNet),sub,100,5600,2669,95.99,24.58,22.19,71.41
+effnet_b0,EfficientNet-B0 (ImageNet),sub,100,5600,2669,95.35,29.66,27.21,65.69
+mobilenet_v3,MobileNetV3-L (ImageNet),sub,100,5600,2669,95.84,26.69,22.82,69.15

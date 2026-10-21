@@ -1,0 +1,1601 @@
+dataset,model,K,seed,method,accuracy
+plantdoc,clip_b16,1,0,lab only,34.32203389830508
+plantdoc,clip_b16,1,0,field only,28.8135593220339
+plantdoc,clip_b16,1,0,lab + field,41.94915254237288
+plantdoc,clip_b16,1,0,lab + field (balanced),41.52542372881356
+plantdoc,clip_b16,1,1,lab only,34.32203389830508
+plantdoc,clip_b16,1,1,field only,22.88135593220339
+plantdoc,clip_b16,1,1,lab + field,40.25423728813559
+plantdoc,clip_b16,1,1,lab + field (balanced),41.52542372881356
+plantdoc,clip_b16,1,2,lab only,34.32203389830508
+plantdoc,clip_b16,1,2,field only,23.728813559322035
+plantdoc,clip_b16,1,2,lab + field,38.983050847457626
+plantdoc,clip_b16,1,2,lab + field (balanced),39.83050847457627
+plantdoc,clip_b16,1,3,lab only,34.32203389830508
+plantdoc,clip_b16,1,3,field only,25.0
+plantdoc,clip_b16,1,3,lab + field,42.79661016949153
+plantdoc,clip_b16,1,3,lab + field (balanced),39.40677966101695
+plantdoc,clip_b16,1,4,lab only,34.32203389830508
+plantdoc,clip_b16,1,4,field only,19.915254237288135
+plantdoc,clip_b16,1,4,lab + field,38.13559322033898
+plantdoc,clip_b16,1,4,lab + field (balanced),41.10169491525424
+plantdoc,clip_b16,5,0,lab only,34.32203389830508
+plantdoc,clip_b16,5,0,field only,44.91525423728814
+plantdoc,clip_b16,5,0,lab + field,50.0
+plantdoc,clip_b16,5,0,lab + field (balanced),47.03389830508475
+plantdoc,clip_b16,5,1,lab only,34.32203389830508
+plantdoc,clip_b16,5,1,field only,47.03389830508475
+plantdoc,clip_b16,5,1,lab + field,49.152542372881356
+plantdoc,clip_b16,5,1,lab + field (balanced),50.847457627118644
+plantdoc,clip_b16,5,2,lab only,34.32203389830508
+plantdoc,clip_b16,5,2,field only,46.61016949152542
+plantdoc,clip_b16,5,2,lab + field,49.57627118644068
+plantdoc,clip_b16,5,2,lab + field (balanced),47.03389830508475
+plantdoc,clip_b16,5,3,lab only,34.32203389830508
+plantdoc,clip_b16,5,3,field only,40.67796610169492
+plantdoc,clip_b16,5,3,lab + field,50.847457627118644
+plantdoc,clip_b16,5,3,lab + field (balanced),50.847457627118644
+plantdoc,clip_b16,5,4,lab only,34.32203389830508
+plantdoc,clip_b16,5,4,field only,39.40677966101695
+plantdoc,clip_b16,5,4,lab + field,50.0
+plantdoc,clip_b16,5,4,lab + field (balanced),45.76271186440678
+plantdoc,clip_b16,10,0,lab only,34.32203389830508
+plantdoc,clip_b16,10,0,field only,46.61016949152542
+plantdoc,clip_b16,10,0,lab + field,55.08474576271186
+plantdoc,clip_b16,10,0,lab + field (balanced),54.23728813559322
+plantdoc,clip_b16,10,1,lab only,34.32203389830508
+plantdoc,clip_b16,10,1,field only,41.94915254237288
+plantdoc,clip_b16,10,1,lab + field,52.54237288135594
+plantdoc,clip_b16,10,1,lab + field (balanced),50.847457627118644
+plantdoc,clip_b16,10,2,lab only,34.32203389830508
+plantdoc,clip_b16,10,2,field only,49.152542372881356
+plantdoc,clip_b16,10,2,lab + field,57.20338983050848
+plantdoc,clip_b16,10,2,lab + field (balanced),55.08474576271186
+plantdoc,clip_b16,10,3,lab only,34.32203389830508
+plantdoc,clip_b16,10,3,field only,52.118644067796616
+plantdoc,clip_b16,10,3,lab + field,53.38983050847458
+plantdoc,clip_b16,10,3,lab + field (balanced),55.50847457627118
+plantdoc,clip_b16,10,4,lab only,34.32203389830508
+plantdoc,clip_b16,10,4,field only,50.42372881355932
+plantdoc,clip_b16,10,4,lab + field,59.7457627118644
+plantdoc,clip_b16,10,4,lab + field (balanced),57.20338983050848
+plantdoc,clip_b16,16,0,lab only,34.32203389830508
+plantdoc,clip_b16,16,0,field only,52.96610169491526
+plantdoc,clip_b16,16,0,lab + field,57.20338983050848
+plantdoc,clip_b16,16,0,lab + field (balanced),55.08474576271186
+plantdoc,clip_b16,16,1,lab only,34.32203389830508
+plantdoc,clip_b16,16,1,field only,52.118644067796616
+plantdoc,clip_b16,16,1,lab + field,52.54237288135594
+plantdoc,clip_b16,16,1,lab + field (balanced),58.05084745762712
+plantdoc,clip_b16,16,2,lab only,34.32203389830508
+plantdoc,clip_b16,16,2,field only,54.66101694915254
+plantdoc,clip_b16,16,2,lab + field,55.932203389830505
+plantdoc,clip_b16,16,2,lab + field (balanced),55.50847457627118
+plantdoc,clip_b16,16,3,lab only,34.32203389830508
+plantdoc,clip_b16,16,3,field only,56.355932203389834
+plantdoc,clip_b16,16,3,lab + field,58.05084745762712
+plantdoc,clip_b16,16,3,lab + field (balanced),58.47457627118644
+plantdoc,clip_b16,16,4,lab only,34.32203389830508
+plantdoc,clip_b16,16,4,field only,52.96610169491526
+plantdoc,clip_b16,16,4,lab + field,52.96610169491526
+plantdoc,clip_b16,16,4,lab + field (balanced),52.54237288135594
+pp,clip_b16,1,0,lab only,64.17721518987342
+pp,clip_b16,1,0,field only,70.75949367088607
+pp,clip_b16,1,0,lab + field,77.34177215189874
+pp,clip_b16,1,0,lab + field (balanced),76.0126582278481
+pp,clip_b16,1,1,lab only,64.17721518987342
+pp,clip_b16,1,1,field only,82.02531645569621
+pp,clip_b16,1,1,lab + field,82.78481012658227
+pp,clip_b16,1,1,lab + field (balanced),85.44303797468355
+pp,clip_b16,1,2,lab only,64.17721518987342
+pp,clip_b16,1,2,field only,81.26582278481013
+pp,clip_b16,1,2,lab + field,83.60759493670886
+pp,clip_b16,1,2,lab + field (balanced),83.60759493670886
+pp,clip_b16,1,3,lab only,64.17721518987342
+pp,clip_b16,1,3,field only,64.74683544303798
+pp,clip_b16,1,3,lab + field,85.44303797468355
+pp,clip_b16,1,3,lab + field (balanced),84.43037974683544
+pp,clip_b16,1,4,lab only,64.17721518987342
+pp,clip_b16,1,4,field only,69.55696202531647
+pp,clip_b16,1,4,lab + field,87.40506329113924
+pp,clip_b16,1,4,lab + field (balanced),85.0632911392405
+pp,clip_b16,5,0,lab only,64.17721518987342
+pp,clip_b16,5,0,field only,85.0632911392405
+pp,clip_b16,5,0,lab + field,87.72151898734177
+pp,clip_b16,5,0,lab + field (balanced),87.21518987341771
+pp,clip_b16,5,1,lab only,64.17721518987342
+pp,clip_b16,5,1,field only,84.68354430379746
+pp,clip_b16,5,1,lab + field,86.64556962025316
+pp,clip_b16,5,1,lab + field (balanced),89.62025316455696
+pp,clip_b16,5,2,lab only,64.17721518987342
+pp,clip_b16,5,2,field only,80.94936708860759
+pp,clip_b16,5,2,lab + field,90.75949367088607
+pp,clip_b16,5,2,lab + field (balanced),92.15189873417722
+pp,clip_b16,5,3,lab only,64.17721518987342
+pp,clip_b16,5,3,field only,87.53164556962025
+pp,clip_b16,5,3,lab + field,88.48101265822785
+pp,clip_b16,5,3,lab + field (balanced),87.15189873417721
+pp,clip_b16,5,4,lab only,64.17721518987342
+pp,clip_b16,5,4,field only,86.64556962025316
+pp,clip_b16,5,4,lab + field,90.18987341772153
+pp,clip_b16,5,4,lab + field (balanced),88.60759493670885
+pp,clip_b16,10,0,lab only,64.17721518987342
+pp,clip_b16,10,0,field only,90.88607594936708
+pp,clip_b16,10,0,lab + field,91.01265822784809
+pp,clip_b16,10,0,lab + field (balanced),92.21518987341773
+pp,clip_b16,10,1,lab only,64.17721518987342
+pp,clip_b16,10,1,field only,90.50632911392405
+pp,clip_b16,10,1,lab + field,90.37974683544304
+pp,clip_b16,10,1,lab + field (balanced),91.20253164556962
+pp,clip_b16,10,2,lab only,64.17721518987342
+pp,clip_b16,10,2,field only,90.88607594936708
+pp,clip_b16,10,2,lab + field,91.64556962025317
+pp,clip_b16,10,2,lab + field (balanced),92.84810126582278
+pp,clip_b16,10,3,lab only,64.17721518987342
+pp,clip_b16,10,3,field only,88.92405063291139
+pp,clip_b16,10,3,lab + field,90.0
+pp,clip_b16,10,3,lab + field (balanced),91.64556962025317
+pp,clip_b16,10,4,lab only,64.17721518987342
+pp,clip_b16,10,4,field only,90.75949367088607
+pp,clip_b16,10,4,lab + field,91.83544303797468
+pp,clip_b16,10,4,lab + field (balanced),94.30379746835443
+pp,clip_b16,16,0,lab only,64.17721518987342
+pp,clip_b16,16,0,field only,93.0379746835443
+pp,clip_b16,16,0,lab + field,92.78481012658227
+pp,clip_b16,16,0,lab + field (balanced),93.41772151898734
+pp,clip_b16,16,1,lab only,64.17721518987342
+pp,clip_b16,16,1,field only,92.40506329113924
+pp,clip_b16,16,1,lab + field,93.35443037974683
+pp,clip_b16,16,1,lab + field (balanced),93.67088607594937
+pp,clip_b16,16,2,lab only,64.17721518987342
+pp,clip_b16,16,2,field only,92.27848101265823
+pp,clip_b16,16,2,lab + field,91.39240506329114
+pp,clip_b16,16,2,lab + field (balanced),91.32911392405063
+pp,clip_b16,16,3,lab only,64.17721518987342
+pp,clip_b16,16,3,field only,92.91139240506328
+pp,clip_b16,16,3,lab + field,91.51898734177215
+pp,clip_b16,16,3,lab + field (balanced),91.83544303797468
+pp,clip_b16,16,4,lab only,64.17721518987342
+pp,clip_b16,16,4,field only,93.0379746835443
+pp,clip_b16,16,4,lab + field,92.40506329113924
+pp,clip_b16,16,4,lab + field (balanced),92.27848101265823
+plantdoc,bioclip,1,0,lab only,36.440677966101696
+plantdoc,bioclip,1,0,field only,42.3728813559322
+plantdoc,bioclip,1,0,lab + field,48.30508474576271
+plantdoc,bioclip,1,0,lab + field (balanced),51.69491525423729
+plantdoc,bioclip,1,1,lab only,36.440677966101696
+plantdoc,bioclip,1,1,field only,44.49152542372881
+plantdoc,bioclip,1,1,lab + field,49.152542372881356
+plantdoc,bioclip,1,1,lab + field (balanced),52.118644067796616
+plantdoc,bioclip,1,2,lab only,36.440677966101696
+plantdoc,bioclip,1,2,field only,38.13559322033898
+plantdoc,bioclip,1,2,lab + field,52.54237288135594
+plantdoc,bioclip,1,2,lab + field (balanced),50.847457627118644
+plantdoc,bioclip,1,3,lab only,36.440677966101696
+plantdoc,bioclip,1,3,field only,37.71186440677966
+plantdoc,bioclip,1,3,lab + field,50.42372881355932
+plantdoc,bioclip,1,3,lab + field (balanced),53.38983050847458
+plantdoc,bioclip,1,4,lab only,36.440677966101696
+plantdoc,bioclip,1,4,field only,39.40677966101695
+plantdoc,bioclip,1,4,lab + field,49.152542372881356
+plantdoc,bioclip,1,4,lab + field (balanced),50.847457627118644
+plantdoc,bioclip,5,0,lab only,36.440677966101696
+plantdoc,bioclip,5,0,field only,60.59322033898306
+plantdoc,bioclip,5,0,lab + field,57.20338983050848
+plantdoc,bioclip,5,0,lab + field (balanced),58.47457627118644
+plantdoc,bioclip,5,1,lab only,36.440677966101696
+plantdoc,bioclip,5,1,field only,55.08474576271186
+plantdoc,bioclip,5,1,lab + field,58.05084745762712
+plantdoc,bioclip,5,1,lab + field (balanced),59.7457627118644
+plantdoc,bioclip,5,2,lab only,36.440677966101696
+plantdoc,bioclip,5,2,field only,59.7457627118644
+plantdoc,bioclip,5,2,lab + field,57.6271186440678
+plantdoc,bioclip,5,2,lab + field (balanced),61.440677966101696
+plantdoc,bioclip,5,3,lab only,36.440677966101696
+plantdoc,bioclip,5,3,field only,59.32203389830508
+plantdoc,bioclip,5,3,lab + field,62.28813559322034
+plantdoc,bioclip,5,3,lab + field (balanced),61.440677966101696
+plantdoc,bioclip,5,4,lab only,36.440677966101696
+plantdoc,bioclip,5,4,field only,57.6271186440678
+plantdoc,bioclip,5,4,lab + field,56.355932203389834
+plantdoc,bioclip,5,4,lab + field (balanced),58.89830508474576
+plantdoc,bioclip,10,0,lab only,36.440677966101696
+plantdoc,bioclip,10,0,field only,59.32203389830508
+plantdoc,bioclip,10,0,lab + field,60.59322033898306
+plantdoc,bioclip,10,0,lab + field (balanced),61.86440677966102
+plantdoc,bioclip,10,1,lab only,36.440677966101696
+plantdoc,bioclip,10,1,field only,56.779661016949156
+plantdoc,bioclip,10,1,lab + field,55.08474576271186
+plantdoc,bioclip,10,1,lab + field (balanced),59.32203389830508
+plantdoc,bioclip,10,2,lab only,36.440677966101696
+plantdoc,bioclip,10,2,field only,59.32203389830508
+plantdoc,bioclip,10,2,lab + field,58.89830508474576
+plantdoc,bioclip,10,2,lab + field (balanced),59.32203389830508
+plantdoc,bioclip,10,3,lab only,36.440677966101696
+plantdoc,bioclip,10,3,field only,60.16949152542372
+plantdoc,bioclip,10,3,lab + field,63.13559322033898
+plantdoc,bioclip,10,3,lab + field (balanced),63.983050847457626
+plantdoc,bioclip,10,4,lab only,36.440677966101696
+plantdoc,bioclip,10,4,field only,68.64406779661016
+plantdoc,bioclip,10,4,lab + field,60.16949152542372
+plantdoc,bioclip,10,4,lab + field (balanced),64.83050847457628
+plantdoc,bioclip,16,0,lab only,36.440677966101696
+plantdoc,bioclip,16,0,field only,65.67796610169492
+plantdoc,bioclip,16,0,lab + field,60.59322033898306
+plantdoc,bioclip,16,0,lab + field (balanced),60.16949152542372
+plantdoc,bioclip,16,1,lab only,36.440677966101696
+plantdoc,bioclip,16,1,field only,63.13559322033898
+plantdoc,bioclip,16,1,lab + field,62.71186440677966
+plantdoc,bioclip,16,1,lab + field (balanced),65.67796610169492
+plantdoc,bioclip,16,2,lab only,36.440677966101696
+plantdoc,bioclip,16,2,field only,62.71186440677966
+plantdoc,bioclip,16,2,lab + field,63.983050847457626
+plantdoc,bioclip,16,2,lab + field (balanced),63.559322033898304
+plantdoc,bioclip,16,3,lab only,36.440677966101696
+plantdoc,bioclip,16,3,field only,64.40677966101694
+plantdoc,bioclip,16,3,lab + field,64.83050847457628
+plantdoc,bioclip,16,3,lab + field (balanced),67.79661016949152
+plantdoc,bioclip,16,4,lab only,36.440677966101696
+plantdoc,bioclip,16,4,field only,66.52542372881356
+plantdoc,bioclip,16,4,lab + field,63.13559322033898
+plantdoc,bioclip,16,4,lab + field (balanced),64.83050847457628
+pp,bioclip,1,0,lab only,65.56962025316456
+pp,bioclip,1,0,field only,79.9367088607595
+pp,bioclip,1,0,lab + field,83.10126582278481
+pp,bioclip,1,0,lab + field (balanced),89.36708860759494
+pp,bioclip,1,1,lab only,65.56962025316456
+pp,bioclip,1,1,field only,83.29113924050633
+pp,bioclip,1,1,lab + field,84.9367088607595
+pp,bioclip,1,1,lab + field (balanced),89.30379746835443
+pp,bioclip,1,2,lab only,65.56962025316456
+pp,bioclip,1,2,field only,86.64556962025316
+pp,bioclip,1,2,lab + field,76.20253164556962
+pp,bioclip,1,2,lab + field (balanced),83.98734177215191
+pp,bioclip,1,3,lab only,65.56962025316456
+pp,bioclip,1,3,field only,70.75949367088607
+pp,bioclip,1,3,lab + field,82.02531645569621
+pp,bioclip,1,3,lab + field (balanced),80.0632911392405
+pp,bioclip,1,4,lab only,65.56962025316456
+pp,bioclip,1,4,field only,75.37974683544304
+pp,bioclip,1,4,lab + field,81.32911392405063
+pp,bioclip,1,4,lab + field (balanced),83.41772151898735
+pp,bioclip,5,0,lab only,65.56962025316456
+pp,bioclip,5,0,field only,87.59493670886076
+pp,bioclip,5,0,lab + field,89.0506329113924
+pp,bioclip,5,0,lab + field (balanced),91.13924050632912
+pp,bioclip,5,1,lab only,65.56962025316456
+pp,bioclip,5,1,field only,90.0632911392405
+pp,bioclip,5,1,lab + field,88.48101265822785
+pp,bioclip,5,1,lab + field (balanced),90.94936708860759
+pp,bioclip,5,2,lab only,65.56962025316456
+pp,bioclip,5,2,field only,89.24050632911393
+pp,bioclip,5,2,lab + field,89.9367088607595
+pp,bioclip,5,2,lab + field (balanced),90.18987341772153
+pp,bioclip,5,3,lab only,65.56962025316456
+pp,bioclip,5,3,field only,88.48101265822785
+pp,bioclip,5,3,lab + field,85.8860759493671
+pp,bioclip,5,3,lab + field (balanced),89.49367088607595
+pp,bioclip,5,4,lab only,65.56962025316456
+pp,bioclip,5,4,field only,88.10126582278481
+pp,bioclip,5,4,lab + field,87.34177215189874
+pp,bioclip,5,4,lab + field (balanced),91.07594936708861
+pp,bioclip,10,0,lab only,65.56962025316456
+pp,bioclip,10,0,field only,91.51898734177215
+pp,bioclip,10,0,lab + field,89.68354430379748
+pp,bioclip,10,0,lab + field (balanced),90.88607594936708
+pp,bioclip,10,1,lab only,65.56962025316456
+pp,bioclip,10,1,field only,90.50632911392405
+pp,bioclip,10,1,lab + field,92.46835443037975
+pp,bioclip,10,1,lab + field (balanced),93.86075949367088
+pp,bioclip,10,2,lab only,65.56962025316456
+pp,bioclip,10,2,field only,91.01265822784809
+pp,bioclip,10,2,lab + field,91.45569620253164
+pp,bioclip,10,2,lab + field (balanced),93.29113924050633
+pp,bioclip,10,3,lab only,65.56962025316456
+pp,bioclip,10,3,field only,90.63291139240506
+pp,bioclip,10,3,lab + field,89.62025316455696
+pp,bioclip,10,3,lab + field (balanced),90.94936708860759
+pp,bioclip,10,4,lab only,65.56962025316456
+pp,bioclip,10,4,field only,92.65822784810128
+pp,bioclip,10,4,lab + field,91.51898734177215
+pp,bioclip,10,4,lab + field (balanced),92.78481012658227
+pp,bioclip,16,0,lab only,65.56962025316456
+pp,bioclip,16,0,field only,91.64556962025317
+pp,bioclip,16,0,lab + field,90.56962025316456
+pp,bioclip,16,0,lab + field (balanced),91.89873417721519
+pp,bioclip,16,1,lab only,65.56962025316456
+pp,bioclip,16,1,field only,90.88607594936708
+pp,bioclip,16,1,lab + field,92.84810126582278
+pp,bioclip,16,1,lab + field (balanced),93.35443037974683
+pp,bioclip,16,2,lab only,65.56962025316456
+pp,bioclip,16,2,field only,94.36708860759494
+pp,bioclip,16,2,lab + field,93.29113924050633
+pp,bioclip,16,2,lab + field (balanced),93.9873417721519
+pp,bioclip,16,3,lab only,65.56962025316456
+pp,bioclip,16,3,field only,92.08860759493672
+pp,bioclip,16,3,lab + field,92.46835443037975
+pp,bioclip,16,3,lab + field (balanced),93.35443037974683
+pp,bioclip,16,4,lab only,65.56962025316456
+pp,bioclip,16,4,field only,94.43037974683544
+pp,bioclip,16,4,lab + field,93.35443037974683
+pp,bioclip,16,4,lab + field (balanced),94.30379746835443
+plantdoc,bioclip2,1,0,lab only,57.6271186440678
+plantdoc,bioclip2,1,0,field only,51.69491525423729
+plantdoc,bioclip2,1,0,lab + field,61.86440677966102
+plantdoc,bioclip2,1,0,lab + field (balanced),65.67796610169492
+plantdoc,bioclip2,1,1,lab only,57.6271186440678
+plantdoc,bioclip2,1,1,field only,48.728813559322035
+plantdoc,bioclip2,1,1,lab + field,63.559322033898304
+plantdoc,bioclip2,1,1,lab + field (balanced),65.67796610169492
+plantdoc,bioclip2,1,2,lab only,57.6271186440678
+plantdoc,bioclip2,1,2,field only,46.186440677966104
+plantdoc,bioclip2,1,2,lab + field,63.559322033898304
+plantdoc,bioclip2,1,2,lab + field (balanced),64.40677966101694
+plantdoc,bioclip2,1,3,lab only,57.6271186440678
+plantdoc,bioclip2,1,3,field only,42.3728813559322
+plantdoc,bioclip2,1,3,lab + field,61.016949152542374
+plantdoc,bioclip2,1,3,lab + field (balanced),61.440677966101696
+plantdoc,bioclip2,1,4,lab only,57.6271186440678
+plantdoc,bioclip2,1,4,field only,44.49152542372881
+plantdoc,bioclip2,1,4,lab + field,63.983050847457626
+plantdoc,bioclip2,1,4,lab + field (balanced),63.559322033898304
+plantdoc,bioclip2,5,0,lab only,57.6271186440678
+plantdoc,bioclip2,5,0,field only,69.0677966101695
+plantdoc,bioclip2,5,0,lab + field,66.94915254237289
+plantdoc,bioclip2,5,0,lab + field (balanced),67.79661016949152
+plantdoc,bioclip2,5,1,lab only,57.6271186440678
+plantdoc,bioclip2,5,1,field only,64.40677966101694
+plantdoc,bioclip2,5,1,lab + field,67.37288135593221
+plantdoc,bioclip2,5,1,lab + field (balanced),70.33898305084746
+plantdoc,bioclip2,5,2,lab only,57.6271186440678
+plantdoc,bioclip2,5,2,field only,66.94915254237289
+plantdoc,bioclip2,5,2,lab + field,68.64406779661016
+plantdoc,bioclip2,5,2,lab + field (balanced),71.1864406779661
+plantdoc,bioclip2,5,3,lab only,57.6271186440678
+plantdoc,bioclip2,5,3,field only,63.983050847457626
+plantdoc,bioclip2,5,3,lab + field,71.1864406779661
+plantdoc,bioclip2,5,3,lab + field (balanced),70.76271186440678
+plantdoc,bioclip2,5,4,lab only,57.6271186440678
+plantdoc,bioclip2,5,4,field only,61.016949152542374
+plantdoc,bioclip2,5,4,lab + field,66.52542372881356
+plantdoc,bioclip2,5,4,lab + field (balanced),66.10169491525424
+plantdoc,bioclip2,10,0,lab only,57.6271186440678
+plantdoc,bioclip2,10,0,field only,66.94915254237289
+plantdoc,bioclip2,10,0,lab + field,66.94915254237289
+plantdoc,bioclip2,10,0,lab + field (balanced),67.37288135593221
+plantdoc,bioclip2,10,1,lab only,57.6271186440678
+plantdoc,bioclip2,10,1,field only,67.37288135593221
+plantdoc,bioclip2,10,1,lab + field,66.52542372881356
+plantdoc,bioclip2,10,1,lab + field (balanced),69.91525423728814
+plantdoc,bioclip2,10,2,lab only,57.6271186440678
+plantdoc,bioclip2,10,2,field only,66.52542372881356
+plantdoc,bioclip2,10,2,lab + field,69.49152542372882
+plantdoc,bioclip2,10,2,lab + field (balanced),69.91525423728814
+plantdoc,bioclip2,10,3,lab only,57.6271186440678
+plantdoc,bioclip2,10,3,field only,71.61016949152543
+plantdoc,bioclip2,10,3,lab + field,67.37288135593221
+plantdoc,bioclip2,10,3,lab + field (balanced),70.76271186440678
+plantdoc,bioclip2,10,4,lab only,57.6271186440678
+plantdoc,bioclip2,10,4,field only,71.1864406779661
+plantdoc,bioclip2,10,4,lab + field,72.03389830508475
+plantdoc,bioclip2,10,4,lab + field (balanced),72.03389830508475
+plantdoc,bioclip2,16,0,lab only,57.6271186440678
+plantdoc,bioclip2,16,0,field only,70.76271186440678
+plantdoc,bioclip2,16,0,lab + field,67.79661016949152
+plantdoc,bioclip2,16,0,lab + field (balanced),69.0677966101695
+plantdoc,bioclip2,16,1,lab only,57.6271186440678
+plantdoc,bioclip2,16,1,field only,70.33898305084746
+plantdoc,bioclip2,16,1,lab + field,70.76271186440678
+plantdoc,bioclip2,16,1,lab + field (balanced),72.45762711864407
+plantdoc,bioclip2,16,2,lab only,57.6271186440678
+plantdoc,bioclip2,16,2,field only,71.1864406779661
+plantdoc,bioclip2,16,2,lab + field,67.79661016949152
+plantdoc,bioclip2,16,2,lab + field (balanced),69.0677966101695
+plantdoc,bioclip2,16,3,lab only,57.6271186440678
+plantdoc,bioclip2,16,3,field only,71.61016949152543
+plantdoc,bioclip2,16,3,lab + field,72.45762711864407
+plantdoc,bioclip2,16,3,lab + field (balanced),74.57627118644068
+plantdoc,bioclip2,16,4,lab only,57.6271186440678
+plantdoc,bioclip2,16,4,field only,67.79661016949152
+plantdoc,bioclip2,16,4,lab + field,68.22033898305084
+plantdoc,bioclip2,16,4,lab + field (balanced),69.91525423728814
+pp,bioclip2,1,0,lab only,72.78481012658227
+pp,bioclip2,1,0,field only,69.81012658227847
+pp,bioclip2,1,0,lab + field,82.08860759493672
+pp,bioclip2,1,0,lab + field (balanced),85.25316455696202
+pp,bioclip2,1,1,lab only,72.78481012658227
+pp,bioclip2,1,1,field only,59.55696202531645
+pp,bioclip2,1,1,lab + field,82.27848101265823
+pp,bioclip2,1,1,lab + field (balanced),85.82278481012658
+pp,bioclip2,1,2,lab only,72.78481012658227
+pp,bioclip2,1,2,field only,69.11392405063292
+pp,bioclip2,1,2,lab + field,83.54430379746836
+pp,bioclip2,1,2,lab + field (balanced),84.30379746835443
+pp,bioclip2,1,3,lab only,72.78481012658227
+pp,bioclip2,1,3,field only,69.74683544303798
+pp,bioclip2,1,3,lab + field,84.11392405063292
+pp,bioclip2,1,3,lab + field (balanced),87.9113924050633
+pp,bioclip2,1,4,lab only,72.78481012658227
+pp,bioclip2,1,4,field only,63.860759493670884
+pp,bioclip2,1,4,lab + field,82.40506329113924
+pp,bioclip2,1,4,lab + field (balanced),85.82278481012658
+pp,bioclip2,5,0,lab only,72.78481012658227
+pp,bioclip2,5,0,field only,85.9493670886076
+pp,bioclip2,5,0,lab + field,87.34177215189874
+pp,bioclip2,5,0,lab + field (balanced),89.74683544303798
+pp,bioclip2,5,1,lab only,72.78481012658227
+pp,bioclip2,5,1,field only,88.10126582278481
+pp,bioclip2,5,1,lab + field,88.67088607594937
+pp,bioclip2,5,1,lab + field (balanced),91.01265822784809
+pp,bioclip2,5,2,lab only,72.78481012658227
+pp,bioclip2,5,2,field only,77.40506329113924
+pp,bioclip2,5,2,lab + field,87.27848101265823
+pp,bioclip2,5,2,lab + field (balanced),89.1139240506329
+pp,bioclip2,5,3,lab only,72.78481012658227
+pp,bioclip2,5,3,field only,79.24050632911393
+pp,bioclip2,5,3,lab + field,86.77215189873418
+pp,bioclip2,5,3,lab + field (balanced),89.55696202531645
+pp,bioclip2,5,4,lab only,72.78481012658227
+pp,bioclip2,5,4,field only,87.72151898734177
+pp,bioclip2,5,4,lab + field,87.27848101265823
+pp,bioclip2,5,4,lab + field (balanced),88.35443037974684
+pp,bioclip2,10,0,lab only,72.78481012658227
+pp,bioclip2,10,0,field only,87.0886075949367
+pp,bioclip2,10,0,lab + field,88.29113924050634
+pp,bioclip2,10,0,lab + field (balanced),88.79746835443038
+pp,bioclip2,10,1,lab only,72.78481012658227
+pp,bioclip2,10,1,field only,91.70886075949367
+pp,bioclip2,10,1,lab + field,90.0
+pp,bioclip2,10,1,lab + field (balanced),92.59493670886076
+pp,bioclip2,10,2,lab only,72.78481012658227
+pp,bioclip2,10,2,field only,90.37974683544304
+pp,bioclip2,10,2,lab + field,91.77215189873418
+pp,bioclip2,10,2,lab + field (balanced),93.9873417721519
+pp,bioclip2,10,3,lab only,72.78481012658227
+pp,bioclip2,10,3,field only,82.78481012658227
+pp,bioclip2,10,3,lab + field,88.79746835443038
+pp,bioclip2,10,3,lab + field (balanced),89.74683544303798
+pp,bioclip2,10,4,lab only,72.78481012658227
+pp,bioclip2,10,4,field only,87.72151898734177
+pp,bioclip2,10,4,lab + field,90.12658227848101
+pp,bioclip2,10,4,lab + field (balanced),92.08860759493672
+pp,bioclip2,16,0,lab only,72.78481012658227
+pp,bioclip2,16,0,field only,90.31645569620254
+pp,bioclip2,16,0,lab + field,92.27848101265823
+pp,bioclip2,16,0,lab + field (balanced),94.05063291139241
+pp,bioclip2,16,1,lab only,72.78481012658227
+pp,bioclip2,16,1,field only,88.54430379746834
+pp,bioclip2,16,1,lab + field,92.78481012658227
+pp,bioclip2,16,1,lab + field (balanced),93.60759493670886
+pp,bioclip2,16,2,lab only,72.78481012658227
+pp,bioclip2,16,2,field only,90.88607594936708
+pp,bioclip2,16,2,lab + field,89.74683544303798
+pp,bioclip2,16,2,lab + field (balanced),92.84810126582278
+pp,bioclip2,16,3,lab only,72.78481012658227
+pp,bioclip2,16,3,field only,89.87341772151899
+pp,bioclip2,16,3,lab + field,90.94936708860759
+pp,bioclip2,16,3,lab + field (balanced),92.78481012658227
+pp,bioclip2,16,4,lab only,72.78481012658227
+pp,bioclip2,16,4,field only,94.11392405063292
+pp,bioclip2,16,4,lab + field,91.01265822784809
+pp,bioclip2,16,4,lab + field (balanced),93.0379746835443
+plantdoc,clip_l14,1,0,lab only,36.86440677966102
+plantdoc,clip_l14,1,0,field only,28.8135593220339
+plantdoc,clip_l14,1,0,lab + field,45.76271186440678
+plantdoc,clip_l14,1,0,lab + field (balanced),36.86440677966102
+plantdoc,clip_l14,1,1,lab only,36.86440677966102
+plantdoc,clip_l14,1,1,field only,26.69491525423729
+plantdoc,clip_l14,1,1,lab + field,46.186440677966104
+plantdoc,clip_l14,1,1,lab + field (balanced),42.79661016949153
+plantdoc,clip_l14,1,2,lab only,36.86440677966102
+plantdoc,clip_l14,1,2,field only,29.66101694915254
+plantdoc,clip_l14,1,2,lab + field,42.3728813559322
+plantdoc,clip_l14,1,2,lab + field (balanced),37.28813559322034
+plantdoc,clip_l14,1,3,lab only,36.86440677966102
+plantdoc,clip_l14,1,3,field only,27.966101694915253
+plantdoc,clip_l14,1,3,lab + field,47.03389830508475
+plantdoc,clip_l14,1,3,lab + field (balanced),44.91525423728814
+plantdoc,clip_l14,1,4,lab only,36.86440677966102
+plantdoc,clip_l14,1,4,field only,25.847457627118644
+plantdoc,clip_l14,1,4,lab + field,48.728813559322035
+plantdoc,clip_l14,1,4,lab + field (balanced),42.79661016949153
+plantdoc,clip_l14,5,0,lab only,36.86440677966102
+plantdoc,clip_l14,5,0,field only,48.728813559322035
+plantdoc,clip_l14,5,0,lab + field,51.271186440677965
+plantdoc,clip_l14,5,0,lab + field (balanced),52.54237288135594
+plantdoc,clip_l14,5,1,lab only,36.86440677966102
+plantdoc,clip_l14,5,1,field only,46.61016949152542
+plantdoc,clip_l14,5,1,lab + field,53.813559322033896
+plantdoc,clip_l14,5,1,lab + field (balanced),49.57627118644068
+plantdoc,clip_l14,5,2,lab only,36.86440677966102
+plantdoc,clip_l14,5,2,field only,52.118644067796616
+plantdoc,clip_l14,5,2,lab + field,53.813559322033896
+plantdoc,clip_l14,5,2,lab + field (balanced),50.847457627118644
+plantdoc,clip_l14,5,3,lab only,36.86440677966102
+plantdoc,clip_l14,5,3,field only,46.186440677966104
+plantdoc,clip_l14,5,3,lab + field,54.23728813559322
+plantdoc,clip_l14,5,3,lab + field (balanced),54.23728813559322
+plantdoc,clip_l14,5,4,lab only,36.86440677966102
+plantdoc,clip_l14,5,4,field only,48.728813559322035
+plantdoc,clip_l14,5,4,lab + field,53.38983050847458
+plantdoc,clip_l14,5,4,lab + field (balanced),50.847457627118644
+plantdoc,clip_l14,10,0,lab only,36.86440677966102
+plantdoc,clip_l14,10,0,field only,55.08474576271186
+plantdoc,clip_l14,10,0,lab + field,55.08474576271186
+plantdoc,clip_l14,10,0,lab + field (balanced),56.355932203389834
+plantdoc,clip_l14,10,1,lab only,36.86440677966102
+plantdoc,clip_l14,10,1,field only,58.05084745762712
+plantdoc,clip_l14,10,1,lab + field,55.08474576271186
+plantdoc,clip_l14,10,1,lab + field (balanced),54.66101694915254
+plantdoc,clip_l14,10,2,lab only,36.86440677966102
+plantdoc,clip_l14,10,2,field only,52.118644067796616
+plantdoc,clip_l14,10,2,lab + field,52.96610169491526
+plantdoc,clip_l14,10,2,lab + field (balanced),50.0
+plantdoc,clip_l14,10,3,lab only,36.86440677966102
+plantdoc,clip_l14,10,3,field only,61.86440677966102
+plantdoc,clip_l14,10,3,lab + field,58.47457627118644
+plantdoc,clip_l14,10,3,lab + field (balanced),58.05084745762712
+plantdoc,clip_l14,10,4,lab only,36.86440677966102
+plantdoc,clip_l14,10,4,field only,54.66101694915254
+plantdoc,clip_l14,10,4,lab + field,57.20338983050848
+plantdoc,clip_l14,10,4,lab + field (balanced),57.20338983050848
+plantdoc,clip_l14,16,0,lab only,36.86440677966102
+plantdoc,clip_l14,16,0,field only,59.32203389830508
+plantdoc,clip_l14,16,0,lab + field,58.47457627118644
+plantdoc,clip_l14,16,0,lab + field (balanced),57.20338983050848
+plantdoc,clip_l14,16,1,lab only,36.86440677966102
+plantdoc,clip_l14,16,1,field only,58.89830508474576
+plantdoc,clip_l14,16,1,lab + field,55.932203389830505
+plantdoc,clip_l14,16,1,lab + field (balanced),52.54237288135594
+plantdoc,clip_l14,16,2,lab only,36.86440677966102
+plantdoc,clip_l14,16,2,field only,59.32203389830508
+plantdoc,clip_l14,16,2,lab + field,58.05084745762712
+plantdoc,clip_l14,16,2,lab + field (balanced),59.7457627118644
+plantdoc,clip_l14,16,3,lab only,36.86440677966102
+plantdoc,clip_l14,16,3,field only,56.355932203389834
+plantdoc,clip_l14,16,3,lab + field,55.50847457627118
+plantdoc,clip_l14,16,3,lab + field (balanced),58.05084745762712
+plantdoc,clip_l14,16,4,lab only,36.86440677966102
+plantdoc,clip_l14,16,4,field only,54.66101694915254
+plantdoc,clip_l14,16,4,lab + field,58.89830508474576
+plantdoc,clip_l14,16,4,lab + field (balanced),56.779661016949156
+pp,clip_l14,1,0,lab only,54.24050632911393
+pp,clip_l14,1,0,field only,77.78481012658229
+pp,clip_l14,1,0,lab + field,81.89873417721519
+pp,clip_l14,1,0,lab + field (balanced),85.63291139240506
+pp,clip_l14,1,1,lab only,54.24050632911393
+pp,clip_l14,1,1,field only,75.82278481012659
+pp,clip_l14,1,1,lab + field,81.39240506329114
+pp,clip_l14,1,1,lab + field (balanced),86.58227848101265
+pp,clip_l14,1,2,lab only,54.24050632911393
+pp,clip_l14,1,2,field only,89.1139240506329
+pp,clip_l14,1,2,lab + field,83.22784810126582
+pp,clip_l14,1,2,lab + field (balanced),88.0379746835443
+pp,clip_l14,1,3,lab only,54.24050632911393
+pp,clip_l14,1,3,field only,77.27848101265823
+pp,clip_l14,1,3,lab + field,79.36708860759494
+pp,clip_l14,1,3,lab + field (balanced),88.86075949367088
+pp,clip_l14,1,4,lab only,54.24050632911393
+pp,clip_l14,1,4,field only,76.32911392405063
+pp,clip_l14,1,4,lab + field,83.41772151898735
+pp,clip_l14,1,4,lab + field (balanced),82.65822784810126
+pp,clip_l14,5,0,lab only,54.24050632911393
+pp,clip_l14,5,0,field only,91.45569620253164
+pp,clip_l14,5,0,lab + field,89.1139240506329
+pp,clip_l14,5,0,lab + field (balanced),91.9620253164557
+pp,clip_l14,5,1,lab only,54.24050632911393
+pp,clip_l14,5,1,field only,92.46835443037975
+pp,clip_l14,5,1,lab + field,89.81012658227849
+pp,clip_l14,5,1,lab + field (balanced),90.18987341772153
+pp,clip_l14,5,2,lab only,54.24050632911393
+pp,clip_l14,5,2,field only,85.12658227848101
+pp,clip_l14,5,2,lab + field,88.35443037974684
+pp,clip_l14,5,2,lab + field (balanced),92.34177215189874
+pp,clip_l14,5,3,lab only,54.24050632911393
+pp,clip_l14,5,3,field only,90.0
+pp,clip_l14,5,3,lab + field,84.49367088607595
+pp,clip_l14,5,3,lab + field (balanced),88.79746835443038
+pp,clip_l14,5,4,lab only,54.24050632911393
+pp,clip_l14,5,4,field only,88.22784810126582
+pp,clip_l14,5,4,lab + field,90.50632911392405
+pp,clip_l14,5,4,lab + field (balanced),91.70886075949367
+pp,clip_l14,10,0,lab only,54.24050632911393
+pp,clip_l14,10,0,field only,93.92405063291139
+pp,clip_l14,10,0,lab + field,86.13924050632912
+pp,clip_l14,10,0,lab + field (balanced),92.46835443037975
+pp,clip_l14,10,1,lab only,54.24050632911393
+pp,clip_l14,10,1,field only,93.92405063291139
+pp,clip_l14,10,1,lab + field,91.58227848101265
+pp,clip_l14,10,1,lab + field (balanced),93.35443037974683
+pp,clip_l14,10,2,lab only,54.24050632911393
+pp,clip_l14,10,2,field only,91.20253164556962
+pp,clip_l14,10,2,lab + field,88.86075949367088
+pp,clip_l14,10,2,lab + field (balanced),91.39240506329114
+pp,clip_l14,10,3,lab only,54.24050632911393
+pp,clip_l14,10,3,field only,92.59493670886076
+pp,clip_l14,10,3,lab + field,90.50632911392405
+pp,clip_l14,10,3,lab + field (balanced),91.83544303797468
+pp,clip_l14,10,4,lab only,54.24050632911393
+pp,clip_l14,10,4,field only,91.39240506329114
+pp,clip_l14,10,4,lab + field,87.9113924050633
+pp,clip_l14,10,4,lab + field (balanced),92.72151898734177
+pp,clip_l14,16,0,lab only,54.24050632911393
+pp,clip_l14,16,0,field only,93.35443037974683
+pp,clip_l14,16,0,lab + field,92.78481012658227
+pp,clip_l14,16,0,lab + field (balanced),92.15189873417722
+pp,clip_l14,16,1,lab only,54.24050632911393
+pp,clip_l14,16,1,field only,92.84810126582278
+pp,clip_l14,16,1,lab + field,92.15189873417722
+pp,clip_l14,16,1,lab + field (balanced),92.46835443037975
+pp,clip_l14,16,2,lab only,54.24050632911393
+pp,clip_l14,16,2,field only,94.05063291139241
+pp,clip_l14,16,2,lab + field,91.77215189873418
+pp,clip_l14,16,2,lab + field (balanced),92.59493670886076
+pp,clip_l14,16,3,lab only,54.24050632911393
+pp,clip_l14,16,3,field only,93.16455696202532
+pp,clip_l14,16,3,lab + field,91.32911392405063
+pp,clip_l14,16,3,lab + field (balanced),93.16455696202532
+pp,clip_l14,16,4,lab only,54.24050632911393
+pp,clip_l14,16,4,field only,92.65822784810128
+pp,clip_l14,16,4,lab + field,92.0253164556962
+pp,clip_l14,16,4,lab + field (balanced),91.58227848101265
+plantdoc,siglip_b16,1,0,lab only,47.88135593220339
+plantdoc,siglip_b16,1,0,field only,36.440677966101696
+plantdoc,siglip_b16,1,0,lab + field,54.23728813559322
+plantdoc,siglip_b16,1,0,lab + field (balanced),55.50847457627118
+plantdoc,siglip_b16,1,1,lab only,47.88135593220339
+plantdoc,siglip_b16,1,1,field only,31.35593220338983
+plantdoc,siglip_b16,1,1,lab + field,53.813559322033896
+plantdoc,siglip_b16,1,1,lab + field (balanced),56.779661016949156
+plantdoc,siglip_b16,1,2,lab only,47.88135593220339
+plantdoc,siglip_b16,1,2,field only,26.69491525423729
+plantdoc,siglip_b16,1,2,lab + field,53.813559322033896
+plantdoc,siglip_b16,1,2,lab + field (balanced),51.69491525423729
+plantdoc,siglip_b16,1,3,lab only,47.88135593220339
+plantdoc,siglip_b16,1,3,field only,38.13559322033898
+plantdoc,siglip_b16,1,3,lab + field,54.66101694915254
+plantdoc,siglip_b16,1,3,lab + field (balanced),56.355932203389834
+plantdoc,siglip_b16,1,4,lab only,47.88135593220339
+plantdoc,siglip_b16,1,4,field only,29.66101694915254
+plantdoc,siglip_b16,1,4,lab + field,52.96610169491526
+plantdoc,siglip_b16,1,4,lab + field (balanced),54.23728813559322
+plantdoc,siglip_b16,5,0,lab only,47.88135593220339
+plantdoc,siglip_b16,5,0,field only,50.847457627118644
+plantdoc,siglip_b16,5,0,lab + field,62.71186440677966
+plantdoc,siglip_b16,5,0,lab + field (balanced),61.016949152542374
+plantdoc,siglip_b16,5,1,lab only,47.88135593220339
+plantdoc,siglip_b16,5,1,field only,56.355932203389834
+plantdoc,siglip_b16,5,1,lab + field,62.28813559322034
+plantdoc,siglip_b16,5,1,lab + field (balanced),60.59322033898306
+plantdoc,siglip_b16,5,2,lab only,47.88135593220339
+plantdoc,siglip_b16,5,2,field only,54.66101694915254
+plantdoc,siglip_b16,5,2,lab + field,60.59322033898306
+plantdoc,siglip_b16,5,2,lab + field (balanced),60.16949152542372
+plantdoc,siglip_b16,5,3,lab only,47.88135593220339
+plantdoc,siglip_b16,5,3,field only,53.38983050847458
+plantdoc,siglip_b16,5,3,lab + field,59.7457627118644
+plantdoc,siglip_b16,5,3,lab + field (balanced),60.16949152542372
+plantdoc,siglip_b16,5,4,lab only,47.88135593220339
+plantdoc,siglip_b16,5,4,field only,56.355932203389834
+plantdoc,siglip_b16,5,4,lab + field,62.28813559322034
+plantdoc,siglip_b16,5,4,lab + field (balanced),60.59322033898306
+plantdoc,siglip_b16,10,0,lab only,47.88135593220339
+plantdoc,siglip_b16,10,0,field only,57.20338983050848
+plantdoc,siglip_b16,10,0,lab + field,63.13559322033898
+plantdoc,siglip_b16,10,0,lab + field (balanced),65.2542372881356
+plantdoc,siglip_b16,10,1,lab only,47.88135593220339
+plantdoc,siglip_b16,10,1,field only,55.50847457627118
+plantdoc,siglip_b16,10,1,lab + field,59.32203389830508
+plantdoc,siglip_b16,10,1,lab + field (balanced),58.05084745762712
+plantdoc,siglip_b16,10,2,lab only,47.88135593220339
+plantdoc,siglip_b16,10,2,field only,57.6271186440678
+plantdoc,siglip_b16,10,2,lab + field,62.28813559322034
+plantdoc,siglip_b16,10,2,lab + field (balanced),62.71186440677966
+plantdoc,siglip_b16,10,3,lab only,47.88135593220339
+plantdoc,siglip_b16,10,3,field only,61.016949152542374
+plantdoc,siglip_b16,10,3,lab + field,64.40677966101694
+plantdoc,siglip_b16,10,3,lab + field (balanced),63.983050847457626
+plantdoc,siglip_b16,10,4,lab only,47.88135593220339
+plantdoc,siglip_b16,10,4,field only,62.28813559322034
+plantdoc,siglip_b16,10,4,lab + field,64.40677966101694
+plantdoc,siglip_b16,10,4,lab + field (balanced),64.83050847457628
+plantdoc,siglip_b16,16,0,lab only,47.88135593220339
+plantdoc,siglip_b16,16,0,field only,60.59322033898306
+plantdoc,siglip_b16,16,0,lab + field,60.59322033898306
+plantdoc,siglip_b16,16,0,lab + field (balanced),61.86440677966102
+plantdoc,siglip_b16,16,1,lab only,47.88135593220339
+plantdoc,siglip_b16,16,1,field only,58.05084745762712
+plantdoc,siglip_b16,16,1,lab + field,61.86440677966102
+plantdoc,siglip_b16,16,1,lab + field (balanced),61.016949152542374
+plantdoc,siglip_b16,16,2,lab only,47.88135593220339
+plantdoc,siglip_b16,16,2,field only,60.59322033898306
+plantdoc,siglip_b16,16,2,lab + field,62.71186440677966
+plantdoc,siglip_b16,16,2,lab + field (balanced),65.2542372881356
+plantdoc,siglip_b16,16,3,lab only,47.88135593220339
+plantdoc,siglip_b16,16,3,field only,63.13559322033898
+plantdoc,siglip_b16,16,3,lab + field,63.559322033898304
+plantdoc,siglip_b16,16,3,lab + field (balanced),63.983050847457626
+plantdoc,siglip_b16,16,4,lab only,47.88135593220339
+plantdoc,siglip_b16,16,4,field only,61.86440677966102
+plantdoc,siglip_b16,16,4,lab + field,64.83050847457628
+plantdoc,siglip_b16,16,4,lab + field (balanced),63.983050847457626
+pp,siglip_b16,1,0,lab only,48.860759493670884
+pp,siglip_b16,1,0,field only,70.25316455696202
+pp,siglip_b16,1,0,lab + field,82.65822784810126
+pp,siglip_b16,1,0,lab + field (balanced),80.18987341772153
+pp,siglip_b16,1,1,lab only,48.860759493670884
+pp,siglip_b16,1,1,field only,62.848101265822784
+pp,siglip_b16,1,1,lab + field,77.15189873417721
+pp,siglip_b16,1,1,lab + field (balanced),80.88607594936708
+pp,siglip_b16,1,2,lab only,48.860759493670884
+pp,siglip_b16,1,2,field only,75.75949367088609
+pp,siglip_b16,1,2,lab + field,69.11392405063292
+pp,siglip_b16,1,2,lab + field (balanced),78.9873417721519
+pp,siglip_b16,1,3,lab only,48.860759493670884
+pp,siglip_b16,1,3,field only,74.9367088607595
+pp,siglip_b16,1,3,lab + field,76.26582278481013
+pp,siglip_b16,1,3,lab + field (balanced),83.35443037974683
+pp,siglip_b16,1,4,lab only,48.860759493670884
+pp,siglip_b16,1,4,field only,74.36708860759494
+pp,siglip_b16,1,4,lab + field,75.12658227848101
+pp,siglip_b16,1,4,lab + field (balanced),84.43037974683544
+pp,siglip_b16,5,0,lab only,48.860759493670884
+pp,siglip_b16,5,0,field only,88.86075949367088
+pp,siglip_b16,5,0,lab + field,86.70886075949366
+pp,siglip_b16,5,0,lab + field (balanced),89.49367088607595
+pp,siglip_b16,5,1,lab only,48.860759493670884
+pp,siglip_b16,5,1,field only,86.07594936708861
+pp,siglip_b16,5,1,lab + field,87.59493670886076
+pp,siglip_b16,5,1,lab + field (balanced),89.24050632911393
+pp,siglip_b16,5,2,lab only,48.860759493670884
+pp,siglip_b16,5,2,field only,86.39240506329115
+pp,siglip_b16,5,2,lab + field,87.9113924050633
+pp,siglip_b16,5,2,lab + field (balanced),89.87341772151899
+pp,siglip_b16,5,3,lab only,48.860759493670884
+pp,siglip_b16,5,3,field only,86.32911392405063
+pp,siglip_b16,5,3,lab + field,85.44303797468355
+pp,siglip_b16,5,3,lab + field (balanced),87.65822784810126
+pp,siglip_b16,5,4,lab only,48.860759493670884
+pp,siglip_b16,5,4,field only,84.62025316455696
+pp,siglip_b16,5,4,lab + field,87.9746835443038
+pp,siglip_b16,5,4,lab + field (balanced),90.50632911392405
+pp,siglip_b16,10,0,lab only,48.860759493670884
+pp,siglip_b16,10,0,field only,89.62025316455696
+pp,siglip_b16,10,0,lab + field,88.48101265822785
+pp,siglip_b16,10,0,lab + field (balanced),90.44303797468355
+pp,siglip_b16,10,1,lab only,48.860759493670884
+pp,siglip_b16,10,1,field only,89.1139240506329
+pp,siglip_b16,10,1,lab + field,89.55696202531645
+pp,siglip_b16,10,1,lab + field (balanced),90.94936708860759
+pp,siglip_b16,10,2,lab only,48.860759493670884
+pp,siglip_b16,10,2,field only,88.22784810126582
+pp,siglip_b16,10,2,lab + field,88.16455696202532
+pp,siglip_b16,10,2,lab + field (balanced),90.63291139240506
+pp,siglip_b16,10,3,lab only,48.860759493670884
+pp,siglip_b16,10,3,field only,89.87341772151899
+pp,siglip_b16,10,3,lab + field,88.92405063291139
+pp,siglip_b16,10,3,lab + field (balanced),90.94936708860759
+pp,siglip_b16,10,4,lab only,48.860759493670884
+pp,siglip_b16,10,4,field only,89.30379746835443
+pp,siglip_b16,10,4,lab + field,89.43037974683544
+pp,siglip_b16,10,4,lab + field (balanced),90.94936708860759
+pp,siglip_b16,16,0,lab only,48.860759493670884
+pp,siglip_b16,16,0,field only,90.0632911392405
+pp,siglip_b16,16,0,lab + field,90.18987341772153
+pp,siglip_b16,16,0,lab + field (balanced),91.9620253164557
+pp,siglip_b16,16,1,lab only,48.860759493670884
+pp,siglip_b16,16,1,field only,89.55696202531645
+pp,siglip_b16,16,1,lab + field,89.74683544303798
+pp,siglip_b16,16,1,lab + field (balanced),92.0253164556962
+pp,siglip_b16,16,2,lab only,48.860759493670884
+pp,siglip_b16,16,2,field only,90.88607594936708
+pp,siglip_b16,16,2,lab + field,90.18987341772153
+pp,siglip_b16,16,2,lab + field (balanced),91.9620253164557
+pp,siglip_b16,16,3,lab only,48.860759493670884
+pp,siglip_b16,16,3,field only,92.0253164556962
+pp,siglip_b16,16,3,lab + field,90.63291139240506
+pp,siglip_b16,16,3,lab + field (balanced),92.27848101265823
+pp,siglip_b16,16,4,lab only,48.860759493670884
+pp,siglip_b16,16,4,field only,91.89873417721519
+pp,siglip_b16,16,4,lab + field,89.49367088607595
+pp,siglip_b16,16,4,lab + field (balanced),91.20253164556962
+plantdoc,dinov2_b14,1,0,lab only,46.61016949152542
+plantdoc,dinov2_b14,1,0,field only,40.67796610169492
+plantdoc,dinov2_b14,1,0,lab + field,49.152542372881356
+plantdoc,dinov2_b14,1,0,lab + field (balanced),50.42372881355932
+plantdoc,dinov2_b14,1,1,lab only,46.61016949152542
+plantdoc,dinov2_b14,1,1,field only,40.67796610169492
+plantdoc,dinov2_b14,1,1,lab + field,52.118644067796616
+plantdoc,dinov2_b14,1,1,lab + field (balanced),52.96610169491526
+plantdoc,dinov2_b14,1,2,lab only,46.61016949152542
+plantdoc,dinov2_b14,1,2,field only,36.440677966101696
+plantdoc,dinov2_b14,1,2,lab + field,52.118644067796616
+plantdoc,dinov2_b14,1,2,lab + field (balanced),55.50847457627118
+plantdoc,dinov2_b14,1,3,lab only,46.61016949152542
+plantdoc,dinov2_b14,1,3,field only,35.59322033898305
+plantdoc,dinov2_b14,1,3,lab + field,52.118644067796616
+plantdoc,dinov2_b14,1,3,lab + field (balanced),54.23728813559322
+plantdoc,dinov2_b14,1,4,lab only,46.61016949152542
+plantdoc,dinov2_b14,1,4,field only,36.016949152542374
+plantdoc,dinov2_b14,1,4,lab + field,48.728813559322035
+plantdoc,dinov2_b14,1,4,lab + field (balanced),53.38983050847458
+plantdoc,dinov2_b14,5,0,lab only,46.61016949152542
+plantdoc,dinov2_b14,5,0,field only,62.71186440677966
+plantdoc,dinov2_b14,5,0,lab + field,55.932203389830505
+plantdoc,dinov2_b14,5,0,lab + field (balanced),58.05084745762712
+plantdoc,dinov2_b14,5,1,lab only,46.61016949152542
+plantdoc,dinov2_b14,5,1,field only,59.7457627118644
+plantdoc,dinov2_b14,5,1,lab + field,59.32203389830508
+plantdoc,dinov2_b14,5,1,lab + field (balanced),62.28813559322034
+plantdoc,dinov2_b14,5,2,lab only,46.61016949152542
+plantdoc,dinov2_b14,5,2,field only,61.440677966101696
+plantdoc,dinov2_b14,5,2,lab + field,57.6271186440678
+plantdoc,dinov2_b14,5,2,lab + field (balanced),63.559322033898304
+plantdoc,dinov2_b14,5,3,lab only,46.61016949152542
+plantdoc,dinov2_b14,5,3,field only,59.7457627118644
+plantdoc,dinov2_b14,5,3,lab + field,58.05084745762712
+plantdoc,dinov2_b14,5,3,lab + field (balanced),62.71186440677966
+plantdoc,dinov2_b14,5,4,lab only,46.61016949152542
+plantdoc,dinov2_b14,5,4,field only,55.50847457627118
+plantdoc,dinov2_b14,5,4,lab + field,55.50847457627118
+plantdoc,dinov2_b14,5,4,lab + field (balanced),58.05084745762712
+plantdoc,dinov2_b14,10,0,lab only,46.61016949152542
+plantdoc,dinov2_b14,10,0,field only,60.59322033898306
+plantdoc,dinov2_b14,10,0,lab + field,59.32203389830508
+plantdoc,dinov2_b14,10,0,lab + field (balanced),63.983050847457626
+plantdoc,dinov2_b14,10,1,lab only,46.61016949152542
+plantdoc,dinov2_b14,10,1,field only,58.05084745762712
+plantdoc,dinov2_b14,10,1,lab + field,59.32203389830508
+plantdoc,dinov2_b14,10,1,lab + field (balanced),62.28813559322034
+plantdoc,dinov2_b14,10,2,lab only,46.61016949152542
+plantdoc,dinov2_b14,10,2,field only,63.13559322033898
+plantdoc,dinov2_b14,10,2,lab + field,60.16949152542372
+plantdoc,dinov2_b14,10,2,lab + field (balanced),61.86440677966102
+plantdoc,dinov2_b14,10,3,lab only,46.61016949152542
+plantdoc,dinov2_b14,10,3,field only,65.2542372881356
+plantdoc,dinov2_b14,10,3,lab + field,62.71186440677966
+plantdoc,dinov2_b14,10,3,lab + field (balanced),66.10169491525424
+plantdoc,dinov2_b14,10,4,lab only,46.61016949152542
+plantdoc,dinov2_b14,10,4,field only,69.0677966101695
+plantdoc,dinov2_b14,10,4,lab + field,61.440677966101696
+plantdoc,dinov2_b14,10,4,lab + field (balanced),62.71186440677966
+plantdoc,dinov2_b14,16,0,lab only,46.61016949152542
+plantdoc,dinov2_b14,16,0,field only,69.0677966101695
+plantdoc,dinov2_b14,16,0,lab + field,61.016949152542374
+plantdoc,dinov2_b14,16,0,lab + field (balanced),62.71186440677966
+plantdoc,dinov2_b14,16,1,lab only,46.61016949152542
+plantdoc,dinov2_b14,16,1,field only,63.559322033898304
+plantdoc,dinov2_b14,16,1,lab + field,60.59322033898306
+plantdoc,dinov2_b14,16,1,lab + field (balanced),63.983050847457626
+plantdoc,dinov2_b14,16,2,lab only,46.61016949152542
+plantdoc,dinov2_b14,16,2,field only,71.61016949152543
+plantdoc,dinov2_b14,16,2,lab + field,65.67796610169492
+plantdoc,dinov2_b14,16,2,lab + field (balanced),69.49152542372882
+plantdoc,dinov2_b14,16,3,lab only,46.61016949152542
+plantdoc,dinov2_b14,16,3,field only,72.45762711864407
+plantdoc,dinov2_b14,16,3,lab + field,63.13559322033898
+plantdoc,dinov2_b14,16,3,lab + field (balanced),68.64406779661016
+plantdoc,dinov2_b14,16,4,lab only,46.61016949152542
+plantdoc,dinov2_b14,16,4,field only,67.79661016949152
+plantdoc,dinov2_b14,16,4,lab + field,65.67796610169492
+plantdoc,dinov2_b14,16,4,lab + field (balanced),68.22033898305084
+pp,dinov2_b14,1,0,lab only,46.70886075949367
+pp,dinov2_b14,1,0,field only,44.81012658227848
+pp,dinov2_b14,1,0,lab + field,57.34177215189873
+pp,dinov2_b14,1,0,lab + field (balanced),57.59493670886076
+pp,dinov2_b14,1,1,lab only,46.70886075949367
+pp,dinov2_b14,1,1,field only,54.050632911392405
+pp,dinov2_b14,1,1,lab + field,59.30379746835443
+pp,dinov2_b14,1,1,lab + field (balanced),63.10126582278481
+pp,dinov2_b14,1,2,lab only,46.70886075949367
+pp,dinov2_b14,1,2,field only,51.45569620253164
+pp,dinov2_b14,1,2,lab + field,52.53164556962025
+pp,dinov2_b14,1,2,lab + field (balanced),54.55696202531646
+pp,dinov2_b14,1,3,lab only,46.70886075949367
+pp,dinov2_b14,1,3,field only,53.92405063291139
+pp,dinov2_b14,1,3,lab + field,58.607594936708864
+pp,dinov2_b14,1,3,lab + field (balanced),63.037974683544306
+pp,dinov2_b14,1,4,lab only,46.70886075949367
+pp,dinov2_b14,1,4,field only,42.9746835443038
+pp,dinov2_b14,1,4,lab + field,51.77215189873417
+pp,dinov2_b14,1,4,lab + field (balanced),57.025316455696206
+pp,dinov2_b14,5,0,lab only,46.70886075949367
+pp,dinov2_b14,5,0,field only,62.21518987341772
+pp,dinov2_b14,5,0,lab + field,65.12658227848101
+pp,dinov2_b14,5,0,lab + field (balanced),68.86075949367088
+pp,dinov2_b14,5,1,lab only,46.70886075949367
+pp,dinov2_b14,5,1,field only,70.75949367088607
+pp,dinov2_b14,5,1,lab + field,67.53164556962025
+pp,dinov2_b14,5,1,lab + field (balanced),71.39240506329114
+pp,dinov2_b14,5,2,lab only,46.70886075949367
+pp,dinov2_b14,5,2,field only,62.46835443037975
+pp,dinov2_b14,5,2,lab + field,70.25316455696202
+pp,dinov2_b14,5,2,lab + field (balanced),71.45569620253166
+pp,dinov2_b14,5,3,lab only,46.70886075949367
+pp,dinov2_b14,5,3,field only,68.35443037974683
+pp,dinov2_b14,5,3,lab + field,65.63291139240506
+pp,dinov2_b14,5,3,lab + field (balanced),73.41772151898735
+pp,dinov2_b14,5,4,lab only,46.70886075949367
+pp,dinov2_b14,5,4,field only,65.82278481012658
+pp,dinov2_b14,5,4,lab + field,64.49367088607595
+pp,dinov2_b14,5,4,lab + field (balanced),66.89873417721519
+pp,dinov2_b14,10,0,lab only,46.70886075949367
+pp,dinov2_b14,10,0,field only,73.54430379746836
+pp,dinov2_b14,10,0,lab + field,73.79746835443038
+pp,dinov2_b14,10,0,lab + field (balanced),77.65822784810126
+pp,dinov2_b14,10,1,lab only,46.70886075949367
+pp,dinov2_b14,10,1,field only,76.89873417721519
+pp,dinov2_b14,10,1,lab + field,75.25316455696202
+pp,dinov2_b14,10,1,lab + field (balanced),79.24050632911393
+pp,dinov2_b14,10,2,lab only,46.70886075949367
+pp,dinov2_b14,10,2,field only,80.25316455696202
+pp,dinov2_b14,10,2,lab + field,81.51898734177216
+pp,dinov2_b14,10,2,lab + field (balanced),84.55696202531645
+pp,dinov2_b14,10,3,lab only,46.70886075949367
+pp,dinov2_b14,10,3,field only,74.55696202531645
+pp,dinov2_b14,10,3,lab + field,74.36708860759494
+pp,dinov2_b14,10,3,lab + field (balanced),78.22784810126582
+pp,dinov2_b14,10,4,lab only,46.70886075949367
+pp,dinov2_b14,10,4,field only,76.45569620253164
+pp,dinov2_b14,10,4,lab + field,81.26582278481013
+pp,dinov2_b14,10,4,lab + field (balanced),82.40506329113924
+pp,dinov2_b14,16,0,lab only,46.70886075949367
+pp,dinov2_b14,16,0,field only,79.24050632911393
+pp,dinov2_b14,16,0,lab + field,80.63291139240506
+pp,dinov2_b14,16,0,lab + field (balanced),83.10126582278481
+pp,dinov2_b14,16,1,lab only,46.70886075949367
+pp,dinov2_b14,16,1,field only,80.69620253164557
+pp,dinov2_b14,16,1,lab + field,82.34177215189872
+pp,dinov2_b14,16,1,lab + field (balanced),84.30379746835443
+pp,dinov2_b14,16,2,lab only,46.70886075949367
+pp,dinov2_b14,16,2,field only,82.72151898734177
+pp,dinov2_b14,16,2,lab + field,82.78481012658227
+pp,dinov2_b14,16,2,lab + field (balanced),85.12658227848101
+pp,dinov2_b14,16,3,lab only,46.70886075949367
+pp,dinov2_b14,16,3,field only,82.08860759493672
+pp,dinov2_b14,16,3,lab + field,82.40506329113924
+pp,dinov2_b14,16,3,lab + field (balanced),85.0
+pp,dinov2_b14,16,4,lab only,46.70886075949367
+pp,dinov2_b14,16,4,field only,86.39240506329115
+pp,dinov2_b14,16,4,lab + field,82.59493670886076
+pp,dinov2_b14,16,4,lab + field (balanced),85.50632911392405
+plantdoc,dinov2_l14,1,0,lab only,47.03389830508475
+plantdoc,dinov2_l14,1,0,field only,39.83050847457627
+plantdoc,dinov2_l14,1,0,lab + field,53.38983050847458
+plantdoc,dinov2_l14,1,0,lab + field (balanced),55.50847457627118
+plantdoc,dinov2_l14,1,1,lab only,47.03389830508475
+plantdoc,dinov2_l14,1,1,field only,41.10169491525424
+plantdoc,dinov2_l14,1,1,lab + field,54.66101694915254
+plantdoc,dinov2_l14,1,1,lab + field (balanced),56.355932203389834
+plantdoc,dinov2_l14,1,2,lab only,47.03389830508475
+plantdoc,dinov2_l14,1,2,field only,38.13559322033898
+plantdoc,dinov2_l14,1,2,lab + field,54.23728813559322
+plantdoc,dinov2_l14,1,2,lab + field (balanced),54.23728813559322
+plantdoc,dinov2_l14,1,3,lab only,47.03389830508475
+plantdoc,dinov2_l14,1,3,field only,37.71186440677966
+plantdoc,dinov2_l14,1,3,lab + field,52.96610169491526
+plantdoc,dinov2_l14,1,3,lab + field (balanced),56.355932203389834
+plantdoc,dinov2_l14,1,4,lab only,47.03389830508475
+plantdoc,dinov2_l14,1,4,field only,35.59322033898305
+plantdoc,dinov2_l14,1,4,lab + field,52.96610169491526
+plantdoc,dinov2_l14,1,4,lab + field (balanced),57.20338983050848
+plantdoc,dinov2_l14,5,0,lab only,47.03389830508475
+plantdoc,dinov2_l14,5,0,field only,61.016949152542374
+plantdoc,dinov2_l14,5,0,lab + field,57.20338983050848
+plantdoc,dinov2_l14,5,0,lab + field (balanced),60.59322033898306
+plantdoc,dinov2_l14,5,1,lab only,47.03389830508475
+plantdoc,dinov2_l14,5,1,field only,60.59322033898306
+plantdoc,dinov2_l14,5,1,lab + field,57.20338983050848
+plantdoc,dinov2_l14,5,1,lab + field (balanced),61.86440677966102
+plantdoc,dinov2_l14,5,2,lab only,47.03389830508475
+plantdoc,dinov2_l14,5,2,field only,62.71186440677966
+plantdoc,dinov2_l14,5,2,lab + field,58.05084745762712
+plantdoc,dinov2_l14,5,2,lab + field (balanced),64.40677966101694
+plantdoc,dinov2_l14,5,3,lab only,47.03389830508475
+plantdoc,dinov2_l14,5,3,field only,59.7457627118644
+plantdoc,dinov2_l14,5,3,lab + field,58.89830508474576
+plantdoc,dinov2_l14,5,3,lab + field (balanced),63.559322033898304
+plantdoc,dinov2_l14,5,4,lab only,47.03389830508475
+plantdoc,dinov2_l14,5,4,field only,58.05084745762712
+plantdoc,dinov2_l14,5,4,lab + field,57.6271186440678
+plantdoc,dinov2_l14,5,4,lab + field (balanced),63.559322033898304
+plantdoc,dinov2_l14,10,0,lab only,47.03389830508475
+plantdoc,dinov2_l14,10,0,field only,58.47457627118644
+plantdoc,dinov2_l14,10,0,lab + field,63.559322033898304
+plantdoc,dinov2_l14,10,0,lab + field (balanced),63.983050847457626
+plantdoc,dinov2_l14,10,1,lab only,47.03389830508475
+plantdoc,dinov2_l14,10,1,field only,63.983050847457626
+plantdoc,dinov2_l14,10,1,lab + field,61.86440677966102
+plantdoc,dinov2_l14,10,1,lab + field (balanced),62.28813559322034
+plantdoc,dinov2_l14,10,2,lab only,47.03389830508475
+plantdoc,dinov2_l14,10,2,field only,63.559322033898304
+plantdoc,dinov2_l14,10,2,lab + field,62.28813559322034
+plantdoc,dinov2_l14,10,2,lab + field (balanced),63.13559322033898
+plantdoc,dinov2_l14,10,3,lab only,47.03389830508475
+plantdoc,dinov2_l14,10,3,field only,66.10169491525424
+plantdoc,dinov2_l14,10,3,lab + field,62.71186440677966
+plantdoc,dinov2_l14,10,3,lab + field (balanced),66.10169491525424
+plantdoc,dinov2_l14,10,4,lab only,47.03389830508475
+plantdoc,dinov2_l14,10,4,field only,67.79661016949152
+plantdoc,dinov2_l14,10,4,lab + field,62.71186440677966
+plantdoc,dinov2_l14,10,4,lab + field (balanced),65.2542372881356
+plantdoc,dinov2_l14,16,0,lab only,47.03389830508475
+plantdoc,dinov2_l14,16,0,field only,65.67796610169492
+plantdoc,dinov2_l14,16,0,lab + field,62.28813559322034
+plantdoc,dinov2_l14,16,0,lab + field (balanced),67.79661016949152
+plantdoc,dinov2_l14,16,1,lab only,47.03389830508475
+plantdoc,dinov2_l14,16,1,field only,65.2542372881356
+plantdoc,dinov2_l14,16,1,lab + field,64.40677966101694
+plantdoc,dinov2_l14,16,1,lab + field (balanced),66.10169491525424
+plantdoc,dinov2_l14,16,2,lab only,47.03389830508475
+plantdoc,dinov2_l14,16,2,field only,68.22033898305084
+plantdoc,dinov2_l14,16,2,lab + field,66.94915254237289
+plantdoc,dinov2_l14,16,2,lab + field (balanced),71.1864406779661
+plantdoc,dinov2_l14,16,3,lab only,47.03389830508475
+plantdoc,dinov2_l14,16,3,field only,68.64406779661016
+plantdoc,dinov2_l14,16,3,lab + field,64.83050847457628
+plantdoc,dinov2_l14,16,3,lab + field (balanced),64.83050847457628
+plantdoc,dinov2_l14,16,4,lab only,47.03389830508475
+plantdoc,dinov2_l14,16,4,field only,68.22033898305084
+plantdoc,dinov2_l14,16,4,lab + field,65.67796610169492
+plantdoc,dinov2_l14,16,4,lab + field (balanced),68.64406779661016
+pp,dinov2_l14,1,0,lab only,43.35443037974683
+pp,dinov2_l14,1,0,field only,48.48101265822785
+pp,dinov2_l14,1,0,lab + field,54.43037974683544
+pp,dinov2_l14,1,0,lab + field (balanced),60.949367088607595
+pp,dinov2_l14,1,1,lab only,43.35443037974683
+pp,dinov2_l14,1,1,field only,53.417721518987335
+pp,dinov2_l14,1,1,lab + field,53.037974683544306
+pp,dinov2_l14,1,1,lab + field (balanced),58.164556962025316
+pp,dinov2_l14,1,2,lab only,43.35443037974683
+pp,dinov2_l14,1,2,field only,48.164556962025316
+pp,dinov2_l14,1,2,lab + field,51.01265822784811
+pp,dinov2_l14,1,2,lab + field (balanced),51.835443037974684
+pp,dinov2_l14,1,3,lab only,43.35443037974683
+pp,dinov2_l14,1,3,field only,50.8860759493671
+pp,dinov2_l14,1,3,lab + field,52.78481012658228
+pp,dinov2_l14,1,3,lab + field (balanced),58.86075949367089
+pp,dinov2_l14,1,4,lab only,43.35443037974683
+pp,dinov2_l14,1,4,field only,44.050632911392405
+pp,dinov2_l14,1,4,lab + field,50.822784810126585
+pp,dinov2_l14,1,4,lab + field (balanced),53.16455696202531
+pp,dinov2_l14,5,0,lab only,43.35443037974683
+pp,dinov2_l14,5,0,field only,61.89873417721519
+pp,dinov2_l14,5,0,lab + field,63.481012658227854
+pp,dinov2_l14,5,0,lab + field (balanced),65.94936708860759
+pp,dinov2_l14,5,1,lab only,43.35443037974683
+pp,dinov2_l14,5,1,field only,63.73417721518987
+pp,dinov2_l14,5,1,lab + field,65.0
+pp,dinov2_l14,5,1,lab + field (balanced),67.97468354430379
+pp,dinov2_l14,5,2,lab only,43.35443037974683
+pp,dinov2_l14,5,2,field only,63.35443037974684
+pp,dinov2_l14,5,2,lab + field,70.12658227848101
+pp,dinov2_l14,5,2,lab + field (balanced),71.51898734177216
+pp,dinov2_l14,5,3,lab only,43.35443037974683
+pp,dinov2_l14,5,3,field only,65.82278481012658
+pp,dinov2_l14,5,3,lab + field,67.34177215189874
+pp,dinov2_l14,5,3,lab + field (balanced),72.84810126582279
+pp,dinov2_l14,5,4,lab only,43.35443037974683
+pp,dinov2_l14,5,4,field only,64.9367088607595
+pp,dinov2_l14,5,4,lab + field,65.12658227848101
+pp,dinov2_l14,5,4,lab + field (balanced),69.05063291139241
+pp,dinov2_l14,10,0,lab only,43.35443037974683
+pp,dinov2_l14,10,0,field only,68.86075949367088
+pp,dinov2_l14,10,0,lab + field,70.0
+pp,dinov2_l14,10,0,lab + field (balanced),70.50632911392405
+pp,dinov2_l14,10,1,lab only,43.35443037974683
+pp,dinov2_l14,10,1,field only,75.0632911392405
+pp,dinov2_l14,10,1,lab + field,71.0126582278481
+pp,dinov2_l14,10,1,lab + field (balanced),75.56962025316456
+pp,dinov2_l14,10,2,lab only,43.35443037974683
+pp,dinov2_l14,10,2,field only,74.87341772151899
+pp,dinov2_l14,10,2,lab + field,74.87341772151899
+pp,dinov2_l14,10,2,lab + field (balanced),76.45569620253164
+pp,dinov2_l14,10,3,lab only,43.35443037974683
+pp,dinov2_l14,10,3,field only,76.1392405063291
+pp,dinov2_l14,10,3,lab + field,72.15189873417721
+pp,dinov2_l14,10,3,lab + field (balanced),76.32911392405063
+pp,dinov2_l14,10,4,lab only,43.35443037974683
+pp,dinov2_l14,10,4,field only,71.70886075949367
+pp,dinov2_l14,10,4,lab + field,73.54430379746836
+pp,dinov2_l14,10,4,lab + field (balanced),76.20253164556962
+pp,dinov2_l14,16,0,lab only,43.35443037974683
+pp,dinov2_l14,16,0,field only,77.72151898734178
+pp,dinov2_l14,16,0,lab + field,73.48101265822785
+pp,dinov2_l14,16,0,lab + field (balanced),77.40506329113924
+pp,dinov2_l14,16,1,lab only,43.35443037974683
+pp,dinov2_l14,16,1,field only,76.45569620253164
+pp,dinov2_l14,16,1,lab + field,76.89873417721519
+pp,dinov2_l14,16,1,lab + field (balanced),80.44303797468353
+pp,dinov2_l14,16,2,lab only,43.35443037974683
+pp,dinov2_l14,16,2,field only,79.74683544303798
+pp,dinov2_l14,16,2,lab + field,79.62025316455697
+pp,dinov2_l14,16,2,lab + field (balanced),81.07594936708861
+pp,dinov2_l14,16,3,lab only,43.35443037974683
+pp,dinov2_l14,16,3,field only,78.86075949367088
+pp,dinov2_l14,16,3,lab + field,75.0632911392405
+pp,dinov2_l14,16,3,lab + field (balanced),80.0632911392405
+pp,dinov2_l14,16,4,lab only,43.35443037974683
+pp,dinov2_l14,16,4,field only,86.70886075949366
+pp,dinov2_l14,16,4,lab + field,82.59493670886076
+pp,dinov2_l14,16,4,lab + field (balanced),84.9367088607595
+plantdoc,resnet50,1,0,lab only,24.576271186440678
+plantdoc,resnet50,1,0,field only,22.45762711864407
+plantdoc,resnet50,1,0,lab + field,32.6271186440678
+plantdoc,resnet50,1,0,lab + field (balanced),37.71186440677966
+plantdoc,resnet50,1,1,lab only,24.576271186440678
+plantdoc,resnet50,1,1,field only,15.677966101694915
+plantdoc,resnet50,1,1,lab + field,29.23728813559322
+plantdoc,resnet50,1,1,lab + field (balanced),34.32203389830508
+plantdoc,resnet50,1,2,lab only,24.576271186440678
+plantdoc,resnet50,1,2,field only,17.372881355932204
+plantdoc,resnet50,1,2,lab + field,32.20338983050847
+plantdoc,resnet50,1,2,lab + field (balanced),32.20338983050847
+plantdoc,resnet50,1,3,lab only,24.576271186440678
+plantdoc,resnet50,1,3,field only,17.796610169491526
+plantdoc,resnet50,1,3,lab + field,30.508474576271187
+plantdoc,resnet50,1,3,lab + field (balanced),30.508474576271187
+plantdoc,resnet50,1,4,lab only,24.576271186440678
+plantdoc,resnet50,1,4,field only,17.796610169491526
+plantdoc,resnet50,1,4,lab + field,30.508474576271187
+plantdoc,resnet50,1,4,lab + field (balanced),34.74576271186441
+plantdoc,resnet50,5,0,lab only,24.576271186440678
+plantdoc,resnet50,5,0,field only,30.508474576271187
+plantdoc,resnet50,5,0,lab + field,36.440677966101696
+plantdoc,resnet50,5,0,lab + field (balanced),37.71186440677966
+plantdoc,resnet50,5,1,lab only,24.576271186440678
+plantdoc,resnet50,5,1,field only,35.59322033898305
+plantdoc,resnet50,5,1,lab + field,37.71186440677966
+plantdoc,resnet50,5,1,lab + field (balanced),39.40677966101695
+plantdoc,resnet50,5,2,lab only,24.576271186440678
+plantdoc,resnet50,5,2,field only,34.32203389830508
+plantdoc,resnet50,5,2,lab + field,36.440677966101696
+plantdoc,resnet50,5,2,lab + field (balanced),37.71186440677966
+plantdoc,resnet50,5,3,lab only,24.576271186440678
+plantdoc,resnet50,5,3,field only,27.966101694915253
+plantdoc,resnet50,5,3,lab + field,33.89830508474576
+plantdoc,resnet50,5,3,lab + field (balanced),33.05084745762712
+plantdoc,resnet50,5,4,lab only,24.576271186440678
+plantdoc,resnet50,5,4,field only,29.66101694915254
+plantdoc,resnet50,5,4,lab + field,35.16949152542373
+plantdoc,resnet50,5,4,lab + field (balanced),38.559322033898304
+plantdoc,resnet50,10,0,lab only,24.576271186440678
+plantdoc,resnet50,10,0,field only,30.93220338983051
+plantdoc,resnet50,10,0,lab + field,38.13559322033898
+plantdoc,resnet50,10,0,lab + field (balanced),37.71186440677966
+plantdoc,resnet50,10,1,lab only,24.576271186440678
+plantdoc,resnet50,10,1,field only,37.71186440677966
+plantdoc,resnet50,10,1,lab + field,36.86440677966102
+plantdoc,resnet50,10,1,lab + field (balanced),38.983050847457626
+plantdoc,resnet50,10,2,lab only,24.576271186440678
+plantdoc,resnet50,10,2,field only,36.440677966101696
+plantdoc,resnet50,10,2,lab + field,39.83050847457627
+plantdoc,resnet50,10,2,lab + field (balanced),40.67796610169492
+plantdoc,resnet50,10,3,lab only,24.576271186440678
+plantdoc,resnet50,10,3,field only,36.86440677966102
+plantdoc,resnet50,10,3,lab + field,37.28813559322034
+plantdoc,resnet50,10,3,lab + field (balanced),36.016949152542374
+plantdoc,resnet50,10,4,lab only,24.576271186440678
+plantdoc,resnet50,10,4,field only,36.86440677966102
+plantdoc,resnet50,10,4,lab + field,39.40677966101695
+plantdoc,resnet50,10,4,lab + field (balanced),41.94915254237288
+plantdoc,resnet50,16,0,lab only,24.576271186440678
+plantdoc,resnet50,16,0,field only,43.64406779661017
+plantdoc,resnet50,16,0,lab + field,46.186440677966104
+plantdoc,resnet50,16,0,lab + field (balanced),46.61016949152542
+plantdoc,resnet50,16,1,lab only,24.576271186440678
+plantdoc,resnet50,16,1,field only,43.64406779661017
+plantdoc,resnet50,16,1,lab + field,42.79661016949153
+plantdoc,resnet50,16,1,lab + field (balanced),43.22033898305085
+plantdoc,resnet50,16,2,lab only,24.576271186440678
+plantdoc,resnet50,16,2,field only,41.52542372881356
+plantdoc,resnet50,16,2,lab + field,42.79661016949153
+plantdoc,resnet50,16,2,lab + field (balanced),44.49152542372881
+plantdoc,resnet50,16,3,lab only,24.576271186440678
+plantdoc,resnet50,16,3,field only,36.86440677966102
+plantdoc,resnet50,16,3,lab + field,40.67796610169492
+plantdoc,resnet50,16,3,lab + field (balanced),41.52542372881356
+plantdoc,resnet50,16,4,lab only,24.576271186440678
+plantdoc,resnet50,16,4,field only,40.67796610169492
+plantdoc,resnet50,16,4,lab + field,42.79661016949153
+plantdoc,resnet50,16,4,lab + field (balanced),44.49152542372881
+pp,resnet50,1,0,lab only,48.67088607594937
+pp,resnet50,1,0,field only,47.025316455696206
+pp,resnet50,1,0,lab + field,51.202531645569614
+pp,resnet50,1,0,lab + field (balanced),52.9746835443038
+pp,resnet50,1,1,lab only,48.67088607594937
+pp,resnet50,1,1,field only,51.64556962025316
+pp,resnet50,1,1,lab + field,51.45569620253164
+pp,resnet50,1,1,lab + field (balanced),52.0253164556962
+pp,resnet50,1,2,lab only,48.67088607594937
+pp,resnet50,1,2,field only,59.68354430379746
+pp,resnet50,1,2,lab + field,51.64556962025316
+pp,resnet50,1,2,lab + field (balanced),63.54430379746835
+pp,resnet50,1,3,lab only,48.67088607594937
+pp,resnet50,1,3,field only,50.37974683544304
+pp,resnet50,1,3,lab + field,50.12658227848101
+pp,resnet50,1,3,lab + field (balanced),53.037974683544306
+pp,resnet50,1,4,lab only,48.67088607594937
+pp,resnet50,1,4,field only,64.17721518987342
+pp,resnet50,1,4,lab + field,53.92405063291139
+pp,resnet50,1,4,lab + field (balanced),58.86075949367089
+pp,resnet50,5,0,lab only,48.67088607594937
+pp,resnet50,5,0,field only,69.36708860759494
+pp,resnet50,5,0,lab + field,65.0632911392405
+pp,resnet50,5,0,lab + field (balanced),71.58227848101266
+pp,resnet50,5,1,lab only,48.67088607594937
+pp,resnet50,5,1,field only,69.9367088607595
+pp,resnet50,5,1,lab + field,61.139240506329116
+pp,resnet50,5,1,lab + field (balanced),67.59493670886076
+pp,resnet50,5,2,lab only,48.67088607594937
+pp,resnet50,5,2,field only,59.05063291139241
+pp,resnet50,5,2,lab + field,59.62025316455696
+pp,resnet50,5,2,lab + field (balanced),62.0253164556962
+pp,resnet50,5,3,lab only,48.67088607594937
+pp,resnet50,5,3,field only,65.50632911392405
+pp,resnet50,5,3,lab + field,56.139240506329116
+pp,resnet50,5,3,lab + field (balanced),60.949367088607595
+pp,resnet50,5,4,lab only,48.67088607594937
+pp,resnet50,5,4,field only,60.0
+pp,resnet50,5,4,lab + field,59.93670886075949
+pp,resnet50,5,4,lab + field (balanced),62.78481012658228
+pp,resnet50,10,0,lab only,48.67088607594937
+pp,resnet50,10,0,field only,71.13924050632912
+pp,resnet50,10,0,lab + field,66.01265822784809
+pp,resnet50,10,0,lab + field (balanced),70.56962025316456
+pp,resnet50,10,1,lab only,48.67088607594937
+pp,resnet50,10,1,field only,74.43037974683544
+pp,resnet50,10,1,lab + field,77.53164556962025
+pp,resnet50,10,1,lab + field (balanced),77.34177215189874
+pp,resnet50,10,2,lab only,48.67088607594937
+pp,resnet50,10,2,field only,74.62025316455696
+pp,resnet50,10,2,lab + field,74.55696202531645
+pp,resnet50,10,2,lab + field (balanced),75.63291139240506
+pp,resnet50,10,3,lab only,48.67088607594937
+pp,resnet50,10,3,field only,74.81012658227849
+pp,resnet50,10,3,lab + field,74.0506329113924
+pp,resnet50,10,3,lab + field (balanced),76.77215189873418
+pp,resnet50,10,4,lab only,48.67088607594937
+pp,resnet50,10,4,field only,72.78481012658227
+pp,resnet50,10,4,lab + field,72.46835443037975
+pp,resnet50,10,4,lab + field (balanced),74.81012658227849
+pp,resnet50,16,0,lab only,48.67088607594937
+pp,resnet50,16,0,field only,76.26582278481013
+pp,resnet50,16,0,lab + field,74.62025316455696
+pp,resnet50,16,0,lab + field (balanced),75.8860759493671
+pp,resnet50,16,1,lab only,48.67088607594937
+pp,resnet50,16,1,field only,76.83544303797468
+pp,resnet50,16,1,lab + field,75.50632911392405
+pp,resnet50,16,1,lab + field (balanced),76.89873417721519
+pp,resnet50,16,2,lab only,48.67088607594937
+pp,resnet50,16,2,field only,79.55696202531645
+pp,resnet50,16,2,lab + field,77.9113924050633
+pp,resnet50,16,2,lab + field (balanced),80.0632911392405
+pp,resnet50,16,3,lab only,48.67088607594937
+pp,resnet50,16,3,field only,75.0632911392405
+pp,resnet50,16,3,lab + field,74.0506329113924
+pp,resnet50,16,3,lab + field (balanced),75.44303797468355
+pp,resnet50,16,4,lab only,48.67088607594937
+pp,resnet50,16,4,field only,77.0886075949367
+pp,resnet50,16,4,lab + field,73.48101265822785
+pp,resnet50,16,4,lab + field (balanced),75.82278481012659
+plantdoc,effnet_b0,1,0,lab only,29.66101694915254
+plantdoc,effnet_b0,1,0,field only,25.423728813559322
+plantdoc,effnet_b0,1,0,lab + field,37.71186440677966
+plantdoc,effnet_b0,1,0,lab + field (balanced),41.10169491525424
+plantdoc,effnet_b0,1,1,lab only,29.66101694915254
+plantdoc,effnet_b0,1,1,field only,21.610169491525426
+plantdoc,effnet_b0,1,1,lab + field,38.13559322033898
+plantdoc,effnet_b0,1,1,lab + field (balanced),36.440677966101696
+plantdoc,effnet_b0,1,2,lab only,29.66101694915254
+plantdoc,effnet_b0,1,2,field only,17.796610169491526
+plantdoc,effnet_b0,1,2,lab + field,38.559322033898304
+plantdoc,effnet_b0,1,2,lab + field (balanced),37.28813559322034
+plantdoc,effnet_b0,1,3,lab only,29.66101694915254
+plantdoc,effnet_b0,1,3,field only,22.88135593220339
+plantdoc,effnet_b0,1,3,lab + field,36.86440677966102
+plantdoc,effnet_b0,1,3,lab + field (balanced),39.40677966101695
+plantdoc,effnet_b0,1,4,lab only,29.66101694915254
+plantdoc,effnet_b0,1,4,field only,18.64406779661017
+plantdoc,effnet_b0,1,4,lab + field,36.86440677966102
+plantdoc,effnet_b0,1,4,lab + field (balanced),37.71186440677966
+plantdoc,effnet_b0,5,0,lab only,29.66101694915254
+plantdoc,effnet_b0,5,0,field only,31.779661016949152
+plantdoc,effnet_b0,5,0,lab + field,41.52542372881356
+plantdoc,effnet_b0,5,0,lab + field (balanced),41.94915254237288
+plantdoc,effnet_b0,5,1,lab only,29.66101694915254
+plantdoc,effnet_b0,5,1,field only,39.40677966101695
+plantdoc,effnet_b0,5,1,lab + field,44.49152542372881
+plantdoc,effnet_b0,5,1,lab + field (balanced),47.03389830508475
+plantdoc,effnet_b0,5,2,lab only,29.66101694915254
+plantdoc,effnet_b0,5,2,field only,35.16949152542373
+plantdoc,effnet_b0,5,2,lab + field,38.983050847457626
+plantdoc,effnet_b0,5,2,lab + field (balanced),41.52542372881356
+plantdoc,effnet_b0,5,3,lab only,29.66101694915254
+plantdoc,effnet_b0,5,3,field only,34.74576271186441
+plantdoc,effnet_b0,5,3,lab + field,39.40677966101695
+plantdoc,effnet_b0,5,3,lab + field (balanced),40.67796610169492
+plantdoc,effnet_b0,5,4,lab only,29.66101694915254
+plantdoc,effnet_b0,5,4,field only,33.47457627118644
+plantdoc,effnet_b0,5,4,lab + field,39.40677966101695
+plantdoc,effnet_b0,5,4,lab + field (balanced),41.52542372881356
+plantdoc,effnet_b0,10,0,lab only,29.66101694915254
+plantdoc,effnet_b0,10,0,field only,40.67796610169492
+plantdoc,effnet_b0,10,0,lab + field,44.91525423728814
+plantdoc,effnet_b0,10,0,lab + field (balanced),48.728813559322035
+plantdoc,effnet_b0,10,1,lab only,29.66101694915254
+plantdoc,effnet_b0,10,1,field only,41.52542372881356
+plantdoc,effnet_b0,10,1,lab + field,43.64406779661017
+plantdoc,effnet_b0,10,1,lab + field (balanced),44.49152542372881
+plantdoc,effnet_b0,10,2,lab only,29.66101694915254
+plantdoc,effnet_b0,10,2,field only,38.559322033898304
+plantdoc,effnet_b0,10,2,lab + field,44.49152542372881
+plantdoc,effnet_b0,10,2,lab + field (balanced),44.49152542372881
+plantdoc,effnet_b0,10,3,lab only,29.66101694915254
+plantdoc,effnet_b0,10,3,field only,43.64406779661017
+plantdoc,effnet_b0,10,3,lab + field,47.88135593220339
+plantdoc,effnet_b0,10,3,lab + field (balanced),49.57627118644068
+plantdoc,effnet_b0,10,4,lab only,29.66101694915254
+plantdoc,effnet_b0,10,4,field only,47.45762711864407
+plantdoc,effnet_b0,10,4,lab + field,51.271186440677965
+plantdoc,effnet_b0,10,4,lab + field (balanced),50.42372881355932
+plantdoc,effnet_b0,16,0,lab only,29.66101694915254
+plantdoc,effnet_b0,16,0,field only,46.61016949152542
+plantdoc,effnet_b0,16,0,lab + field,49.152542372881356
+plantdoc,effnet_b0,16,0,lab + field (balanced),48.728813559322035
+plantdoc,effnet_b0,16,1,lab only,29.66101694915254
+plantdoc,effnet_b0,16,1,field only,44.06779661016949
+plantdoc,effnet_b0,16,1,lab + field,44.91525423728814
+plantdoc,effnet_b0,16,1,lab + field (balanced),45.33898305084746
+plantdoc,effnet_b0,16,2,lab only,29.66101694915254
+plantdoc,effnet_b0,16,2,field only,45.33898305084746
+plantdoc,effnet_b0,16,2,lab + field,47.88135593220339
+plantdoc,effnet_b0,16,2,lab + field (balanced),49.152542372881356
+plantdoc,effnet_b0,16,3,lab only,29.66101694915254
+plantdoc,effnet_b0,16,3,field only,44.06779661016949
+plantdoc,effnet_b0,16,3,lab + field,44.91525423728814
+plantdoc,effnet_b0,16,3,lab + field (balanced),47.45762711864407
+plantdoc,effnet_b0,16,4,lab only,29.66101694915254
+plantdoc,effnet_b0,16,4,field only,47.45762711864407
+plantdoc,effnet_b0,16,4,lab + field,48.30508474576271
+plantdoc,effnet_b0,16,4,lab + field (balanced),50.0
+pp,effnet_b0,1,0,lab only,47.721518987341774
+pp,effnet_b0,1,0,field only,61.962025316455694
+pp,effnet_b0,1,0,lab + field,54.30379746835443
+pp,effnet_b0,1,0,lab + field (balanced),65.25316455696203
+pp,effnet_b0,1,1,lab only,47.721518987341774
+pp,effnet_b0,1,1,field only,72.34177215189874
+pp,effnet_b0,1,1,lab + field,55.25316455696202
+pp,effnet_b0,1,1,lab + field (balanced),60.31645569620253
+pp,effnet_b0,1,2,lab only,47.721518987341774
+pp,effnet_b0,1,2,field only,70.37974683544303
+pp,effnet_b0,1,2,lab + field,55.316455696202524
+pp,effnet_b0,1,2,lab + field (balanced),58.291139240506325
+pp,effnet_b0,1,3,lab only,47.721518987341774
+pp,effnet_b0,1,3,field only,65.69620253164557
+pp,effnet_b0,1,3,lab + field,60.12658227848101
+pp,effnet_b0,1,3,lab + field (balanced),66.13924050632912
+pp,effnet_b0,1,4,lab only,47.721518987341774
+pp,effnet_b0,1,4,field only,64.68354430379748
+pp,effnet_b0,1,4,lab + field,56.835443037974684
+pp,effnet_b0,1,4,lab + field (balanced),62.721518987341774
+pp,effnet_b0,5,0,lab only,47.721518987341774
+pp,effnet_b0,5,0,field only,80.75949367088607
+pp,effnet_b0,5,0,lab + field,75.44303797468355
+pp,effnet_b0,5,0,lab + field (balanced),79.68354430379748
+pp,effnet_b0,5,1,lab only,47.721518987341774
+pp,effnet_b0,5,1,field only,81.07594936708861
+pp,effnet_b0,5,1,lab + field,72.78481012658227
+pp,effnet_b0,5,1,lab + field (balanced),78.35443037974683
+pp,effnet_b0,5,2,lab only,47.721518987341774
+pp,effnet_b0,5,2,field only,77.21518987341773
+pp,effnet_b0,5,2,lab + field,81.0126582278481
+pp,effnet_b0,5,2,lab + field (balanced),83.48101265822785
+pp,effnet_b0,5,3,lab only,47.721518987341774
+pp,effnet_b0,5,3,field only,76.20253164556962
+pp,effnet_b0,5,3,lab + field,76.45569620253164
+pp,effnet_b0,5,3,lab + field (balanced),78.16455696202532
+pp,effnet_b0,5,4,lab only,47.721518987341774
+pp,effnet_b0,5,4,field only,76.89873417721519
+pp,effnet_b0,5,4,lab + field,77.0253164556962
+pp,effnet_b0,5,4,lab + field (balanced),80.75949367088607
+pp,effnet_b0,10,0,lab only,47.721518987341774
+pp,effnet_b0,10,0,field only,81.64556962025317
+pp,effnet_b0,10,0,lab + field,83.67088607594937
+pp,effnet_b0,10,0,lab + field (balanced),85.31645569620252
+pp,effnet_b0,10,1,lab only,47.721518987341774
+pp,effnet_b0,10,1,field only,84.24050632911393
+pp,effnet_b0,10,1,lab + field,82.9746835443038
+pp,effnet_b0,10,1,lab + field (balanced),85.75949367088607
+pp,effnet_b0,10,2,lab only,47.721518987341774
+pp,effnet_b0,10,2,field only,85.69620253164557
+pp,effnet_b0,10,2,lab + field,85.31645569620252
+pp,effnet_b0,10,2,lab + field (balanced),86.83544303797468
+pp,effnet_b0,10,3,lab only,47.721518987341774
+pp,effnet_b0,10,3,field only,86.45569620253166
+pp,effnet_b0,10,3,lab + field,86.89873417721519
+pp,effnet_b0,10,3,lab + field (balanced),89.0506329113924
+pp,effnet_b0,10,4,lab only,47.721518987341774
+pp,effnet_b0,10,4,field only,84.68354430379746
+pp,effnet_b0,10,4,lab + field,84.87341772151899
+pp,effnet_b0,10,4,lab + field (balanced),87.9113924050633
+pp,effnet_b0,16,0,lab only,47.721518987341774
+pp,effnet_b0,16,0,field only,86.64556962025316
+pp,effnet_b0,16,0,lab + field,84.81012658227847
+pp,effnet_b0,16,0,lab + field (balanced),87.72151898734177
+pp,effnet_b0,16,1,lab only,47.721518987341774
+pp,effnet_b0,16,1,field only,86.51898734177215
+pp,effnet_b0,16,1,lab + field,86.0126582278481
+pp,effnet_b0,16,1,lab + field (balanced),86.83544303797468
+pp,effnet_b0,16,2,lab only,47.721518987341774
+pp,effnet_b0,16,2,field only,85.82278481012658
+pp,effnet_b0,16,2,lab + field,84.68354430379746
+pp,effnet_b0,16,2,lab + field (balanced),87.0886075949367
+pp,effnet_b0,16,3,lab only,47.721518987341774
+pp,effnet_b0,16,3,field only,88.41772151898735
+pp,effnet_b0,16,3,lab + field,84.30379746835443
+pp,effnet_b0,16,3,lab + field (balanced),86.70886075949366
+pp,effnet_b0,16,4,lab only,47.721518987341774
+pp,effnet_b0,16,4,field only,86.70886075949366
+pp,effnet_b0,16,4,lab + field,86.70886075949366
+pp,effnet_b0,16,4,lab + field (balanced),87.27848101265823
+plantdoc,mobilenet_v3,1,0,lab only,26.69491525423729
+plantdoc,mobilenet_v3,1,0,field only,25.423728813559322
+plantdoc,mobilenet_v3,1,0,lab + field,31.779661016949152
+plantdoc,mobilenet_v3,1,0,lab + field (balanced),38.13559322033898
+plantdoc,mobilenet_v3,1,1,lab only,26.69491525423729
+plantdoc,mobilenet_v3,1,1,field only,24.576271186440678
+plantdoc,mobilenet_v3,1,1,lab + field,30.93220338983051
+plantdoc,mobilenet_v3,1,1,lab + field (balanced),32.20338983050847
+plantdoc,mobilenet_v3,1,2,lab only,26.69491525423729
+plantdoc,mobilenet_v3,1,2,field only,22.033898305084744
+plantdoc,mobilenet_v3,1,2,lab + field,32.6271186440678
+plantdoc,mobilenet_v3,1,2,lab + field (balanced),31.779661016949152
+plantdoc,mobilenet_v3,1,3,lab only,26.69491525423729
+plantdoc,mobilenet_v3,1,3,field only,23.30508474576271
+plantdoc,mobilenet_v3,1,3,lab + field,33.89830508474576
+plantdoc,mobilenet_v3,1,3,lab + field (balanced),34.74576271186441
+plantdoc,mobilenet_v3,1,4,lab only,26.69491525423729
+plantdoc,mobilenet_v3,1,4,field only,24.576271186440678
+plantdoc,mobilenet_v3,1,4,lab + field,30.93220338983051
+plantdoc,mobilenet_v3,1,4,lab + field (balanced),27.11864406779661
+plantdoc,mobilenet_v3,5,0,lab only,26.69491525423729
+plantdoc,mobilenet_v3,5,0,field only,35.59322033898305
+plantdoc,mobilenet_v3,5,0,lab + field,39.83050847457627
+plantdoc,mobilenet_v3,5,0,lab + field (balanced),41.10169491525424
+plantdoc,mobilenet_v3,5,1,lab only,26.69491525423729
+plantdoc,mobilenet_v3,5,1,field only,37.71186440677966
+plantdoc,mobilenet_v3,5,1,lab + field,39.83050847457627
+plantdoc,mobilenet_v3,5,1,lab + field (balanced),40.67796610169492
+plantdoc,mobilenet_v3,5,2,lab only,26.69491525423729
+plantdoc,mobilenet_v3,5,2,field only,36.86440677966102
+plantdoc,mobilenet_v3,5,2,lab + field,39.40677966101695
+plantdoc,mobilenet_v3,5,2,lab + field (balanced),42.3728813559322
+plantdoc,mobilenet_v3,5,3,lab only,26.69491525423729
+plantdoc,mobilenet_v3,5,3,field only,40.25423728813559
+plantdoc,mobilenet_v3,5,3,lab + field,42.3728813559322
+plantdoc,mobilenet_v3,5,3,lab + field (balanced),46.186440677966104
+plantdoc,mobilenet_v3,5,4,lab only,26.69491525423729
+plantdoc,mobilenet_v3,5,4,field only,33.89830508474576
+plantdoc,mobilenet_v3,5,4,lab + field,38.559322033898304
+plantdoc,mobilenet_v3,5,4,lab + field (balanced),38.983050847457626
+plantdoc,mobilenet_v3,10,0,lab only,26.69491525423729
+plantdoc,mobilenet_v3,10,0,field only,41.52542372881356
+plantdoc,mobilenet_v3,10,0,lab + field,42.79661016949153
+plantdoc,mobilenet_v3,10,0,lab + field (balanced),45.76271186440678
+plantdoc,mobilenet_v3,10,1,lab only,26.69491525423729
+plantdoc,mobilenet_v3,10,1,field only,43.22033898305085
+plantdoc,mobilenet_v3,10,1,lab + field,41.94915254237288
+plantdoc,mobilenet_v3,10,1,lab + field (balanced),40.25423728813559
+plantdoc,mobilenet_v3,10,2,lab only,26.69491525423729
+plantdoc,mobilenet_v3,10,2,field only,44.49152542372881
+plantdoc,mobilenet_v3,10,2,lab + field,41.52542372881356
+plantdoc,mobilenet_v3,10,2,lab + field (balanced),43.22033898305085
+plantdoc,mobilenet_v3,10,3,lab only,26.69491525423729
+plantdoc,mobilenet_v3,10,3,field only,42.3728813559322
+plantdoc,mobilenet_v3,10,3,lab + field,40.67796610169492
+plantdoc,mobilenet_v3,10,3,lab + field (balanced),43.64406779661017
+plantdoc,mobilenet_v3,10,4,lab only,26.69491525423729
+plantdoc,mobilenet_v3,10,4,field only,47.03389830508475
+plantdoc,mobilenet_v3,10,4,lab + field,46.186440677966104
+plantdoc,mobilenet_v3,10,4,lab + field (balanced),50.0
+plantdoc,mobilenet_v3,16,0,lab only,26.69491525423729
+plantdoc,mobilenet_v3,16,0,field only,50.0
+plantdoc,mobilenet_v3,16,0,lab + field,45.33898305084746
+plantdoc,mobilenet_v3,16,0,lab + field (balanced),45.33898305084746
+plantdoc,mobilenet_v3,16,1,lab only,26.69491525423729
+plantdoc,mobilenet_v3,16,1,field only,47.88135593220339
+plantdoc,mobilenet_v3,16,1,lab + field,44.91525423728814
+plantdoc,mobilenet_v3,16,1,lab + field (balanced),46.186440677966104
+plantdoc,mobilenet_v3,16,2,lab only,26.69491525423729
+plantdoc,mobilenet_v3,16,2,field only,47.03389830508475
+plantdoc,mobilenet_v3,16,2,lab + field,47.03389830508475
+plantdoc,mobilenet_v3,16,2,lab + field (balanced),47.88135593220339
+plantdoc,mobilenet_v3,16,3,lab only,26.69491525423729
+plantdoc,mobilenet_v3,16,3,field only,48.30508474576271
+plantdoc,mobilenet_v3,16,3,lab + field,44.06779661016949
+plantdoc,mobilenet_v3,16,3,lab + field (balanced),45.33898305084746
+plantdoc,mobilenet_v3,16,4,lab only,26.69491525423729
+plantdoc,mobilenet_v3,16,4,field only,44.49152542372881
+plantdoc,mobilenet_v3,16,4,lab + field,42.79661016949153
+plantdoc,mobilenet_v3,16,4,lab + field (balanced),46.61016949152542
+pp,mobilenet_v3,1,0,lab only,40.379746835443036
+pp,mobilenet_v3,1,0,field only,55.75949367088607
+pp,mobilenet_v3,1,0,lab + field,65.18987341772153
+pp,mobilenet_v3,1,0,lab + field (balanced),70.18987341772151
+pp,mobilenet_v3,1,1,lab only,40.379746835443036
+pp,mobilenet_v3,1,1,field only,71.26582278481013
+pp,mobilenet_v3,1,1,lab + field,66.58227848101265
+pp,mobilenet_v3,1,1,lab + field (balanced),70.37974683544303
+pp,mobilenet_v3,1,2,lab only,40.379746835443036
+pp,mobilenet_v3,1,2,field only,74.24050632911391
+pp,mobilenet_v3,1,2,lab + field,70.0
+pp,mobilenet_v3,1,2,lab + field (balanced),75.75949367088609
+pp,mobilenet_v3,1,3,lab only,40.379746835443036
+pp,mobilenet_v3,1,3,field only,65.88607594936708
+pp,mobilenet_v3,1,3,lab + field,61.32911392405064
+pp,mobilenet_v3,1,3,lab + field (balanced),64.81012658227849
+pp,mobilenet_v3,1,4,lab only,40.379746835443036
+pp,mobilenet_v3,1,4,field only,57.78481012658227
+pp,mobilenet_v3,1,4,lab + field,66.70886075949367
+pp,mobilenet_v3,1,4,lab + field (balanced),70.12658227848101
+pp,mobilenet_v3,5,0,lab only,40.379746835443036
+pp,mobilenet_v3,5,0,field only,82.46835443037975
+pp,mobilenet_v3,5,0,lab + field,80.12658227848102
+pp,mobilenet_v3,5,0,lab + field (balanced),83.79746835443038
+pp,mobilenet_v3,5,1,lab only,40.379746835443036
+pp,mobilenet_v3,5,1,field only,82.15189873417722
+pp,mobilenet_v3,5,1,lab + field,75.56962025316456
+pp,mobilenet_v3,5,1,lab + field (balanced),80.25316455696202
+pp,mobilenet_v3,5,2,lab only,40.379746835443036
+pp,mobilenet_v3,5,2,field only,73.54430379746836
+pp,mobilenet_v3,5,2,lab + field,78.0379746835443
+pp,mobilenet_v3,5,2,lab + field (balanced),79.43037974683544
+pp,mobilenet_v3,5,3,lab only,40.379746835443036
+pp,mobilenet_v3,5,3,field only,77.34177215189874
+pp,mobilenet_v3,5,3,lab + field,77.0253164556962
+pp,mobilenet_v3,5,3,lab + field (balanced),79.30379746835443
+pp,mobilenet_v3,5,4,lab only,40.379746835443036
+pp,mobilenet_v3,5,4,field only,80.0632911392405
+pp,mobilenet_v3,5,4,lab + field,78.41772151898734
+pp,mobilenet_v3,5,4,lab + field (balanced),81.0126582278481
+pp,mobilenet_v3,10,0,lab only,40.379746835443036
+pp,mobilenet_v3,10,0,field only,84.30379746835443
+pp,mobilenet_v3,10,0,lab + field,84.55696202531645
+pp,mobilenet_v3,10,0,lab + field (balanced),85.56962025316456
+pp,mobilenet_v3,10,1,lab only,40.379746835443036
+pp,mobilenet_v3,10,1,field only,85.75949367088607
+pp,mobilenet_v3,10,1,lab + field,85.12658227848101
+pp,mobilenet_v3,10,1,lab + field (balanced),86.77215189873418
+pp,mobilenet_v3,10,2,lab only,40.379746835443036
+pp,mobilenet_v3,10,2,field only,82.46835443037975
+pp,mobilenet_v3,10,2,lab + field,83.67088607594937
+pp,mobilenet_v3,10,2,lab + field (balanced),84.68354430379746
+pp,mobilenet_v3,10,3,lab only,40.379746835443036
+pp,mobilenet_v3,10,3,field only,86.77215189873418
+pp,mobilenet_v3,10,3,lab + field,85.31645569620252
+pp,mobilenet_v3,10,3,lab + field (balanced),87.15189873417721
+pp,mobilenet_v3,10,4,lab only,40.379746835443036
+pp,mobilenet_v3,10,4,field only,84.87341772151899
+pp,mobilenet_v3,10,4,lab + field,86.0126582278481
+pp,mobilenet_v3,10,4,lab + field (balanced),87.27848101265823
+pp,mobilenet_v3,16,0,lab only,40.379746835443036
+pp,mobilenet_v3,16,0,field only,88.67088607594937
+pp,mobilenet_v3,16,0,lab + field,86.32911392405063
+pp,mobilenet_v3,16,0,lab + field (balanced),88.22784810126582
+pp,mobilenet_v3,16,1,lab only,40.379746835443036
+pp,mobilenet_v3,16,1,field only,88.35443037974684
+pp,mobilenet_v3,16,1,lab + field,86.39240506329115
+pp,mobilenet_v3,16,1,lab + field (balanced),87.72151898734177
+pp,mobilenet_v3,16,2,lab only,40.379746835443036
+pp,mobilenet_v3,16,2,field only,87.78481012658229
+pp,mobilenet_v3,16,2,lab + field,86.45569620253166
+pp,mobilenet_v3,16,2,lab + field (balanced),87.72151898734177
+pp,mobilenet_v3,16,3,lab only,40.379746835443036
+pp,mobilenet_v3,16,3,field only,90.0632911392405
+pp,mobilenet_v3,16,3,lab + field,86.39240506329115
+pp,mobilenet_v3,16,3,lab + field (balanced),88.54430379746834
+pp,mobilenet_v3,16,4,lab only,40.379746835443036
+pp,mobilenet_v3,16,4,field only,87.46835443037975
+pp,mobilenet_v3,16,4,lab + field,87.15189873417721
+pp,mobilenet_v3,16,4,lab + field (balanced),88.67088607594937

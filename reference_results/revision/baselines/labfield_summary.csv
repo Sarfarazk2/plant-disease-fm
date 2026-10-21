@@ -1,0 +1,321 @@
+dataset,model,K,method,mean,std
+plantdoc,bioclip,1,field only,40.42,2.91
+plantdoc,bioclip,1,lab + field,49.92,1.65
+plantdoc,bioclip,1,lab + field (balanced),51.78,1.06
+plantdoc,bioclip,1,lab only,36.44,0.0
+plantdoc,bioclip,5,field only,58.47,2.18
+plantdoc,bioclip,5,lab + field,58.31,2.31
+plantdoc,bioclip,5,lab + field (balanced),60.0,1.39
+plantdoc,bioclip,5,lab only,36.44,0.0
+plantdoc,bioclip,10,field only,60.85,4.54
+plantdoc,bioclip,10,lab + field,59.58,2.94
+plantdoc,bioclip,10,lab + field (balanced),61.86,2.56
+plantdoc,bioclip,10,lab only,36.44,0.0
+plantdoc,bioclip,16,field only,64.49,1.62
+plantdoc,bioclip,16,lab + field,63.05,1.6
+plantdoc,bioclip,16,lab + field (balanced),64.41,2.83
+plantdoc,bioclip,16,lab only,36.44,0.0
+plantdoc,bioclip2,1,field only,46.69,3.64
+plantdoc,bioclip2,1,lab + field,62.8,1.29
+plantdoc,bioclip2,1,lab + field (balanced),64.15,1.76
+plantdoc,bioclip2,1,lab only,57.63,0.0
+plantdoc,bioclip2,5,field only,65.08,3.06
+plantdoc,bioclip2,5,lab + field,68.14,1.88
+plantdoc,bioclip2,5,lab + field (balanced),69.24,2.19
+plantdoc,bioclip2,5,lab only,57.63,0.0
+plantdoc,bioclip2,10,field only,68.73,2.46
+plantdoc,bioclip2,10,lab + field,68.47,2.29
+plantdoc,bioclip2,10,lab + field (balanced),70.0,1.71
+plantdoc,bioclip2,10,lab only,57.63,0.0
+plantdoc,bioclip2,16,field only,70.34,1.5
+plantdoc,bioclip2,16,lab + field,69.41,2.11
+plantdoc,bioclip2,16,lab + field (balanced),71.02,2.43
+plantdoc,bioclip2,16,lab only,57.63,0.0
+plantdoc,clip_b16,1,field only,24.07,3.25
+plantdoc,clip_b16,1,lab + field,40.42,1.96
+plantdoc,clip_b16,1,lab + field (balanced),40.68,0.99
+plantdoc,clip_b16,1,lab only,34.32,0.0
+plantdoc,clip_b16,5,field only,43.73,3.49
+plantdoc,clip_b16,5,lab + field,49.92,0.63
+plantdoc,clip_b16,5,lab + field (balanced),48.31,2.38
+plantdoc,clip_b16,5,lab only,34.32,0.0
+plantdoc,clip_b16,10,field only,48.05,3.96
+plantdoc,clip_b16,10,lab + field,55.59,2.93
+plantdoc,clip_b16,10,lab + field (balanced),54.58,2.35
+plantdoc,clip_b16,10,lab only,34.32,0.0
+plantdoc,clip_b16,16,field only,53.81,1.69
+plantdoc,clip_b16,16,lab + field,55.34,2.48
+plantdoc,clip_b16,16,lab + field (balanced),55.93,2.42
+plantdoc,clip_b16,16,lab only,34.32,0.0
+plantdoc,clip_l14,1,field only,27.8,1.55
+plantdoc,clip_l14,1,lab + field,46.02,2.33
+plantdoc,clip_l14,1,lab + field (balanced),40.93,3.63
+plantdoc,clip_l14,1,lab only,36.86,0.0
+plantdoc,clip_l14,5,field only,48.47,2.35
+plantdoc,clip_l14,5,lab + field,53.31,1.18
+plantdoc,clip_l14,5,lab + field (balanced),51.61,1.81
+plantdoc,clip_l14,5,lab only,36.86,0.0
+plantdoc,clip_l14,10,field only,56.36,3.73
+plantdoc,clip_l14,10,lab + field,55.76,2.13
+plantdoc,clip_l14,10,lab + field (balanced),55.25,3.19
+plantdoc,clip_l14,10,lab only,36.86,0.0
+plantdoc,clip_l14,16,field only,57.71,2.11
+plantdoc,clip_l14,16,lab + field,57.37,1.55
+plantdoc,clip_l14,16,lab + field (balanced),56.86,2.67
+plantdoc,clip_l14,16,lab only,36.86,0.0
+plantdoc,dinov2_b14,1,field only,37.88,2.57
+plantdoc,dinov2_b14,1,lab + field,50.85,1.75
+plantdoc,dinov2_b14,1,lab + field (balanced),53.31,1.88
+plantdoc,dinov2_b14,1,lab only,46.61,0.0
+plantdoc,dinov2_b14,5,field only,59.83,2.72
+plantdoc,dinov2_b14,5,lab + field,57.29,1.57
+plantdoc,dinov2_b14,5,lab + field (balanced),60.93,2.67
+plantdoc,dinov2_b14,5,lab only,46.61,0.0
+plantdoc,dinov2_b14,10,field only,63.22,4.24
+plantdoc,dinov2_b14,10,lab + field,60.59,1.47
+plantdoc,dinov2_b14,10,lab + field (balanced),63.39,1.71
+plantdoc,dinov2_b14,10,lab only,46.61,0.0
+plantdoc,dinov2_b14,16,field only,68.9,3.53
+plantdoc,dinov2_b14,16,lab + field,63.22,2.44
+plantdoc,dinov2_b14,16,lab + field (balanced),66.61,3.05
+plantdoc,dinov2_b14,16,lab only,46.61,0.0
+plantdoc,dinov2_l14,1,field only,38.47,2.11
+plantdoc,dinov2_l14,1,lab + field,53.64,0.77
+plantdoc,dinov2_l14,1,lab + field (balanced),55.93,1.12
+plantdoc,dinov2_l14,1,lab only,47.03,0.0
+plantdoc,dinov2_l14,5,field only,60.42,1.71
+plantdoc,dinov2_l14,5,lab + field,57.8,0.71
+plantdoc,dinov2_l14,5,lab + field (balanced),62.8,1.54
+plantdoc,dinov2_l14,5,lab only,47.03,0.0
+plantdoc,dinov2_l14,10,field only,63.98,3.52
+plantdoc,dinov2_l14,10,lab + field,62.63,0.63
+plantdoc,dinov2_l14,10,lab + field (balanced),64.15,1.55
+plantdoc,dinov2_l14,10,lab only,47.03,0.0
+plantdoc,dinov2_l14,16,field only,67.2,1.6
+plantdoc,dinov2_l14,16,lab + field,64.83,1.72
+plantdoc,dinov2_l14,16,lab + field (balanced),67.71,2.44
+plantdoc,dinov2_l14,16,lab only,47.03,0.0
+plantdoc,effnet_b0,1,field only,21.27,3.12
+plantdoc,effnet_b0,1,lab + field,37.63,0.76
+plantdoc,effnet_b0,1,lab + field (balanced),38.39,1.86
+plantdoc,effnet_b0,1,lab only,29.66,0.0
+plantdoc,effnet_b0,5,field only,34.92,2.84
+plantdoc,effnet_b0,5,lab + field,40.76,2.31
+plantdoc,effnet_b0,5,lab + field (balanced),42.54,2.55
+plantdoc,effnet_b0,5,lab only,29.66,0.0
+plantdoc,effnet_b0,10,field only,42.37,3.38
+plantdoc,effnet_b0,10,lab + field,46.44,3.14
+plantdoc,effnet_b0,10,lab + field (balanced),47.54,2.85
+plantdoc,effnet_b0,10,lab only,29.66,0.0
+plantdoc,effnet_b0,16,field only,45.51,1.52
+plantdoc,effnet_b0,16,lab + field,47.03,1.99
+plantdoc,effnet_b0,16,lab + field (balanced),48.14,1.81
+plantdoc,effnet_b0,16,lab only,29.66,0.0
+plantdoc,mobilenet_v3,1,field only,23.98,1.33
+plantdoc,mobilenet_v3,1,lab + field,32.03,1.26
+plantdoc,mobilenet_v3,1,lab + field (balanced),32.8,4.06
+plantdoc,mobilenet_v3,1,lab only,26.69,0.0
+plantdoc,mobilenet_v3,5,field only,36.86,2.38
+plantdoc,mobilenet_v3,5,lab + field,40.0,1.42
+plantdoc,mobilenet_v3,5,lab + field (balanced),41.86,2.7
+plantdoc,mobilenet_v3,5,lab only,26.69,0.0
+plantdoc,mobilenet_v3,10,field only,43.73,2.15
+plantdoc,mobilenet_v3,10,lab + field,42.63,2.13
+plantdoc,mobilenet_v3,10,lab + field (balanced),44.58,3.61
+plantdoc,mobilenet_v3,10,lab only,26.69,0.0
+plantdoc,mobilenet_v3,16,field only,47.54,2.02
+plantdoc,mobilenet_v3,16,lab + field,44.83,1.57
+plantdoc,mobilenet_v3,16,lab + field (balanced),46.27,1.06
+plantdoc,mobilenet_v3,16,lab only,26.69,0.0
+plantdoc,resnet50,1,field only,18.22,2.52
+plantdoc,resnet50,1,lab + field,31.02,1.39
+plantdoc,resnet50,1,lab + field (balanced),33.9,2.73
+plantdoc,resnet50,1,lab only,24.58,0.0
+plantdoc,resnet50,5,field only,31.61,3.22
+plantdoc,resnet50,5,lab + field,35.93,1.45
+plantdoc,resnet50,5,lab + field (balanced),37.29,2.47
+plantdoc,resnet50,5,lab only,24.58,0.0
+plantdoc,resnet50,10,field only,35.76,2.74
+plantdoc,resnet50,10,lab + field,38.31,1.29
+plantdoc,resnet50,10,lab + field (balanced),39.07,2.35
+plantdoc,resnet50,10,lab only,24.58,0.0
+plantdoc,resnet50,16,field only,41.27,2.79
+plantdoc,resnet50,16,lab + field,43.05,1.98
+plantdoc,resnet50,16,lab + field (balanced),44.07,1.87
+plantdoc,resnet50,16,lab only,24.58,0.0
+plantdoc,siglip_b16,1,field only,32.46,4.75
+plantdoc,siglip_b16,1,lab + field,53.9,0.63
+plantdoc,siglip_b16,1,lab + field (balanced),54.92,2.05
+plantdoc,siglip_b16,1,lab only,47.88,0.0
+plantdoc,siglip_b16,5,field only,54.32,2.31
+plantdoc,siglip_b16,5,lab + field,61.53,1.29
+plantdoc,siglip_b16,5,lab + field (balanced),60.51,0.35
+plantdoc,siglip_b16,5,lab only,47.88,0.0
+plantdoc,siglip_b16,10,field only,58.73,2.82
+plantdoc,siglip_b16,10,lab + field,62.71,2.1
+plantdoc,siglip_b16,10,lab + field (balanced),62.97,2.91
+plantdoc,siglip_b16,10,lab only,47.88,0.0
+plantdoc,siglip_b16,16,field only,60.85,1.89
+plantdoc,siglip_b16,16,lab + field,62.71,1.61
+plantdoc,siglip_b16,16,lab + field (balanced),63.22,1.73
+plantdoc,siglip_b16,16,lab only,47.88,0.0
+pp,bioclip,1,field only,79.2,6.3
+pp,bioclip,1,lab + field,81.52,3.27
+pp,bioclip,1,lab + field (balanced),85.23,4.04
+pp,bioclip,1,lab only,65.57,0.0
+pp,bioclip,5,field only,88.7,0.97
+pp,bioclip,5,lab + field,88.14,1.57
+pp,bioclip,5,lab + field (balanced),90.57,0.71
+pp,bioclip,5,lab only,65.57,0.0
+pp,bioclip,10,field only,91.27,0.87
+pp,bioclip,10,lab + field,90.95,1.25
+pp,bioclip,10,lab + field (balanced),92.35,1.37
+pp,bioclip,10,lab only,65.57,0.0
+pp,bioclip,16,field only,92.68,1.62
+pp,bioclip,16,lab + field,92.51,1.14
+pp,bioclip,16,lab + field (balanced),93.38,0.92
+pp,bioclip,16,lab only,65.57,0.0
+pp,bioclip2,1,field only,66.42,4.57
+pp,bioclip2,1,lab + field,82.89,0.89
+pp,bioclip2,1,lab + field (balanced),85.82,1.32
+pp,bioclip2,1,lab only,72.78,0.0
+pp,bioclip2,5,field only,83.68,5.0
+pp,bioclip2,5,lab + field,87.47,0.71
+pp,bioclip2,5,lab + field (balanced),89.56,0.97
+pp,bioclip2,5,lab only,72.78,0.0
+pp,bioclip2,10,field only,87.94,3.45
+pp,bioclip2,10,lab + field,89.8,1.35
+pp,bioclip2,10,lab + field (balanced),91.44,2.13
+pp,bioclip2,10,lab only,72.78,0.0
+pp,bioclip2,16,field only,90.75,2.07
+pp,bioclip2,16,lab + field,91.35,1.2
+pp,bioclip2,16,lab + field (balanced),93.27,0.55
+pp,bioclip2,16,lab only,72.78,0.0
+pp,clip_b16,1,field only,73.67,7.62
+pp,clip_b16,1,lab + field,83.32,3.78
+pp,clip_b16,1,lab + field (balanced),82.91,3.92
+pp,clip_b16,1,lab only,64.18,0.0
+pp,clip_b16,5,field only,84.97,2.53
+pp,clip_b16,5,lab + field,88.76,1.71
+pp,clip_b16,5,lab + field (balanced),88.95,2.07
+pp,clip_b16,5,lab only,64.18,0.0
+pp,clip_b16,10,field only,90.39,0.84
+pp,clip_b16,10,lab + field,90.97,0.79
+pp,clip_b16,10,lab + field (balanced),92.44,1.21
+pp,clip_b16,10,lab only,64.18,0.0
+pp,clip_b16,16,field only,92.73,0.36
+pp,clip_b16,16,lab + field,92.29,0.84
+pp,clip_b16,16,lab + field (balanced),92.51,1.01
+pp,clip_b16,16,lab only,64.18,0.0
+pp,clip_l14,1,field only,79.27,5.56
+pp,clip_l14,1,lab + field,81.86,1.64
+pp,clip_l14,1,lab + field (balanced),86.35,2.42
+pp,clip_l14,1,lab only,54.24,0.0
+pp,clip_l14,5,field only,89.46,2.9
+pp,clip_l14,5,lab + field,88.46,2.35
+pp,clip_l14,5,lab + field (balanced),91.0,1.48
+pp,clip_l14,5,lab only,54.24,0.0
+pp,clip_l14,10,field only,92.61,1.32
+pp,clip_l14,10,lab + field,89.0,2.14
+pp,clip_l14,10,lab + field (balanced),92.35,0.77
+pp,clip_l14,10,lab only,54.24,0.0
+pp,clip_l14,16,field only,93.22,0.54
+pp,clip_l14,16,lab + field,92.01,0.53
+pp,clip_l14,16,lab + field (balanced),92.39,0.58
+pp,clip_l14,16,lab only,54.24,0.0
+pp,dinov2_b14,1,field only,49.44,5.21
+pp,dinov2_b14,1,lab + field,55.91,3.51
+pp,dinov2_b14,1,lab + field (balanced),59.06,3.83
+pp,dinov2_b14,1,lab only,46.71,0.0
+pp,dinov2_b14,5,field only,65.92,3.71
+pp,dinov2_b14,5,lab + field,66.61,2.33
+pp,dinov2_b14,5,lab + field (balanced),70.41,2.54
+pp,dinov2_b14,5,lab only,46.71,0.0
+pp,dinov2_b14,10,field only,76.34,2.58
+pp,dinov2_b14,10,lab + field,77.24,3.83
+pp,dinov2_b14,10,lab + field (balanced),80.42,2.95
+pp,dinov2_b14,10,lab only,46.71,0.0
+pp,dinov2_b14,16,field only,82.23,2.69
+pp,dinov2_b14,16,lab + field,82.15,0.87
+pp,dinov2_b14,16,lab + field (balanced),84.61,0.95
+pp,dinov2_b14,16,lab only,46.71,0.0
+pp,dinov2_l14,1,field only,49.0,3.48
+pp,dinov2_l14,1,lab + field,52.42,1.51
+pp,dinov2_l14,1,lab + field (balanced),56.59,3.9
+pp,dinov2_l14,1,lab only,43.35,0.0
+pp,dinov2_l14,5,field only,63.95,1.51
+pp,dinov2_l14,5,lab + field,66.22,2.58
+pp,dinov2_l14,5,lab + field (balanced),69.47,2.76
+pp,dinov2_l14,5,lab only,43.35,0.0
+pp,dinov2_l14,10,field only,73.33,3.0
+pp,dinov2_l14,10,lab + field,72.32,1.95
+pp,dinov2_l14,10,lab + field (balanced),75.01,2.54
+pp,dinov2_l14,10,lab only,43.35,0.0
+pp,dinov2_l14,16,field only,79.9,4.0
+pp,dinov2_l14,16,lab + field,77.53,3.64
+pp,dinov2_l14,16,lab + field (balanced),80.78,2.71
+pp,dinov2_l14,16,lab only,43.35,0.0
+pp,effnet_b0,1,field only,67.01,4.25
+pp,effnet_b0,1,lab + field,56.37,2.29
+pp,effnet_b0,1,lab + field (balanced),62.54,3.29
+pp,effnet_b0,1,lab only,47.72,0.0
+pp,effnet_b0,5,field only,78.43,2.3
+pp,effnet_b0,5,lab + field,76.54,2.98
+pp,effnet_b0,5,lab + field (balanced),80.09,2.17
+pp,effnet_b0,5,lab only,47.72,0.0
+pp,effnet_b0,10,field only,84.54,1.84
+pp,effnet_b0,10,lab + field,84.75,1.52
+pp,effnet_b0,10,lab + field (balanced),86.97,1.54
+pp,effnet_b0,10,lab only,47.72,0.0
+pp,effnet_b0,16,field only,86.82,0.96
+pp,effnet_b0,16,lab + field,85.3,1.01
+pp,effnet_b0,16,lab + field (balanced),87.13,0.4
+pp,effnet_b0,16,lab only,47.72,0.0
+pp,mobilenet_v3,1,field only,64.99,8.11
+pp,mobilenet_v3,1,lab + field,65.96,3.13
+pp,mobilenet_v3,1,lab + field (balanced),70.25,3.87
+pp,mobilenet_v3,1,lab only,40.38,0.0
+pp,mobilenet_v3,5,field only,79.11,3.73
+pp,mobilenet_v3,5,lab + field,77.84,1.69
+pp,mobilenet_v3,5,lab + field (balanced),80.76,1.83
+pp,mobilenet_v3,5,lab only,40.38,0.0
+pp,mobilenet_v3,10,field only,84.84,1.62
+pp,mobilenet_v3,10,lab + field,84.94,0.88
+pp,mobilenet_v3,10,lab + field (balanced),86.29,1.12
+pp,mobilenet_v3,10,lab only,40.38,0.0
+pp,mobilenet_v3,16,field only,88.47,1.01
+pp,mobilenet_v3,16,lab + field,86.54,0.34
+pp,mobilenet_v3,16,lab + field (balanced),88.18,0.45
+pp,mobilenet_v3,16,lab only,40.38,0.0
+pp,resnet50,1,field only,54.58,7.1
+pp,resnet50,1,lab + field,51.67,1.39
+pp,resnet50,1,lab + field (balanced),56.09,4.97
+pp,resnet50,1,lab only,48.67,0.0
+pp,resnet50,5,field only,64.77,5.09
+pp,resnet50,5,lab + field,60.38,3.21
+pp,resnet50,5,lab + field (balanced),64.99,4.48
+pp,resnet50,5,lab only,48.67,0.0
+pp,resnet50,10,field only,73.56,1.57
+pp,resnet50,10,lab + field,72.92,4.28
+pp,resnet50,10,lab + field (balanced),75.03,2.68
+pp,resnet50,10,lab only,48.67,0.0
+pp,resnet50,16,field only,76.96,1.65
+pp,resnet50,16,lab + field,75.11,1.73
+pp,resnet50,16,lab + field (balanced),76.82,1.89
+pp,resnet50,16,lab only,48.67,0.0
+pp,siglip_b16,1,field only,71.63,5.35
+pp,siglip_b16,1,lab + field,76.06,4.84
+pp,siglip_b16,1,lab + field (balanced),81.57,2.26
+pp,siglip_b16,1,lab only,48.86,0.0
+pp,siglip_b16,5,field only,86.46,1.53
+pp,siglip_b16,5,lab + field,87.13,1.07
+pp,siglip_b16,5,lab + field (balanced),89.35,1.06
+pp,siglip_b16,5,lab only,48.86,0.0
+pp,siglip_b16,10,field only,89.23,0.63
+pp,siglip_b16,10,lab + field,88.91,0.6
+pp,siglip_b16,10,lab + field (balanced),90.78,0.24
+pp,siglip_b16,10,lab only,48.86,0.0
+pp,siglip_b16,16,field only,90.89,1.09
+pp,siglip_b16,16,lab + field,90.05,0.44
+pp,siglip_b16,16,lab + field (balanced),91.89,0.4
+pp,siglip_b16,16,lab only,48.86,0.0

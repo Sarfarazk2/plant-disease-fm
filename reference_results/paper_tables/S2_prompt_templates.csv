@@ -1,0 +1,76 @@
+model,data,template,accuracy
+CLIP ViT-B/16,PlantDoc 28-way,a photo of a {}.,39.4
+CLIP ViT-B/16,PlantDoc 28-way,a close-up photo of a {}.,37.3
+CLIP ViT-B/16,PlantDoc 28-way,a field photo of a {}.,39.8
+CLIP ViT-B/16,PlantDoc 28-way,a plant disease photo: {}.,39.0
+CLIP ViT-B/16,PlantDoc 28-way,average of 4 (used),39.0
+CLIP ViT-B/16,Plant Pathology 28-way,a photo of a {}.,29.2
+CLIP ViT-B/16,Plant Pathology 28-way,a close-up photo of a {}.,26.3
+CLIP ViT-B/16,Plant Pathology 28-way,a field photo of a {}.,39.8
+CLIP ViT-B/16,Plant Pathology 28-way,a plant disease photo: {}.,41.2
+CLIP ViT-B/16,Plant Pathology 28-way,average of 4 (used),38.3
+CLIP ViT-B/16,Wheat 5-way,a photo of a {}.,38.2
+CLIP ViT-B/16,Wheat 5-way,a close-up photo of a {}.,39.0
+CLIP ViT-B/16,Wheat 5-way,a field photo of a {}.,38.4
+CLIP ViT-B/16,Wheat 5-way,a plant disease photo: {}.,39.1
+CLIP ViT-B/16,Wheat 5-way,average of 4 (used),39.8
+BioCLIP,PlantDoc 28-way,a photo of a {}.,44.1
+BioCLIP,PlantDoc 28-way,a close-up photo of a {}.,42.0
+BioCLIP,PlantDoc 28-way,a field photo of a {}.,39.8
+BioCLIP,PlantDoc 28-way,a plant disease photo: {}.,39.8
+BioCLIP,PlantDoc 28-way,average of 4 (used),41.5
+BioCLIP,Plant Pathology 28-way,a photo of a {}.,62.4
+BioCLIP,Plant Pathology 28-way,a close-up photo of a {}.,52.3
+BioCLIP,Plant Pathology 28-way,a field photo of a {}.,59.3
+BioCLIP,Plant Pathology 28-way,a plant disease photo: {}.,56.1
+BioCLIP,Plant Pathology 28-way,average of 4 (used),58.1
+BioCLIP,Wheat 5-way,a photo of a {}.,22.3
+BioCLIP,Wheat 5-way,a close-up photo of a {}.,23.0
+BioCLIP,Wheat 5-way,a field photo of a {}.,20.7
+BioCLIP,Wheat 5-way,a plant disease photo: {}.,21.1
+BioCLIP,Wheat 5-way,average of 4 (used),21.7
+BioCLIP 2,PlantDoc 28-way,a photo of a {}.,51.7
+BioCLIP 2,PlantDoc 28-way,a close-up photo of a {}.,53.4
+BioCLIP 2,PlantDoc 28-way,a field photo of a {}.,53.4
+BioCLIP 2,PlantDoc 28-way,a plant disease photo: {}.,53.0
+BioCLIP 2,PlantDoc 28-way,average of 4 (used),53.8
+BioCLIP 2,Plant Pathology 28-way,a photo of a {}.,72.8
+BioCLIP 2,Plant Pathology 28-way,a close-up photo of a {}.,79.8
+BioCLIP 2,Plant Pathology 28-way,a field photo of a {}.,78.3
+BioCLIP 2,Plant Pathology 28-way,a plant disease photo: {}.,62.5
+BioCLIP 2,Plant Pathology 28-way,average of 4 (used),78.3
+BioCLIP 2,Wheat 5-way,a photo of a {}.,40.3
+BioCLIP 2,Wheat 5-way,a close-up photo of a {}.,25.7
+BioCLIP 2,Wheat 5-way,a field photo of a {}.,29.7
+BioCLIP 2,Wheat 5-way,a plant disease photo: {}.,21.6
+BioCLIP 2,Wheat 5-way,average of 4 (used),27.7
+CLIP ViT-L/14 (LAION-2B),PlantDoc 28-way,a photo of a {}.,43.2
+CLIP ViT-L/14 (LAION-2B),PlantDoc 28-way,a close-up photo of a {}.,42.0
+CLIP ViT-L/14 (LAION-2B),PlantDoc 28-way,a field photo of a {}.,43.6
+CLIP ViT-L/14 (LAION-2B),PlantDoc 28-way,a plant disease photo: {}.,40.7
+CLIP ViT-L/14 (LAION-2B),PlantDoc 28-way,average of 4 (used),43.2
+CLIP ViT-L/14 (LAION-2B),Plant Pathology 28-way,a photo of a {}.,46.0
+CLIP ViT-L/14 (LAION-2B),Plant Pathology 28-way,a close-up photo of a {}.,42.2
+CLIP ViT-L/14 (LAION-2B),Plant Pathology 28-way,a field photo of a {}.,40.4
+CLIP ViT-L/14 (LAION-2B),Plant Pathology 28-way,a plant disease photo: {}.,29.7
+CLIP ViT-L/14 (LAION-2B),Plant Pathology 28-way,average of 4 (used),46.0
+CLIP ViT-L/14 (LAION-2B),Wheat 5-way,a photo of a {}.,41.8
+CLIP ViT-L/14 (LAION-2B),Wheat 5-way,a close-up photo of a {}.,39.6
+CLIP ViT-L/14 (LAION-2B),Wheat 5-way,a field photo of a {}.,39.2
+CLIP ViT-L/14 (LAION-2B),Wheat 5-way,a plant disease photo: {}.,35.2
+CLIP ViT-L/14 (LAION-2B),Wheat 5-way,average of 4 (used),40.9
+SigLIP ViT-B/16,PlantDoc 28-way,a photo of a {}.,62.3
+SigLIP ViT-B/16,PlantDoc 28-way,a close-up photo of a {}.,61.0
+SigLIP ViT-B/16,PlantDoc 28-way,a field photo of a {}.,59.3
+SigLIP ViT-B/16,PlantDoc 28-way,a plant disease photo: {}.,49.2
+SigLIP ViT-B/16,PlantDoc 28-way,average of 4 (used),61.9
+SigLIP ViT-B/16,Plant Pathology 28-way,a photo of a {}.,70.5
+SigLIP ViT-B/16,Plant Pathology 28-way,a close-up photo of a {}.,67.0
+SigLIP ViT-B/16,Plant Pathology 28-way,a field photo of a {}.,75.1
+SigLIP ViT-B/16,Plant Pathology 28-way,a plant disease photo: {}.,55.8
+SigLIP ViT-B/16,Plant Pathology 28-way,average of 4 (used),64.9
+SigLIP ViT-B/16,Wheat 5-way,a photo of a {}.,41.5
+SigLIP ViT-B/16,Wheat 5-way,a close-up photo of a {}.,44.2
+SigLIP ViT-B/16,Wheat 5-way,a field photo of a {}.,41.9
+SigLIP ViT-B/16,Wheat 5-way,a plant disease photo: {}.,21.2
+SigLIP ViT-B/16,Wheat 5-way,average of 4 (used),42.0

@@ -1,0 +1,2 @@
+model,seed,selected_epoch,val_accuracy,lab_test_accuracy,lab_test_macro_f1,plantdoc_accuracy,plantdoc_macro_f1,pp_accuracy,pp_3way_accuracy,pp_macro_f1
+mobilenet_v3,0,7,98.87,98.05,98.09,27.97,23.24,17.22,64.56,28.52

@@ -1,0 +1,58 @@
+true,predicted,count,share_of_true_class_%,same_crop
+Corn northern leaf blight,Corn gray leaf spot,6,50.0,True
+Corn common rust,Corn northern leaf blight,5,50.0,True
+Strawberry healthy,Raspberry healthy,5,62.5,False
+Tomato septoria leaf spot,Tomato early blight,5,45.5,True
+Potato early blight,Potato late blight,4,50.0,True
+Potato late blight,Tomato late blight,4,50.0,False
+Tomato bacterial spot,Tomato early blight,3,33.3,True
+Cherry healthy,Peach healthy,3,30.0,False
+Tomato mosaic virus,Tomato late blight,3,30.0,True
+Tomato bacterial spot,Tomato septoria leaf spot,2,22.2,True
+Tomato early blight,Tomato late blight,2,22.2,True
+Tomato healthy,Tomato leaf mold,2,25.0,True
+Tomato leaf mold,Tomato early blight,2,33.3,True
+Tomato healthy,Tomato late blight,2,25.0,True
+Tomato mosaic virus,Tomato yellow leaf curl virus,2,20.0,True
+Tomato mosaic virus,Tomato leaf mold,2,20.0,True
+Tomato healthy,Tomato spider mites,2,25.0,True
+Cherry healthy,Apple healthy,2,20.0,False
+Potato early blight,Tomato late blight,2,25.0,False
+Tomato leaf mold,Tomato late blight,2,33.3,True
+Corn gray leaf spot,Corn northern leaf blight,2,50.0,True
+Pepper healthy,Tomato yellow leaf curl virus,2,25.0,False
+Potato early blight,Tomato early blight,2,25.0,False
+Cherry healthy,Apple scab,1,10.0,False
+Blueberry healthy,Cherry healthy,1,9.1,False
+Corn northern leaf blight,Corn common rust,1,8.3,True
+Grape healthy,Grape black rot,1,8.3,True
+Pepper bacterial spot,Cherry healthy,1,11.1,False
+Pepper healthy,Tomato spider mites,1,12.5,False
+Cherry healthy,Raspberry healthy,1,10.0,False
+Cherry healthy,Apple rust,1,10.0,False
+Corn common rust,Corn gray leaf spot,1,10.0,True
+Apple scab,Apple rust,1,10.0,True
+Apple scab,Potato early blight,1,10.0,False
+Apple scab,Potato late blight,1,10.0,False
+Apple rust,Apple scab,1,10.0,True
+Apple rust,Tomato leaf mold,1,10.0,False
+Apple rust,Tomato spider mites,1,10.0,False
+Apple healthy,Tomato yellow leaf curl virus,1,11.1,False
+Soybean healthy,Pepper bacterial spot,1,12.5,False
+Soybean healthy,Raspberry healthy,1,12.5,False
+Tomato late blight,Tomato early blight,1,10.0,True
+Tomato early blight,Tomato septoria leaf spot,1,11.1,True
+Tomato bacterial spot,Pepper bacterial spot,1,11.1,False
+Tomato bacterial spot,Potato early blight,1,11.1,False
+Tomato bacterial spot,Grape black rot,1,11.1,False
+Soybean healthy,Tomato yellow leaf curl virus,1,12.5,False
+Squash powdery mildew,Grape black rot,1,16.7,False
+Strawberry healthy,Tomato yellow leaf curl virus,1,12.5,False
+Potato late blight,Potato early blight,1,12.5,True
+Tomato mosaic virus,Pepper bacterial spot,1,10.0,False
+Tomato yellow leaf curl virus,Tomato leaf mold,1,16.7,True
+Tomato yellow leaf curl virus,Tomato late blight,1,16.7,True
+Tomato leaf mold,Tomato yellow leaf curl virus,1,16.7,True
+Tomato mosaic virus,Corn common rust,1,10.0,False
+Tomato mosaic virus,Tomato spider mites,1,10.0,True
+Tomato healthy,Pepper healthy,1,12.5,False

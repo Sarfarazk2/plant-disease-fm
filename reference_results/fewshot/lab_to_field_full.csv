@@ -1,0 +1,2 @@
+model,model_name,lab_data,C,n_lab_train,n_lab_test,lab_accuracy,field_accuracy,field_macro_f1,drop_points
+clip_b16,CLIP ViT-B/16,full,1000,30978,7564,98.25,33.90,32.24,64.36

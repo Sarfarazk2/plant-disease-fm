@@ -1,0 +1,9 @@
+model,model_name,data,prompt,n_images,n_classes_eval,accuracy,balanced_accuracy,macro_f1
+clip_b16,CLIP ViT-B/16,plantdoc_test,common,236,27,38.98,38.82,37.47
+clip_b16,CLIP ViT-B/16,plantdoc_test,scientific,236,27,35.17,35.59,32.60
+bioclip,BioCLIP,plantdoc_test,common,236,27,33.05,32.71,30.34
+bioclip,BioCLIP,plantdoc_test,scientific,236,27,41.53,40.04,37.74
+bioclip2,BioCLIP 2,plantdoc_test,common,236,27,45.34,44.43,41.83
+bioclip2,BioCLIP 2,plantdoc_test,scientific,236,27,53.81,53.16,49.31
+siglip_b16,SigLIP ViT-B/16,plantdoc_test,common,236,27,61.86,61.46,59.84
+siglip_b16,SigLIP ViT-B/16,plantdoc_test,scientific,236,27,58.47,58.60,57.14

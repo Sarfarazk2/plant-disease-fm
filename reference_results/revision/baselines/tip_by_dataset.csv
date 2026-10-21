@@ -1,0 +1,4 @@
+dataset,Tip-Adapter (default),Tip-Adapter (support),image only,"reliability (v2, ours)",text only
+plantdoc,51.1,52.9,52.1,57.7,47.9
+pp,78.4,81.7,85.8,86.0,69.5
+wheat,41.1,44.0,59.9,59.2,34.4

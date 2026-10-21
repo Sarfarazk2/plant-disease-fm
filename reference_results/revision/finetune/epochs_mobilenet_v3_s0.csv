@@ -1,0 +1,9 @@
+model,seed,epoch,train_loss,val_accuracy,lab_test_accuracy,plantdoc_accuracy,pp_accuracy,pp_3way_accuracy
+mobilenet_v3,0,1,1.23,95.05,93.63,24.15,12.97,59.94
+mobilenet_v3,0,2,0.84,97.37,96.37,25.42,13.04,59.24
+mobilenet_v3,0,3,0.78,97.67,96.97,26.27,12.03,64.43
+mobilenet_v3,0,4,0.75,98.2,97.83,28.39,11.33,61.84
+mobilenet_v3,0,5,0.72,98.5,97.71,27.12,13.48,56.9
+mobilenet_v3,0,6,0.7,98.65,97.94,25.42,16.01,63.04
+mobilenet_v3,0,7,0.7,98.87,98.05,27.97,17.22,64.56
+mobilenet_v3,0,8,0.7,98.65,98.16,27.54,18.8,63.16

@@ -1,0 +1,79 @@
+model,data,temperature,scaling,accuracy,mean_confidence,ECE
+CLIP ViT-B/16,Lab (PlantVillage),1.0,before,96.628,96.451,1.042
+CLIP ViT-B/16,Lab (PlantVillage),1.023,after,96.628,96.335,0.864
+CLIP ViT-B/16,PlantDoc,1.0,before,34.322,82.473,48.265
+CLIP ViT-B/16,PlantDoc,1.023,after,34.322,82.104,48.188
+CLIP ViT-B/16,Plant Pathology,1.0,before,28.987,79.369,50.382
+CLIP ViT-B/16,Plant Pathology,1.023,after,28.987,78.913,49.926
+BioCLIP,Lab (PlantVillage),1.0,before,97.752,96.777,1.1
+BioCLIP,Lab (PlantVillage),0.804,after,97.752,97.817,0.399
+BioCLIP,PlantDoc,1.0,before,36.441,68.048,31.608
+BioCLIP,PlantDoc,0.804,after,36.441,74.094,38.931
+BioCLIP,Plant Pathology,1.0,before,51.076,69.388,18.565
+BioCLIP,Plant Pathology,0.804,after,51.076,75.72,24.676
+BioCLIP 2,Lab (PlantVillage),1.0,before,97.377,95.048,2.426
+BioCLIP 2,Lab (PlantVillage),0.672,after,97.377,97.508,0.392
+BioCLIP 2,PlantDoc,1.0,before,57.627,71.676,14.76
+BioCLIP 2,PlantDoc,0.672,after,57.627,81.311,24.375
+BioCLIP 2,Plant Pathology,1.0,before,65.949,69.907,5.038
+BioCLIP 2,Plant Pathology,0.672,after,65.949,79.838,13.889
+CLIP ViT-L/14 (LAION-2B),Lab (PlantVillage),1.0,before,97.04,97.261,0.722
+CLIP ViT-L/14 (LAION-2B),Lab (PlantVillage),1.086,after,97.04,96.904,0.743
+CLIP ViT-L/14 (LAION-2B),PlantDoc,1.0,before,36.864,84.838,50.254
+CLIP ViT-L/14 (LAION-2B),PlantDoc,1.086,after,36.864,83.517,48.575
+CLIP ViT-L/14 (LAION-2B),Plant Pathology,1.0,before,38.228,79.805,41.577
+CLIP ViT-L/14 (LAION-2B),Plant Pathology,1.086,after,38.228,78.147,39.92
+SigLIP ViT-B/16,Lab (PlantVillage),1.0,before,97.003,93.902,3.1
+SigLIP ViT-B/16,Lab (PlantVillage),0.662,after,97.003,97.135,0.66
+SigLIP ViT-B/16,PlantDoc,1.0,before,47.881,72.887,25.127
+SigLIP ViT-B/16,PlantDoc,0.662,after,47.881,83.117,35.236
+SigLIP ViT-B/16,Plant Pathology,1.0,before,36.203,76.043,39.852
+SigLIP ViT-B/16,Plant Pathology,0.662,after,36.203,84.646,48.506
+DINOv2 ViT-B/14,Lab (PlantVillage),1.0,before,98.464,96.582,2.037
+DINOv2 ViT-B/14,Lab (PlantVillage),0.682,after,98.464,98.249,0.331
+DINOv2 ViT-B/14,PlantDoc,1.0,before,46.61,79.564,34.987
+DINOv2 ViT-B/14,PlantDoc,0.682,after,46.61,86.255,42.865
+DINOv2 ViT-B/14,Plant Pathology,1.0,before,38.101,78.808,40.762
+DINOv2 ViT-B/14,Plant Pathology,0.682,after,38.101,85.972,47.901
+DINOv2 ViT-L/14,Lab (PlantVillage),1.0,before,98.389,96.394,1.995
+DINOv2 ViT-L/14,Lab (PlantVillage),0.642,after,98.389,98.285,0.269
+DINOv2 ViT-L/14,PlantDoc,1.0,before,47.034,80.107,33.073
+DINOv2 ViT-L/14,PlantDoc,0.642,after,47.034,87.824,40.79
+DINOv2 ViT-L/14,Plant Pathology,1.0,before,39.304,85.489,46.281
+DINOv2 ViT-L/14,Plant Pathology,0.642,after,39.304,91.915,52.702
+ResNet-50 (ImageNet),Lab (PlantVillage),1.0,before,95.991,93.04,2.966
+ResNet-50 (ImageNet),Lab (PlantVillage),0.713,after,95.991,96.012,0.972
+ResNet-50 (ImageNet),PlantDoc,1.0,before,24.576,70.161,45.585
+ResNet-50 (ImageNet),PlantDoc,0.713,after,24.576,78.506,53.929
+ResNet-50 (ImageNet),Plant Pathology,1.0,before,19.43,56.185,36.754
+ResNet-50 (ImageNet),Plant Pathology,0.713,after,19.43,67.23,47.799
+EfficientNet-B0 (ImageNet),Lab (PlantVillage),1.0,before,95.354,93.869,2.012
+EfficientNet-B0 (ImageNet),Lab (PlantVillage),0.817,after,95.354,95.586,0.82
+EfficientNet-B0 (ImageNet),PlantDoc,1.0,before,29.661,69.516,39.855
+EfficientNet-B0 (ImageNet),PlantDoc,0.817,after,29.661,75.206,45.545
+EfficientNet-B0 (ImageNet),Plant Pathology,1.0,before,36.646,59.379,22.742
+EfficientNet-B0 (ImageNet),Plant Pathology,0.817,after,36.646,66.187,29.542
+MobileNetV3-L (ImageNet),Lab (PlantVillage),1.0,before,95.841,94.093,2.009
+MobileNetV3-L (ImageNet),Lab (PlantVillage),0.781,after,95.841,96.014,0.962
+MobileNetV3-L (ImageNet),PlantDoc,1.0,before,26.695,67.114,41.09
+MobileNetV3-L (ImageNet),PlantDoc,0.781,after,26.695,74.653,47.958
+MobileNetV3-L (ImageNet),Plant Pathology,1.0,before,23.038,49.111,26.127
+MobileNetV3-L (ImageNet),Plant Pathology,0.781,after,23.038,58.78,35.742
+ResNet-50 (ImageNet) (fine-tuned),Lab (PlantVillage),1.0,before,97.977,85.47,12.507
+ResNet-50 (ImageNet) (fine-tuned),Lab (PlantVillage),0.52,after,97.977,98.404,0.604
+ResNet-50 (ImageNet) (fine-tuned),PlantDoc,1.0,before,32.203,53.904,22.524
+ResNet-50 (ImageNet) (fine-tuned),PlantDoc,0.52,after,32.203,79.81,48.083
+ResNet-50 (ImageNet) (fine-tuned),Plant Pathology,1.0,before,38.481,45.342,7.916
+ResNet-50 (ImageNet) (fine-tuned),Plant Pathology,0.52,after,38.481,72.92,34.863
+EfficientNet-B0 (ImageNet) (fine-tuned),Lab (PlantVillage),1.0,before,98.689,86.221,12.467
+EfficientNet-B0 (ImageNet) (fine-tuned),Lab (PlantVillage),0.497,after,98.689,98.836,0.424
+EfficientNet-B0 (ImageNet) (fine-tuned),PlantDoc,1.0,before,28.814,38.625,12.31
+EfficientNet-B0 (ImageNet) (fine-tuned),PlantDoc,0.497,after,28.814,67.203,38.389
+EfficientNet-B0 (ImageNet) (fine-tuned),Plant Pathology,1.0,before,15.316,33.123,17.807
+EfficientNet-B0 (ImageNet) (fine-tuned),Plant Pathology,0.497,after,15.316,62.274,46.957
+MobileNetV3-L (ImageNet) (fine-tuned),Lab (PlantVillage),1.0,before,97.902,83.591,14.32
+MobileNetV3-L (ImageNet) (fine-tuned),Lab (PlantVillage),0.483,after,97.902,98.079,0.728
+MobileNetV3-L (ImageNet) (fine-tuned),PlantDoc,1.0,before,28.814,35.19,8.604
+MobileNetV3-L (ImageNet) (fine-tuned),PlantDoc,0.483,after,28.814,64.065,35.251
+MobileNetV3-L (ImageNet) (fine-tuned),Plant Pathology,1.0,before,17.468,28.263,10.831
+MobileNetV3-L (ImageNet) (fine-tuned),Plant Pathology,0.483,after,17.468,56.912,39.619

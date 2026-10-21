@@ -1,0 +1,2 @@
+model,seed,selected_epoch,val_accuracy,lab_test_accuracy,lab_test_macro_f1,plantdoc_accuracy,plantdoc_macro_f1,pp_accuracy,pp_3way_accuracy,pp_macro_f1
+resnet50,0,5,97.9,97.3,97.39,35.17,30.68,41.08,71.27,53.67

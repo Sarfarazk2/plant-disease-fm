@@ -1,0 +1,2 @@
+model,seed,selected_epoch,val_accuracy,lab_test_accuracy,lab_test_macro_f1,plantdoc_accuracy,plantdoc_macro_f1,pp_accuracy,pp_3way_accuracy,pp_macro_f1
+effnet_b0,2,7,98.35,98.84,98.89,30.51,26.86,17.53,56.9,26.26

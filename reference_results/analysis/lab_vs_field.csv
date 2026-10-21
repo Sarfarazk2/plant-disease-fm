@@ -1,0 +1,14 @@
+model,kind,lab,PlantDoc,Plant Pathology
+CLIP ViT-B/16,frozen foundation model,96.63,34.32,28.99
+BioCLIP,frozen foundation model,97.75,36.44,51.08
+BioCLIP 2,frozen foundation model,97.38,57.63,65.95
+CLIP ViT-L/14 (LAION-2B),frozen foundation model,97.04,36.86,38.23
+SigLIP ViT-B/16,frozen foundation model,97.0,47.88,36.2
+DINOv2 ViT-B/14,frozen foundation model,98.46,46.61,38.1
+DINOv2 ViT-L/14,frozen foundation model,98.39,47.03,39.3
+ResNet-50,frozen CNN,95.99,24.58,19.43
+EfficientNet-B0,frozen CNN,95.35,29.66,36.65
+MobileNetV3-L,frozen CNN,95.84,26.69,23.04
+ResNet-50 (fine-tuned),fine-tuned CNN,97.98,32.2,38.48
+EfficientNet-B0 (fine-tuned),fine-tuned CNN,98.69,28.81,15.32
+MobileNetV3-L (fine-tuned),fine-tuned CNN,97.9,28.81,17.47

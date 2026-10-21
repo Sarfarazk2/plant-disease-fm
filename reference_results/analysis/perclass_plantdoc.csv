@@ -1,0 +1,271 @@
+class,label,n_test,model,lab-trained,K=16 field
+Apple scab,Apple___Apple_scab,10,CLIP ViT-B/16,30.0,44.0
+Apple rust,Apple___Cedar_apple_rust,10,CLIP ViT-B/16,10.0,66.0
+Apple healthy,Apple___healthy,9,CLIP ViT-B/16,44.4,60.0
+Blueberry healthy,Blueberry___healthy,11,CLIP ViT-B/16,36.4,25.5
+Cherry healthy,Cherry_(including_sour)___healthy,10,CLIP ViT-B/16,0.0,52.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,CLIP ViT-B/16,75.0,75.0
+Corn common rust,Corn_(maize)___Common_rust_,10,CLIP ViT-B/16,10.0,60.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,CLIP ViT-B/16,16.7,41.7
+Grape black rot,Grape___Black_rot,8,CLIP ViT-B/16,100.0,97.5
+Grape healthy,Grape___healthy,12,CLIP ViT-B/16,41.7,96.7
+Peach healthy,Peach___healthy,9,CLIP ViT-B/16,44.4,64.4
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,CLIP ViT-B/16,55.6,53.3
+Pepper healthy,"Pepper,_bell___healthy",8,CLIP ViT-B/16,75.0,37.5
+Potato early blight,Potato___Early_blight,8,CLIP ViT-B/16,0.0,42.5
+Potato late blight,Potato___Late_blight,8,CLIP ViT-B/16,0.0,45.0
+Raspberry healthy,Raspberry___healthy,7,CLIP ViT-B/16,100.0,71.4
+Soybean healthy,Soybean___healthy,8,CLIP ViT-B/16,25.0,50.0
+Squash powdery mildew,Squash___Powdery_mildew,6,CLIP ViT-B/16,66.7,76.7
+Strawberry healthy,Strawberry___healthy,8,CLIP ViT-B/16,25.0,95.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,CLIP ViT-B/16,0.0,22.2
+Tomato early blight,Tomato___Early_blight,9,CLIP ViT-B/16,55.6,35.6
+Tomato late blight,Tomato___Late_blight,10,CLIP ViT-B/16,70.0,46.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,CLIP ViT-B/16,16.7,36.7
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,CLIP ViT-B/16,27.3,43.6
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,CLIP ViT-B/16,66.7,60.0
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,CLIP ViT-B/16,0.0,26.0
+Tomato healthy,Tomato___healthy,8,CLIP ViT-B/16,0.0,55.0
+Apple scab,Apple___Apple_scab,10,BioCLIP,20.0,54.0
+Apple rust,Apple___Cedar_apple_rust,10,BioCLIP,20.0,94.0
+Apple healthy,Apple___healthy,9,BioCLIP,11.1,53.3
+Blueberry healthy,Blueberry___healthy,11,BioCLIP,45.5,76.4
+Cherry healthy,Cherry_(including_sour)___healthy,10,BioCLIP,0.0,70.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,BioCLIP,75.0,70.0
+Corn common rust,Corn_(maize)___Common_rust_,10,BioCLIP,10.0,84.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,BioCLIP,41.7,46.7
+Grape black rot,Grape___Black_rot,8,BioCLIP,100.0,97.5
+Grape healthy,Grape___healthy,12,BioCLIP,33.3,100.0
+Peach healthy,Peach___healthy,9,BioCLIP,33.3,77.8
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,BioCLIP,77.8,86.7
+Pepper healthy,"Pepper,_bell___healthy",8,BioCLIP,62.5,72.5
+Potato early blight,Potato___Early_blight,8,BioCLIP,12.5,52.5
+Potato late blight,Potato___Late_blight,8,BioCLIP,12.5,37.5
+Raspberry healthy,Raspberry___healthy,7,BioCLIP,100.0,85.7
+Soybean healthy,Soybean___healthy,8,BioCLIP,12.5,60.0
+Squash powdery mildew,Squash___Powdery_mildew,6,BioCLIP,83.3,100.0
+Strawberry healthy,Strawberry___healthy,8,BioCLIP,37.5,100.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,BioCLIP,0.0,20.0
+Tomato early blight,Tomato___Early_blight,9,BioCLIP,66.7,31.1
+Tomato late blight,Tomato___Late_blight,10,BioCLIP,60.0,58.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,BioCLIP,16.7,50.0
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,BioCLIP,45.5,49.1
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,BioCLIP,50.0,46.7
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,BioCLIP,0.0,24.0
+Tomato healthy,Tomato___healthy,8,BioCLIP,12.5,50.0
+Apple scab,Apple___Apple_scab,10,BioCLIP 2,70.0,92.0
+Apple rust,Apple___Cedar_apple_rust,10,BioCLIP 2,70.0,90.0
+Apple healthy,Apple___healthy,9,BioCLIP 2,88.9,75.6
+Blueberry healthy,Blueberry___healthy,11,BioCLIP 2,90.9,89.1
+Cherry healthy,Cherry_(including_sour)___healthy,10,BioCLIP 2,20.0,80.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,BioCLIP 2,50.0,70.0
+Corn common rust,Corn_(maize)___Common_rust_,10,BioCLIP 2,40.0,88.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,BioCLIP 2,41.7,38.3
+Grape black rot,Grape___Black_rot,8,BioCLIP 2,100.0,100.0
+Grape healthy,Grape___healthy,12,BioCLIP 2,91.7,100.0
+Peach healthy,Peach___healthy,9,BioCLIP 2,100.0,93.3
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,BioCLIP 2,88.9,84.4
+Pepper healthy,"Pepper,_bell___healthy",8,BioCLIP 2,62.5,62.5
+Potato early blight,Potato___Early_blight,8,BioCLIP 2,0.0,47.5
+Potato late blight,Potato___Late_blight,8,BioCLIP 2,37.5,37.5
+Raspberry healthy,Raspberry___healthy,7,BioCLIP 2,100.0,82.9
+Soybean healthy,Soybean___healthy,8,BioCLIP 2,62.5,75.0
+Squash powdery mildew,Squash___Powdery_mildew,6,BioCLIP 2,83.3,96.7
+Strawberry healthy,Strawberry___healthy,8,BioCLIP 2,25.0,100.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,BioCLIP 2,11.1,20.0
+Tomato early blight,Tomato___Early_blight,9,BioCLIP 2,66.7,33.3
+Tomato late blight,Tomato___Late_blight,10,BioCLIP 2,90.0,62.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,BioCLIP 2,16.7,56.7
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,BioCLIP 2,54.5,56.4
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,BioCLIP 2,66.7,80.0
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,BioCLIP 2,0.0,26.0
+Tomato healthy,Tomato___healthy,8,BioCLIP 2,12.5,70.0
+Apple scab,Apple___Apple_scab,10,CLIP ViT-L/14 (LAION-2B),60.0,56.0
+Apple rust,Apple___Cedar_apple_rust,10,CLIP ViT-L/14 (LAION-2B),30.0,76.0
+Apple healthy,Apple___healthy,9,CLIP ViT-L/14 (LAION-2B),0.0,71.1
+Blueberry healthy,Blueberry___healthy,11,CLIP ViT-L/14 (LAION-2B),0.0,38.2
+Cherry healthy,Cherry_(including_sour)___healthy,10,CLIP ViT-L/14 (LAION-2B),20.0,54.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,CLIP ViT-L/14 (LAION-2B),50.0,65.0
+Corn common rust,Corn_(maize)___Common_rust_,10,CLIP ViT-L/14 (LAION-2B),30.0,72.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,CLIP ViT-L/14 (LAION-2B),33.3,36.7
+Grape black rot,Grape___Black_rot,8,CLIP ViT-L/14 (LAION-2B),100.0,100.0
+Grape healthy,Grape___healthy,12,CLIP ViT-L/14 (LAION-2B),75.0,96.7
+Peach healthy,Peach___healthy,9,CLIP ViT-L/14 (LAION-2B),44.4,75.6
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,CLIP ViT-L/14 (LAION-2B),44.4,68.9
+Pepper healthy,"Pepper,_bell___healthy",8,CLIP ViT-L/14 (LAION-2B),62.5,32.5
+Potato early blight,Potato___Early_blight,8,CLIP ViT-L/14 (LAION-2B),0.0,40.0
+Potato late blight,Potato___Late_blight,8,CLIP ViT-L/14 (LAION-2B),0.0,45.0
+Raspberry healthy,Raspberry___healthy,7,CLIP ViT-L/14 (LAION-2B),85.7,77.1
+Soybean healthy,Soybean___healthy,8,CLIP ViT-L/14 (LAION-2B),37.5,50.0
+Squash powdery mildew,Squash___Powdery_mildew,6,CLIP ViT-L/14 (LAION-2B),83.3,83.3
+Strawberry healthy,Strawberry___healthy,8,CLIP ViT-L/14 (LAION-2B),75.0,97.5
+Tomato bacterial spot,Tomato___Bacterial_spot,9,CLIP ViT-L/14 (LAION-2B),0.0,24.4
+Tomato early blight,Tomato___Early_blight,9,CLIP ViT-L/14 (LAION-2B),44.4,40.0
+Tomato late blight,Tomato___Late_blight,10,CLIP ViT-L/14 (LAION-2B),80.0,46.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,CLIP ViT-L/14 (LAION-2B),16.7,50.0
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,CLIP ViT-L/14 (LAION-2B),18.2,43.6
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,CLIP ViT-L/14 (LAION-2B),16.7,63.3
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,CLIP ViT-L/14 (LAION-2B),0.0,18.0
+Tomato healthy,Tomato___healthy,8,CLIP ViT-L/14 (LAION-2B),12.5,60.0
+Apple scab,Apple___Apple_scab,10,SigLIP ViT-B/16,80.0,74.0
+Apple rust,Apple___Cedar_apple_rust,10,SigLIP ViT-B/16,0.0,74.0
+Apple healthy,Apple___healthy,9,SigLIP ViT-B/16,33.3,80.0
+Blueberry healthy,Blueberry___healthy,11,SigLIP ViT-B/16,54.5,52.7
+Cherry healthy,Cherry_(including_sour)___healthy,10,SigLIP ViT-B/16,10.0,60.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,SigLIP ViT-B/16,50.0,65.0
+Corn common rust,Corn_(maize)___Common_rust_,10,SigLIP ViT-B/16,40.0,66.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,SigLIP ViT-B/16,41.7,28.3
+Grape black rot,Grape___Black_rot,8,SigLIP ViT-B/16,75.0,100.0
+Grape healthy,Grape___healthy,12,SigLIP ViT-B/16,100.0,100.0
+Peach healthy,Peach___healthy,9,SigLIP ViT-B/16,88.9,84.4
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,SigLIP ViT-B/16,88.9,77.8
+Pepper healthy,"Pepper,_bell___healthy",8,SigLIP ViT-B/16,100.0,37.5
+Potato early blight,Potato___Early_blight,8,SigLIP ViT-B/16,12.5,37.5
+Potato late blight,Potato___Late_blight,8,SigLIP ViT-B/16,0.0,37.5
+Raspberry healthy,Raspberry___healthy,7,SigLIP ViT-B/16,100.0,71.4
+Soybean healthy,Soybean___healthy,8,SigLIP ViT-B/16,50.0,57.5
+Squash powdery mildew,Squash___Powdery_mildew,6,SigLIP ViT-B/16,50.0,93.3
+Strawberry healthy,Strawberry___healthy,8,SigLIP ViT-B/16,62.5,100.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,SigLIP ViT-B/16,0.0,24.4
+Tomato early blight,Tomato___Early_blight,9,SigLIP ViT-B/16,55.6,37.8
+Tomato late blight,Tomato___Late_blight,10,SigLIP ViT-B/16,70.0,58.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,SigLIP ViT-B/16,16.7,53.3
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,SigLIP ViT-B/16,54.5,47.3
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,SigLIP ViT-B/16,33.3,60.0
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,SigLIP ViT-B/16,0.0,24.0
+Tomato healthy,Tomato___healthy,8,SigLIP ViT-B/16,12.5,57.5
+Apple scab,Apple___Apple_scab,10,DINOv2 ViT-B/14,50.0,68.0
+Apple rust,Apple___Cedar_apple_rust,10,DINOv2 ViT-B/14,30.0,70.0
+Apple healthy,Apple___healthy,9,DINOv2 ViT-B/14,66.7,84.4
+Blueberry healthy,Blueberry___healthy,11,DINOv2 ViT-B/14,72.7,80.0
+Cherry healthy,Cherry_(including_sour)___healthy,10,DINOv2 ViT-B/14,10.0,84.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,DINOv2 ViT-B/14,50.0,80.0
+Corn common rust,Corn_(maize)___Common_rust_,10,DINOv2 ViT-B/14,10.0,86.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,DINOv2 ViT-B/14,50.0,41.7
+Grape black rot,Grape___Black_rot,8,DINOv2 ViT-B/14,62.5,80.0
+Grape healthy,Grape___healthy,12,DINOv2 ViT-B/14,50.0,100.0
+Peach healthy,Peach___healthy,9,DINOv2 ViT-B/14,88.9,82.2
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,DINOv2 ViT-B/14,44.4,84.4
+Pepper healthy,"Pepper,_bell___healthy",8,DINOv2 ViT-B/14,50.0,67.5
+Potato early blight,Potato___Early_blight,8,DINOv2 ViT-B/14,12.5,47.5
+Potato late blight,Potato___Late_blight,8,DINOv2 ViT-B/14,12.5,45.0
+Raspberry healthy,Raspberry___healthy,7,DINOv2 ViT-B/14,100.0,97.1
+Soybean healthy,Soybean___healthy,8,DINOv2 ViT-B/14,87.5,65.0
+Squash powdery mildew,Squash___Powdery_mildew,6,DINOv2 ViT-B/14,66.7,76.7
+Strawberry healthy,Strawberry___healthy,8,DINOv2 ViT-B/14,75.0,100.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,DINOv2 ViT-B/14,0.0,31.1
+Tomato early blight,Tomato___Early_blight,9,DINOv2 ViT-B/14,44.4,57.8
+Tomato late blight,Tomato___Late_blight,10,DINOv2 ViT-B/14,100.0,54.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,DINOv2 ViT-B/14,33.3,70.0
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,DINOv2 ViT-B/14,45.5,54.5
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,DINOv2 ViT-B/14,33.3,76.7
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,DINOv2 ViT-B/14,10.0,34.0
+Tomato healthy,Tomato___healthy,8,DINOv2 ViT-B/14,12.5,60.0
+Apple scab,Apple___Apple_scab,10,DINOv2 ViT-L/14,50.0,52.0
+Apple rust,Apple___Cedar_apple_rust,10,DINOv2 ViT-L/14,20.0,66.0
+Apple healthy,Apple___healthy,9,DINOv2 ViT-L/14,66.7,68.9
+Blueberry healthy,Blueberry___healthy,11,DINOv2 ViT-L/14,72.7,83.6
+Cherry healthy,Cherry_(including_sour)___healthy,10,DINOv2 ViT-L/14,0.0,90.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,DINOv2 ViT-L/14,50.0,80.0
+Corn common rust,Corn_(maize)___Common_rust_,10,DINOv2 ViT-L/14,0.0,84.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,DINOv2 ViT-L/14,41.7,35.0
+Grape black rot,Grape___Black_rot,8,DINOv2 ViT-L/14,12.5,90.0
+Grape healthy,Grape___healthy,12,DINOv2 ViT-L/14,75.0,100.0
+Peach healthy,Peach___healthy,9,DINOv2 ViT-L/14,100.0,100.0
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,DINOv2 ViT-L/14,77.8,86.7
+Pepper healthy,"Pepper,_bell___healthy",8,DINOv2 ViT-L/14,87.5,65.0
+Potato early blight,Potato___Early_blight,8,DINOv2 ViT-L/14,12.5,42.5
+Potato late blight,Potato___Late_blight,8,DINOv2 ViT-L/14,62.5,47.5
+Raspberry healthy,Raspberry___healthy,7,DINOv2 ViT-L/14,100.0,100.0
+Soybean healthy,Soybean___healthy,8,DINOv2 ViT-L/14,75.0,72.5
+Squash powdery mildew,Squash___Powdery_mildew,6,DINOv2 ViT-L/14,66.7,73.3
+Strawberry healthy,Strawberry___healthy,8,DINOv2 ViT-L/14,100.0,100.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,DINOv2 ViT-L/14,0.0,24.4
+Tomato early blight,Tomato___Early_blight,9,DINOv2 ViT-L/14,66.7,33.3
+Tomato late blight,Tomato___Late_blight,10,DINOv2 ViT-L/14,70.0,60.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,DINOv2 ViT-L/14,16.7,66.7
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,DINOv2 ViT-L/14,27.3,52.7
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,DINOv2 ViT-L/14,33.3,60.0
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,DINOv2 ViT-L/14,0.0,34.0
+Tomato healthy,Tomato___healthy,8,DINOv2 ViT-L/14,0.0,62.5
+Apple scab,Apple___Apple_scab,10,ResNet-50,10.0,34.0
+Apple rust,Apple___Cedar_apple_rust,10,ResNet-50,0.0,40.0
+Apple healthy,Apple___healthy,9,ResNet-50,11.1,57.8
+Blueberry healthy,Blueberry___healthy,11,ResNet-50,36.4,10.9
+Cherry healthy,Cherry_(including_sour)___healthy,10,ResNet-50,0.0,26.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,ResNet-50,75.0,70.0
+Corn common rust,Corn_(maize)___Common_rust_,10,ResNet-50,10.0,80.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,ResNet-50,25.0,25.0
+Grape black rot,Grape___Black_rot,8,ResNet-50,37.5,62.5
+Grape healthy,Grape___healthy,12,ResNet-50,50.0,81.7
+Peach healthy,Peach___healthy,9,ResNet-50,44.4,66.7
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,ResNet-50,44.4,24.4
+Pepper healthy,"Pepper,_bell___healthy",8,ResNet-50,50.0,27.5
+Potato early blight,Potato___Early_blight,8,ResNet-50,12.5,17.5
+Potato late blight,Potato___Late_blight,8,ResNet-50,12.5,27.5
+Raspberry healthy,Raspberry___healthy,7,ResNet-50,71.4,82.9
+Soybean healthy,Soybean___healthy,8,ResNet-50,0.0,47.5
+Squash powdery mildew,Squash___Powdery_mildew,6,ResNet-50,50.0,53.3
+Strawberry healthy,Strawberry___healthy,8,ResNet-50,0.0,90.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,ResNet-50,0.0,13.3
+Tomato early blight,Tomato___Early_blight,9,ResNet-50,22.2,20.0
+Tomato late blight,Tomato___Late_blight,10,ResNet-50,100.0,16.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,ResNet-50,0.0,30.0
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,ResNet-50,18.2,43.6
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,ResNet-50,0.0,46.7
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,ResNet-50,0.0,14.0
+Tomato healthy,Tomato___healthy,8,ResNet-50,0.0,37.5
+Apple scab,Apple___Apple_scab,10,EfficientNet-B0,40.0,44.0
+Apple rust,Apple___Cedar_apple_rust,10,EfficientNet-B0,10.0,56.0
+Apple healthy,Apple___healthy,9,EfficientNet-B0,55.6,57.8
+Blueberry healthy,Blueberry___healthy,11,EfficientNet-B0,72.7,12.7
+Cherry healthy,Cherry_(including_sour)___healthy,10,EfficientNet-B0,0.0,34.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,EfficientNet-B0,50.0,60.0
+Corn common rust,Corn_(maize)___Common_rust_,10,EfficientNet-B0,10.0,62.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,EfficientNet-B0,25.0,35.0
+Grape black rot,Grape___Black_rot,8,EfficientNet-B0,75.0,70.0
+Grape healthy,Grape___healthy,12,EfficientNet-B0,50.0,80.0
+Peach healthy,Peach___healthy,9,EfficientNet-B0,33.3,66.7
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,EfficientNet-B0,66.7,35.6
+Pepper healthy,"Pepper,_bell___healthy",8,EfficientNet-B0,25.0,25.0
+Potato early blight,Potato___Early_blight,8,EfficientNet-B0,25.0,30.0
+Potato late blight,Potato___Late_blight,8,EfficientNet-B0,0.0,32.5
+Raspberry healthy,Raspberry___healthy,7,EfficientNet-B0,57.1,77.1
+Soybean healthy,Soybean___healthy,8,EfficientNet-B0,0.0,55.0
+Squash powdery mildew,Squash___Powdery_mildew,6,EfficientNet-B0,66.7,76.7
+Strawberry healthy,Strawberry___healthy,8,EfficientNet-B0,37.5,95.0
+Tomato bacterial spot,Tomato___Bacterial_spot,9,EfficientNet-B0,0.0,20.0
+Tomato early blight,Tomato___Early_blight,9,EfficientNet-B0,11.1,40.0
+Tomato late blight,Tomato___Late_blight,10,EfficientNet-B0,70.0,26.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,EfficientNet-B0,0.0,26.7
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,EfficientNet-B0,9.1,45.5
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,EfficientNet-B0,16.7,43.3
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,EfficientNet-B0,0.0,16.0
+Tomato healthy,Tomato___healthy,8,EfficientNet-B0,0.0,30.0
+Apple scab,Apple___Apple_scab,10,MobileNetV3-L,20.0,42.0
+Apple rust,Apple___Cedar_apple_rust,10,MobileNetV3-L,0.0,44.0
+Apple healthy,Apple___healthy,9,MobileNetV3-L,11.1,66.7
+Blueberry healthy,Blueberry___healthy,11,MobileNetV3-L,54.5,10.9
+Cherry healthy,Cherry_(including_sour)___healthy,10,MobileNetV3-L,10.0,50.0
+Corn gray leaf spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,4,MobileNetV3-L,50.0,85.0
+Corn common rust,Corn_(maize)___Common_rust_,10,MobileNetV3-L,10.0,88.0
+Corn northern leaf blight,Corn_(maize)___Northern_Leaf_Blight,12,MobileNetV3-L,33.3,36.7
+Grape black rot,Grape___Black_rot,8,MobileNetV3-L,37.5,62.5
+Grape healthy,Grape___healthy,12,MobileNetV3-L,66.7,86.7
+Peach healthy,Peach___healthy,9,MobileNetV3-L,11.1,53.3
+Pepper bacterial spot,"Pepper,_bell___Bacterial_spot",9,MobileNetV3-L,66.7,40.0
+Pepper healthy,"Pepper,_bell___healthy",8,MobileNetV3-L,25.0,22.5
+Potato early blight,Potato___Early_blight,8,MobileNetV3-L,37.5,42.5
+Potato late blight,Potato___Late_blight,8,MobileNetV3-L,0.0,20.0
+Raspberry healthy,Raspberry___healthy,7,MobileNetV3-L,42.9,82.9
+Soybean healthy,Soybean___healthy,8,MobileNetV3-L,0.0,60.0
+Squash powdery mildew,Squash___Powdery_mildew,6,MobileNetV3-L,50.0,80.0
+Strawberry healthy,Strawberry___healthy,8,MobileNetV3-L,12.5,92.5
+Tomato bacterial spot,Tomato___Bacterial_spot,9,MobileNetV3-L,0.0,31.1
+Tomato early blight,Tomato___Early_blight,9,MobileNetV3-L,44.4,26.7
+Tomato late blight,Tomato___Late_blight,10,MobileNetV3-L,80.0,32.0
+Tomato leaf mold,Tomato___Leaf_Mold,6,MobileNetV3-L,0.0,23.3
+Tomato septoria leaf spot,Tomato___Septoria_leaf_spot,11,MobileNetV3-L,9.1,38.2
+Tomato yellow leaf curl virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,MobileNetV3-L,16.7,43.3
+Tomato mosaic virus,Tomato___Tomato_mosaic_virus,10,MobileNetV3-L,10.0,20.0
+Tomato healthy,Tomato___healthy,8,MobileNetV3-L,12.5,35.0

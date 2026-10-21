@@ -1,0 +1,5 @@
+model,data,setting,accuracy,balanced_accuracy,macro_f1
+mobilenet_v3,PlantVillage lab (sub),28-way,97.90,97.96,97.95
+mobilenet_v3,PlantDoc field,28-way,28.81,28.45,24.15
+mobilenet_v3,Plant Pathology field,28-way,17.47,16.99,26.56
+mobilenet_v3,Plant Pathology field,3-way,62.34,61.81,62.15

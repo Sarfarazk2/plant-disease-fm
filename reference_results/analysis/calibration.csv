@@ -1,0 +1,40 @@
+model,kind,data,accuracy,mean_confidence,ECE
+CLIP ViT-B/16,frozen foundation model,Lab (PlantVillage),96.63,96.45,1.04
+CLIP ViT-B/16,frozen foundation model,PlantDoc,34.32,82.47,48.27
+CLIP ViT-B/16,frozen foundation model,Plant Pathology,28.99,79.37,50.38
+BioCLIP,frozen foundation model,Lab (PlantVillage),97.75,96.78,1.1
+BioCLIP,frozen foundation model,PlantDoc,36.44,68.05,31.61
+BioCLIP,frozen foundation model,Plant Pathology,51.08,69.39,18.57
+BioCLIP 2,frozen foundation model,Lab (PlantVillage),97.38,95.05,2.43
+BioCLIP 2,frozen foundation model,PlantDoc,57.63,71.68,14.76
+BioCLIP 2,frozen foundation model,Plant Pathology,65.95,69.91,5.04
+CLIP ViT-L/14 (LAION-2B),frozen foundation model,Lab (PlantVillage),97.04,97.26,0.72
+CLIP ViT-L/14 (LAION-2B),frozen foundation model,PlantDoc,36.86,84.84,50.25
+CLIP ViT-L/14 (LAION-2B),frozen foundation model,Plant Pathology,38.23,79.81,41.58
+SigLIP ViT-B/16,frozen foundation model,Lab (PlantVillage),97.0,93.9,3.1
+SigLIP ViT-B/16,frozen foundation model,PlantDoc,47.88,72.89,25.13
+SigLIP ViT-B/16,frozen foundation model,Plant Pathology,36.2,76.04,39.85
+DINOv2 ViT-B/14,frozen foundation model,Lab (PlantVillage),98.46,96.58,2.04
+DINOv2 ViT-B/14,frozen foundation model,PlantDoc,46.61,79.56,34.99
+DINOv2 ViT-B/14,frozen foundation model,Plant Pathology,38.1,78.81,40.76
+DINOv2 ViT-L/14,frozen foundation model,Lab (PlantVillage),98.39,96.39,2.0
+DINOv2 ViT-L/14,frozen foundation model,PlantDoc,47.03,80.11,33.07
+DINOv2 ViT-L/14,frozen foundation model,Plant Pathology,39.3,85.49,46.28
+ResNet-50,frozen CNN,Lab (PlantVillage),95.99,93.04,2.97
+ResNet-50,frozen CNN,PlantDoc,24.58,70.16,45.58
+ResNet-50,frozen CNN,Plant Pathology,19.43,56.18,36.75
+EfficientNet-B0,frozen CNN,Lab (PlantVillage),95.35,93.87,2.01
+EfficientNet-B0,frozen CNN,PlantDoc,29.66,69.52,39.85
+EfficientNet-B0,frozen CNN,Plant Pathology,36.65,59.38,22.74
+MobileNetV3-L,frozen CNN,Lab (PlantVillage),95.84,94.09,2.01
+MobileNetV3-L,frozen CNN,PlantDoc,26.69,67.11,41.09
+MobileNetV3-L,frozen CNN,Plant Pathology,23.04,49.11,26.13
+ResNet-50 (fine-tuned),fine-tuned CNN,Lab (PlantVillage),97.98,85.47,12.51
+ResNet-50 (fine-tuned),fine-tuned CNN,PlantDoc,32.2,53.9,22.52
+ResNet-50 (fine-tuned),fine-tuned CNN,Plant Pathology,38.48,45.34,7.92
+EfficientNet-B0 (fine-tuned),fine-tuned CNN,Lab (PlantVillage),98.69,86.22,12.47
+EfficientNet-B0 (fine-tuned),fine-tuned CNN,PlantDoc,28.81,38.63,12.31
+EfficientNet-B0 (fine-tuned),fine-tuned CNN,Plant Pathology,15.32,33.12,17.81
+MobileNetV3-L (fine-tuned),fine-tuned CNN,Lab (PlantVillage),97.9,83.59,14.32
+MobileNetV3-L (fine-tuned),fine-tuned CNN,PlantDoc,28.81,35.19,8.6
+MobileNetV3-L (fine-tuned),fine-tuned CNN,Plant Pathology,17.47,28.26,10.83
