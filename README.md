@@ -1,7 +1,7 @@
 # Lab-to-field plant disease recognition with biology foundation models
 
 Code, splits and label audit for the paper
-**"Laboratory Accuracy Is Not Field Accuracy: A Controlled Evaluation of Biology Foundation Models for Plant Disease Recognition Under Domain Shift"** (<AUTHORS>, <JOURNAL>, <YEAR>).
+**"Laboratory Accuracy Is Not Field Accuracy: A Controlled Evaluation of Biology Foundation Models for Plant Disease Recognition Under Domain Shift"** (S. K. Khalil et al., under review, 2026).
 
 Models trained on clean laboratory leaf photos (PlantVillage) fail on real field photos. This
 repository compares 13 image encoders — biology vision-language models (BioCLIP, BioCLIP 2), web
