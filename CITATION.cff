@@ -2,16 +2,16 @@ cff-version: 1.2.0
 message: "If you use this code or the PlantDoc label audit, please cite the paper below."
 title: "Laboratory Accuracy Is Not Field Accuracy: A Controlled Evaluation of Biology Foundation Models for Plant Disease Recognition Under Domain Shift"
 authors:
-  - family-names: "<FAMILY NAME>"
-    given-names: "<GIVEN NAME>"
-date-released: "<YYYY-MM-DD>"
-repository-code: "https://github.com/<USER>/plant-disease-fm"
+  - family-names: "Khalil"
+    given-names: "Sarfaraz Khan"
+date-released: "2026-10-21"
+repository-code: "https://github.com/Sarfarazk2/plant-disease-fm"
 license: MIT
 preferred-citation:
   type: article
   title: "Laboratory Accuracy Is Not Field Accuracy: A Controlled Evaluation of Biology Foundation Models for Plant Disease Recognition Under Domain Shift"
   authors:
-    - family-names: "<FAMILY NAME>"
-      given-names: "<GIVEN NAME>"
-  journal: "<JOURNAL>"
-  year: <YEAR>
+    - family-names: "Khalil"
+      given-names: "Sarfaraz Khan"
+  journal: "Under review"
+  year: 2026
