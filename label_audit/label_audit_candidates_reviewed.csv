@@ -1,0 +1,25 @@
+path,given_label,models_say,models_agreeing,mean_probability,your_decision,evidence
+data/plantdoc/PlantDoc-Dataset-master/test/Corn leaf blight/0796.20graylssymt.jpg,Corn northern leaf blight,Corn gray leaf spot,5/5,86.1,wrong,file name '...graylssymt' = gray leaf spot symptoms
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf bacterial spot/bact-spot-fig-1.jpg,Tomato bacterial spot,Pepper bacterial spot,5/5,81.6,probably wrong,"visual: smooth-edged leaf looks like pepper, not tomato"
+data/plantdoc/PlantDoc-Dataset-master/test/Corn leaf blight/1321189.jpg,Corn northern leaf blight,Corn gray leaf spot,5/5,80.8,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Corn leaf blight/corn-disease-update-fig-3-gray-leaf-spot.jpg,Corn northern leaf blight,Corn gray leaf spot,5/5,79.3,wrong,file name says gray leaf spot
+data/plantdoc/PlantDoc-Dataset-master/test/Corn leaf blight/07c.jpg,Corn northern leaf blight,Corn gray leaf spot,5/5,73.3,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Blueberry leaf/stock-photo-green-blueberry-leaf-isolated-with-clipping-path-550344304.jpg,Blueberry healthy,Apple healthy,5/5,68.5,correct,stock-photo title says blueberry leaf
+data/plantdoc/PlantDoc-Dataset-master/test/Bell_pepper leaf/IMG_1629.JPG_1507122477.jpg,Pepper healthy,Pepper bacterial spot,5/5,67.6,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Corn rust leaf/0796.52srusttelia.jpg,Corn common rust,Corn gray leaf spot,5/5,65.6,wrong,file name '...srusttelia' = southern rust (not common rust; models' answer also wrong)
+data/plantdoc/PlantDoc-Dataset-master/test/Soyabean leaf/leaf-raspberry-isolated-on-a-white-stock-photography-image-10106222-1625198.jpg,Soybean healthy,Raspberry healthy,4/5,65.6,wrong,file name says raspberry; compound 5-leaflet leaf
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf/Tomato59.JPG.jpg,Tomato healthy,Tomato yellow leaf curl virus,5/5,65.5,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf early blight/3023.jpg,Potato early blight,Potato late blight,4/5,64.3,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf early blight/backus-056-potato-blight.jpg,Potato early blight,Potato late blight,5/5,63.8,probably wrong,visual: large dark water-soaked blotches typical of late blight; file name 'potato-blight'
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf late blight/20090710-lateblight.jpg,Potato late blight,Tomato late blight,5/5,61.0,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg,Potato late blight,Tomato late blight,5/5,59.1,unsure,file name says Phytophthora infestans (disease right); crop unclear
+data/plantdoc/PlantDoc-Dataset-master/test/Corn Gray leaf spot/IMG_42231.jpg,Corn gray leaf spot,Corn northern leaf blight,4/5,58.0,probably wrong,visual: one long elliptical lesion typical of northern leaf blight
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf late blight/1421_0.jpeg_itok=FMtmgePj.jpg,Potato late blight,Potato early blight,4/5,52.1,unsure,
+data/plantdoc/PlantDoc-Dataset-master/test/Peach leaf/rose_tree_220430.jpg,Peach healthy,Cherry healthy,5/5,50.1,unsure,file name says 'rose tree'
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf early blight/earlyblightpotato.jpg,Potato early blight,Potato late blight,4/5,46.0,correct,file name says early blight potato
+data/plantdoc/PlantDoc-Dataset-master/test/Potato leaf late blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg,Potato late blight,Potato early blight,4/5,45.6,correct,file name 'irish blight' = late blight
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf bacterial spot/Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg,Tomato bacterial spot,Tomato septoria leaf spot,4/5,42.3,correct,file name says tomato bacterial spot
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf mosaic virus/toma_TMV.jpg,Tomato mosaic virus,Tomato leaf mold,4/5,38.0,correct,file name says TMV
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf mosaic virus/tmv-tomato-34.jpg,Tomato mosaic virus,Tomato yellow leaf curl virus,4/5,35.8,correct,file name says TMV
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato leaf late blight/LateBlt09_06.jpg,Tomato late blight,Tomato early blight,4/5,34.9,correct,"file name 'LateBlt' (Cornell, T.A. Zitter)"
+data/plantdoc/PlantDoc-Dataset-master/test/Tomato Septoria leaf spot/6447731_orig.jpg,Tomato septoria leaf spot,Tomato bacterial spot,4/5,31.8,correct,watermark says Septoria leaf spot
