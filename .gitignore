@@ -1,0 +1,11 @@
+data/*
+!data/README.md
+features/
+models/
+*.pt
+*.npz
+*.npy
+__pycache__/
+*.pyc
+figures/*
+!figures/final/
